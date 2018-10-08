@@ -27,7 +27,7 @@
 							
 						</div>
 						<div class="span8 top-div">
-							<h4 class="centerh4" style="margin-left: -53px;">Dr.Radhakrishnan Vidhyalaya Matric Higher Secondary School</h4>
+							<h4 class="centerh4" style="margin-left: -53px;">Dr.Radhakrishnan Vidhyalaya Matric Higher Secondary School-Sivakanga</h4>
 							<!-- text-shadow:#ff4 0px 0px 10px; -->
 
 						</div>
