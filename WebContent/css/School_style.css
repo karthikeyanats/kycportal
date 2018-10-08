@@ -1,0 +1,755 @@
+
+/* 	:::::Virtual School :::::
+	Header Menu
+*/
+
+.Header_menu
+	{
+		
+		
+		font-family:Verdana;
+		color:#06406d;
+		font-size:10px;
+		font-weight:normal;				
+		text-align:center; 			
+		line-height: 1.5em;
+	}
+
+.imp_link
+	{
+		
+		
+		font-family:Verdana;
+		color:#0e75a4;
+		font-size:11px;
+		font-weight:bold;				
+		text-align:left; 			
+		line-height: 1.5em;
+	}
+
+
+.top_menu{
+	font:bold 13px/17px Trebuchet MS, Helvetica, sans-serif;
+	color:#000000;
+	padding-left:10px;		
+	margin-top:5px;
+	text-decoration:none;
+	letter-spacing:0.1px;
+	margin-left:0px;
+	}
+
+
+.left_side_menu
+	{
+		
+		font-family:Monotype Corsiva;
+		color:#ffffff;
+		font-size:22px;
+		font-weight:bold;
+		text-align:left; 
+		letter-spacing:0px;
+		padding-left: 5px;
+		letter-spacing:1px;
+	}
+
+.tablelight
+{
+	font-family:"Arial",Times,arial;
+	font-size:12px;
+	font-weight:normal;
+	}
+
+
+
+
+
+.ns_title
+	{		
+		font-family:Verdana;
+		color:#657896;
+		font-size:12px;
+		font-weight:normal;
+		text-align:left; 
+		letter-spacing:0.09em;
+		padding-left:1px;
+		
+	}
+
+
+.hr 
+	{
+ 		border-bottom: 1px dotted #f00;
+		color: #fff;
+		height: 1px;
+		width:50%;
+	}
+	
+	
+	
+	
+.welcome_content
+	{	
+		font-family:Tahoma;
+		color:#636161;
+		font-size:12px;
+		font-weight:normal;
+		padding-left: 8px;
+		padding-right: 8px;		
+		text-align:justify; 
+		letter-spacing:0.09em;	
+		line-height: 1.8em;
+
+	}
+	
+.vision_content
+	{
+		
+		font-family:Verdana;
+		color:#858585;
+		font-size:12px;
+		font-weight:normal;
+		padding-left: 20px;
+		padding-right: 10px;		
+		text-align:justify; 
+		letter-spacing: 1px;	
+		line-height: 1.5em;
+  	 }
+  	 
+.cntent
+	{
+		
+		font-family:Verdana;
+		color:#858585;
+		font-size:12px;
+		font-weight:normal;
+		padding-left: 0px;
+		padding-right: 0px;		
+		text-align:justify; 
+		letter-spacing:0px;	
+		line-height: 1.5em;
+  	 }
+  	 
+  	 
+	
+.mission_content
+	{
+		
+		font-family:Verdana;
+		color:#858585;
+		font-size:12px;
+		font-weight:normal;
+		padding-left: 20px;
+		padding-right: 10px;		
+		text-align:justify; 
+		letter-spacing: 1px;	
+		line-height: 1.5em;
+   	}
+		
+.objectives_content
+	{
+				
+		font-family:Tahoma;
+		color:#858585;
+		font-size:12px;
+		font-weight:normal;
+		padding-left: 7px;
+		padding-right:7px;		
+		text-align:justify; 
+		letter-spacing: 1px;	
+		line-height: 1.5em;
+		
+	}
+
+
+.Development_Training 	
+	{
+		
+		font-family:Century Gothic;
+		color:#722785;
+		font-size:17px;
+		font-weight:bold;
+		padding-left: 10px;
+		padding-right: 10px;		
+		text-align:justify; 
+		letter-spacing: 1px;	
+		line-height: 1.2em;
+	}
+	
+.IT_Finishing_School 	
+	{
+		
+		background-color:#f2f3f5;
+		font-family:Century Gothic;
+		color:#705f12;
+		font-size:17px;
+		font-weight:bold;
+		padding-left: 10px;
+		padding-right: 10px;		
+		text-align:justify;   
+		letter-spacing: 1px;	
+		line-height: 1.2em;
+	}
+	
+.News_Events	
+	{
+		
+		background-color:#f2f3f5;
+		font-family:Century Gothic;
+		color:#a80393;
+		font-size:17px;
+		font-weight:bold;
+		padding-left: 10px;
+		padding-right: 10px;		
+		text-align:justify;   
+		letter-spacing: 1px;	
+		line-height: 1.2em;
+	}
+	
+.Devmnt_Tble_cnt	
+	{
+		font-family:tahoma;
+		color:#858383;
+		font-size:12px;
+		font-weight:normal;
+		padding-left:0px;
+		padding-right:0px;		
+		text-align:justify; 
+		letter-spacing: 0.02em;	
+		line-height: 1.3em;
+	}
+	
+.IT_Finishing_School_content	
+	{
+		
+		background-color:#f2f3f5;
+		font-family:Verdana;
+		color:#858585;
+		font-size:12px;
+		font-weight:normal;
+		padding-left: 10px;
+		padding-right: 10px;		
+		text-align:justify; 
+		letter-spacing: 1px;	
+		line-height: 1.2em;
+	}
+	
+.News_Events_content	
+	{
+		
+		background-color:#f2f3f5;
+		font-family:Verdana;
+		color:#5b9cb4;
+		font-size:12px;
+		font-weight:normal;
+		padding-left: 10px;
+		padding-right: 10px;		
+		text-align:justify; 
+		letter-spacing: 1px;	
+		line-height: 1.2em;
+	}
+	
+.top_menu1
+	{	background-color:#a6bddd;
+		font-family: Verdana;
+		color: #FFFFFF;
+		font-size:12px;
+		font-weight:bold;
+		letter-spacing: 0.09em;
+		padding-right: 35px;
+		text-align:center; 
+	}
+
+.vision
+	{	color:#656565;
+		font-family: Verdana;
+		font-size:12px;
+		font-weight:bold;
+		letter-spacing: 0.09em;
+		padding-left:0px;		
+		text-align:center; 
+	}
+	
+.vision1
+	{	color:#858585;
+		font-family: Verdana;
+		font-size:11px;
+		font-weight:normal;
+		letter-spacing: 0.09em;
+		padding-left:0px;		
+		text-align:center; 
+	}
+	
+.mission
+	{	color:#656565;
+		font-family: Verdana;
+		font-size:12px;
+		font-weight:bold;
+		letter-spacing: 0.09em;
+		padding-left:0px;		
+		text-align:center; 
+	}
+	
+.mission1
+	{	color:#858585;
+		font-family: Verdana;
+		font-size:11px;
+		font-weight:normal;
+		letter-spacing: 0.09em;
+		padding-left:0px;		
+		text-align:center; 
+	}
+		
+.objectives
+	{	color:#656565;
+		font-family: Verdana;
+		font-size:12px;
+		font-weight:bold;
+		letter-spacing: 0.09em;
+		padding-left:0px;		
+		text-align:center; 
+	}
+	
+.objectives1
+	{	color:#858585;
+		font-family: Verdana;
+		font-size:11px;
+		font-weight:normal;
+		letter-spacing: 0.09em;
+		padding-left:0px;		
+		text-align:center; 
+	}
+		
+.welcome_to_igiit
+
+	{
+		color:#eaecef;
+		font-family: Verdana;
+		font-size:11px;
+		font-weight:normal;
+		
+		text-align:justify;
+	}
+		
+.Headg
+	{	color:#4e4e4e;
+		font-family:Verdana;
+		font-size:12px;
+		font-weight:bold;
+		letter-spacing: 0.09em ;
+		text-align:left;
+		padding-left:0px;
+		
+	}		
+	
+	
+.ul_list1
+	{
+		font-family: Tahoma;
+		font-size: 12px;
+		font-weight:bold;
+		line-height: 1.60em;
+		font-variant: normal;
+		text-transform: none;
+		color: #322c10;
+		text-decoration: none;
+		list-style-type: square;
+		margin-left:20px;
+		line-height: 1.60em;
+	}
+	
+.ul.connectivity1
+	{	
+		font-family:Tahoma;
+		font-size:11px;
+		font-weight:bold;
+		color: #000000;
+		margin-left:20px;
+		line-height: 1.60em;
+		list-style-type: square;
+		padding-left: 5px;
+		padding-right: 5px;
+		font-variant: normal;
+		text-transform: none;
+	}
+
+
+.Development_Training_body
+	{	color:#656565;
+		font-family: Verdana;
+		font-size:12px;
+		font-weight:bold;
+		letter-spacing: 0.09em;
+		padding-left: 0px;		
+		text-align:justify;
+	}
+		
+		
+.IT_Finishing_School_Heading 
+
+	{	color:#000000;
+		font-family: Verdana;
+		font-size:11px;
+		font-weight:normal;		
+		padding-right:10px;
+		text-align:left;
+	}
+		
+.IT_Finishing_School_body 
+	{	color:#000000;
+		font-family: Verdana;
+		font-size:13px;
+		font-weight:bold;
+		letter-spacing: 0.09em;
+		padding-left:3px;		
+		text-align:left;
+	}
+	
+.News_Events_Heading
+	{	color:#000000;
+		font-family:Tahoma;
+		font-size:12px;
+		font-weight:bold;
+		letter-spacing: 0.09em;
+		padding-left:0px;		
+		text-align:left; 
+	}
+		
+.News_Events_body
+	{	color:#00577c;
+		font-family: Verdana;
+		font-size:12px;
+		font-weight:bold;
+		letter-spacing: 0.09em;
+		padding-left:0px;		
+		text-align:center; 
+	}
+		
+
+		
+.IT-academy-sub-title
+	{	color:#000000;
+		font-family:verdana;
+		font-size:12px;
+		font-weight:bold;
+		letter-spacing: 0.09em;
+		padding-left:0px;
+		text-align:center;
+	}
+		
+.readmore
+	{	color:#6fb707;
+		font-family:tahoma;
+		font-size:11px;
+		font-weight:bold;
+		letter-spacing:1.0px;
+		padding-right:5px;
+		padding-left:5px;
+		text-align:right;
+	}
+		
+.Powered by i-Grandee
+	{	
+		font-family:tahoma;
+		color:#224c89;
+		font-size:10px;
+		font-weight:normal;
+		text-align:right; 
+
+	}
+		
+		
+.footer menu
+	{	color:#224c89;
+		font-family:Tahoma;
+		font-size:11px;
+		font-weight:normal;
+		letter-spacing:0.09em;
+		text-align:left;
+	}
+	
+	
+	
+.Academy_Title
+
+	{
+		
+		font-family:Century Gothic;
+		color:#214a85;
+		font-size:18px;
+		font-weight:bold;
+		padding-left:15px;
+		padding-right:15px;
+	}
+
+.Academy_cnt
+
+	{
+		
+		font-family:Verdana;
+		color:#000000;
+		font-size:11px;
+		font-weight:normal;
+		padding-left:15px;
+		padding-right:15px;		
+		text-align:justify; 
+		line-height: 1.5em;
+		letter-spacing:0.08em ;
+	}
+	
+.news_cnt
+
+	{
+		
+		font-family:verdana;
+		color:#53717e;
+		font-size:10px;
+		font-weight:normal;
+		padding-left: 8px;
+		padding-right: 8px;		
+		text-align:left; 
+		line-height: 1.3em;		
+		height: 1px;
+		width:40%;
+	}	
+	
+	
+	
+.Announcement_cnt
+
+	{
+		
+		font-family:verdana;
+		color:#53717e;
+		font-size:12px;
+		font-weight:normal;
+		padding-left: 8px;
+		padding-right: 8px;		
+		text-align:left; 
+		line-height: 1.3em;		
+		height: 1px;
+		width:40%;
+	}	
+	
+	
+	
+.more_img 
+	{
+		
+	 	padding-right: 5px;				
+		text-align:right; 
+	}
+	
+	
+.IT_Academy_content_readmore
+
+	{
+		
+		font-family:Verdana;
+		color:#cf0808;
+		font-size:12px;
+		font-weight:normal;
+		padding-left: 10px;
+		padding-right: 10px;		
+		text-align:right; 
+		letter-spacing: 1px;	
+		line-height: 1.5em;
+	}
+	
+.footer_menu
+
+	{
+		font-family:Tahoma;
+		color:#224c89;
+		font-size:11px;
+		font-weight:bold;
+		padding-left: 5px;
+		padding-right:5px;		
+		text-align:left; 
+		letter-spacing: 0px;	
+		
+	}
+
+
+.ftr_menu
+	{
+		font-family:Verdana;
+		color:#3b5066;
+		font-size:11px;
+		font-weight:normal;		
+		padding-left: 5px;
+		padding-right: 5px;
+			
+	}
+	
+.footer
+	{
+		
+		font-family:tahoma;
+		color:#ffffff;
+		font-size:12px;
+		font-weight:normal;
+		text-align:center; 
+
+
+}
+
+
+.textarea
+     {
+     		
+		
+		width:98%;
+		font-family:Verdana;
+		color:#cf0808;
+		font-size:11px;
+		font-weight:normal;
+		padding-left: 0px;
+		padding-right: 0px;		
+		text-align:left; 
+		letter-spacing: 1px;	
+		line-height: 1.2em;
+		
+    }
+    
+    
+.Academy_Title1
+
+	{
+		
+		font-family:Century Gothic;
+		color:#45a1ff;		
+		font-size:14px;
+		font-weight:bold;
+		padding-left:0px;
+	}
+    
+    
+    
+    
+.UserLog
+
+	{
+		
+	color:#0cb0e7;
+	font-family: Trebuchet MS;
+	font-size:13px;
+	font-weight:bold;
+	letter-spacing: 0px;
+	padding-left:5px;
+	
+	}
+	
+    
+
+
+.newuser
+
+	{
+		
+	color:#1475cf;
+	font-family: Tahoma;
+	font-size:11px;
+	font-weight:bold;
+	letter-spacing: 0px;
+	padding-right:5px;
+	
+	}
+
+.tablebold
+{
+	font-family:Arial;
+	font-size:12px;
+	font-weight:Bold;
+}
+
+
+
+.forgot
+
+	{
+		color:#d21515;
+		font-family: Tahoma;
+		font-size:13px;
+		font-weight:normal;
+		letter-spacing: 0.02em;
+		padding-left:2px;	
+	}
+	
+
+.tablehead
+{
+		background-color:#C0D7D0;
+		font-family: Trebuchet MS;
+		font-size:12px;
+		font-weight:Bold;
+		letter-spacing: 0.02em;
+		padding-left:2px;
+
+}
+.tableheading
+{
+	background-color:#EFEFE7;
+	color:#4C4B44;font-family:arial;
+	font-size:12;font-weight:bold;
+}
+
+.UserLogin
+
+	{
+		
+	color:#090000;
+	font-family: Verdana;
+	font-size:10px;
+	font-weight:normal;
+	letter-spacing: 0.02em;
+	padding-left:2px;
+	padding-right:5px;
+	}
+
+
+
+.body
+
+	{
+		
+	
+	background-color:#EEEEEE;
+	
+	}
+
+
+
+
+
+
+
+
+
+	
+	
+.color
+	{
+	
+	
+	
+	}
+	
+
+	.mandatory{font-family:"Arial",Arial,arial;font-size:10px;font-weight:bold;color:red;}
+	
+	
+	
+		
+	
+/* 	::::: i-GIIT Homepage End css :::::*/
+	
+
+
+
+
+
+
+
+
+
+

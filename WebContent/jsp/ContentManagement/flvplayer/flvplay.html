@@ -1,0 +1,53 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+  <meta name="author" content="gddflvplayer">
+<title>gddflvplayer example</title>
+
+</head>
+<body style="margin: 10px;background-color: #2b2b2b;">
+
+<%
+	String request_url = request.getParameter("txtval");
+	request_url=request_url.replace(";","&");
+	out.println("request_url ==>"+request_url);
+%>
+<center>
+<h2 style="color:#f3f3f3">iGrandee</h2>
+<!-- START gddflvplayer code -->
+<div id="gddflvplayer"></div>
+<script type="text/javascript" src="swfobject.js"></script>
+<script type="text/javascript">
+// <![CDATA[
+var so = new SWFObject("gddflvplay-v35.swf", "gddflvplayer", "500", "380", "9", "#000000"); //change the player size as you want (now:500x360)
+	so.addParam("scale", "noscale");
+	so.addParam("quality", "best");
+	so.addParam("allowScriptAccess", "always");
+	so.addParam("allowFullScreen", 'true');
+	//VIDEO PARAMS
+	so.addVariable("vdo", escape('get_video4.flv')); //video file
+	so.addVariable("desc", escape('i-Grandee Software Technolgies KMS FLV File')); //  movie title
+	so.addVariable("autoplay", 'false'); // autoplay: true or false  | default: false
+	so.addVariable("sound", '70'); // sound volume 0-100
+	// ADVERTISING/INTRO VIDEO, (controls temporarily disabled) REMOVE NEXT 2 LINES IF NONE
+	//so.addVariable("advert", escape('get_video4.flv')); //video file
+	//so.addVariable("advertdesc", escape(' i-Grandee Software Technologies  ')); // description text
+
+	// YOUR CUSTOM LOGO, remove the next line if none
+	so.addVariable("mylogo", escape('customlogo.png')); // PNG, JPG, GIF,SWF, we recommend PNG for transparency
+	//TRACKER LINK URL (goes active on play)
+	so.addVariable("tracker", escape('your_tracker_link.php')); // TRACKER LINK | vars sent by POST
+	//BUFFER SIZE (preloads x seconds of the movie before play)
+	so.addVariable("buffer", 2); // buffer time in seconds; default 2sec if missing
+	// START
+  so.write("gddflvplayer");
+	// ]]>
+
+</script>
+<!-- END gddflvplayer code -->
+
+
+
+</center>
+</body>
+</html>

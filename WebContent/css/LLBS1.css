@@ -1,0 +1,726 @@
+@CHARSET "UTF-8";
+
+.back {
+	background: url("../image/LLBS/chruch.png") repeat;
+}
+
+.navbar .letter a.brand  img {
+	float: left;
+	width: 90px;
+	height: 90px;
+}
+
+.navbar .letter a.brand {
+	padding: 10px;
+}
+
+.span2.pull-right{
+	margin-top: 10px;
+}
+.span2.pull-right .dropdown-menu{
+	margin-left:-190px;
+	padding: 15px;
+}
+
+.navbar .nav li a {
+	font-size: 14px;
+}
+
+.navbar .nav li a:hover,.navbar .nav li a:active {
+	background-color: transparent;
+	box-shadow: 0 0px 0px rgba(0, 0, 0, 0.067);
+	border-bottom: solid 1px #167C2E;
+	color: #858585;
+}
+
+.logo {
+	font-size: 22px;
+	display: block;
+	padding: 35px 0 0px 0;
+	text-shadow: 5px 5px 5px #C0C0C0;
+	}
+
+.letter {
+	margin-top: -50px;
+}
+
+.letter .value {
+	font-size: 13px;
+	display: block;
+	margin-top: -15px;
+	text-shadow: 5px 5px 5px #C0C0C0;
+}
+
+
+
+#symbol {
+	background: #0085C8;
+	position: absolute;
+	top: 0px;
+	right: 20px;
+	padding: 10px;	
+}
+
+#symbol a {
+	text-align: center;
+	float: left;
+	margin: 0 3px;
+	background: url("../image/LLBS/wild_oliva_light.png");
+	border-radius: 500px;
+	font-size: 18px;
+	width: 18px;
+	height: 18px;
+	padding: 6px;
+	
+}
+
+#symbol a:hover,#symbol a:active {
+	text-decoration: none;
+	color: white;
+	background: url("../image/LLBS/wild_oliva_blue_light.png");
+}
+
+#register_sign_in {
+	position: absolute;
+	top: 8px;
+	right: 170px;
+	margin: 3px;
+}
+
+#register_sign_in i {
+	position: relative;
+	font-size: 18px;
+	padding: 10px;
+	top: 2px;
+}
+
+/* .flex-control-nav {
+	width: 100%;
+	position: absolute;
+	bottom: -40px;
+	text-align: center;
+}
+
+.flex-control-nav li {
+	margin: 0 6px;
+	display: inline-block;
+	zoom: 1;
+	display: inline;
+} */
+
+#register_sign_in a:hover {
+	color: #cc0000;
+	text-decoration: none;
+}
+
+.menu .nav li.active a,.menu .nav li.active a:hover {
+	box-shadow: 0 0px 0px rgba(0, 0, 0, 0.067);
+	border-bottom: solid 1px #858585;
+}
+
+#carousel{
+	margin-top:20px;
+	
+}
+
+.feature_teaser:hover {
+
+box-shadow: 0 0 30px rgba(0, 0, 0, 0.67);
+border-top-left-radius: 2em;
+border-top-right-radius: 2em;
+border-bottom-right-radius: 2em;
+border-bottom-left-radius: 2em;
+border: 3px solid #fff;
+cursor: pointer;
+
+}
+.menu .nav>.active>a,.menu .nav>.active>a:hover,.menu .nav>.active>a:focus
+	{
+	color: #141414;
+	text-decoration: none;
+	background-color: #F3F3F3;
+	box-shadow: inset 0 3px 8px rgba(0, 0, 0, 0.125);
+}
+
+.menu .nav li a {
+	margin: 0px;
+	padding: 10px;
+	text-transform: uppercase;
+	background-color: transparent !important;
+}
+
+
+.user {
+	margin-bottom: 60px;
+}
+
+.section {
+	width: 500px;
+}
+
+.slider .carousel slide user {
+	height: 800px;
+	padding: 10px;
+}
+
+.slider .container {
+	position: relative;
+	
+}
+
+ .slider .container .carousel-caption { /*  overwrite bootstrap.css */
+	background: none;
+	}
+
+.slider .container .carousel-caption h1 {
+	display: inline-block;
+	margin: 0px;                                /*  overwrite bootstrap.css */
+	padding: 20px;
+	line-height: 1em;
+	color: #F3F3F3;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
+	font-weight: 300;
+	border-bottom: solid 1px #0085C8;
+	background-color: #0085C8;
+}
+
+.slider .container .carousel-caption .ima2 {
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
+	font-weight: 300;
+	border-bottom: solid 1px #0085C8;
+	background: rgba(0, 0, 0, 0.6);
+}
+
+.slider .container .carousel-caption h1 .inverse {
+	background: #0085C8;
+	background-color: rgba(150, 200, 200, 0.6);
+}
+
+.slider .container .carousel-caption .lead {
+	display: inline-block;
+	padding: 20px;
+	background: rgba(0, 0, 0, 0.8);
+	line-height: 1.25;
+	font-size: 16px;
+	border-bottom: solid 1px #0085C8;
+}
+
+
+.centerh4{
+	/* text-shadow: #6D6D6D 0px 0px 10px; */
+	text-shadow: 5px 5px 5px #fcfcfc;
+	font-size: 25px;
+}
+	
+	
+.slider .container .carousel-caption .lead a:hover {
+	color: #cc0000;
+	text-decoration: none;
+}
+
+.slider .container .carousel-caption .lead.inverse {
+	background: #0085C8;
+	background-color: rgba(0, 133, 200, 0.8);
+}
+
+.slider .carousel-caption .round_badge {
+	top: -40px;
+	right: 100px;
+	left: 500px;
+	width: 70px;
+	height: 70px;
+	padding: 20px;
+	text-align: center;
+	position: absolute;
+	background-color: Gray;
+	border-radius: 60px;
+	color: white;
+	font-size: 16px;
+	line-height: 20px;
+	display: block;
+}
+
+.slider .control-nav {
+	width: 100%;
+	position: absolute;
+	bottom: -40px;
+	text-align: center;
+}
+
+section.action {
+	text-align:justify;
+	padding: 25px 0 25px 0;
+}
+
+section.action  h3 {
+	font-weight: 200;
+	font-size: 50px;
+	line-height: 55px;
+	font-style: italic;
+}
+
+section.action  h4 {
+	font-weight: 300;
+	font-size: 26px;
+	line-height: 30px;
+	margin: 0 0 20px 0;
+}
+
+p {
+	margin: 0 0 10px;
+}
+
+p.value {
+	font-size: 22px;
+	font-style: normal;
+}
+
+h4.valueh4 {
+	font-size: 22px;
+	font-weight: lighter;
+}
+
+
+.btn-primary {
+	display: inline-block;
+	color: white;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+	background-color: #08C;
+	background-image: -webkit-linear-gradient(top, #08C, #08C);
+}
+
+.btn-primary:hover {
+	color: #ffffff;
+	background-color: #0088CC;;
+}
+
+.footer_teaser h3 {
+	display: block;
+	border-bottom: 1px solid #555;
+}
+
+.row {
+	margin-left: 102px;
+}
+
+section#teaser_wrapper {
+	margin: 35px 0 45px 0;
+}
+
+section#teaser_wrapper .feature_teaser {
+	text-align: center;
+}
+
+section#teaser_wrapper .feature_teaser h3 {
+	font-size: 16px;
+	font-width: 600;
+}
+
+p.section_header {
+	font-size: 18px;
+	line-height: 36px;
+	font-weight: 200;
+	border-bottom: dotted 1px #CCC;
+	margin: 0 0 26px;
+	padding: 0 0 16px 0;
+}
+
+
+
+
+
+
+ #portfolio .image:hover {
+  background: url("../image/LLBS/wild_oliva_light23.png");
+ background-color: rgba(255, 255, 255, 0.6);
+ border-top-left-radius:1em;
+border-top-right-radius:1em;
+border-bottom-right-radius:1em;
+border-bottom-left-radius:1em;
+ 
+  
+}
+  
+ 
+#portfolio .content-img1 {
+	background: url("../image/LLBS/a1.png") center;
+	height: 220px;
+	background-size: cover;
+	border-top-left-radius:1em;
+	border-top-right-radius:1em;
+	border-bottom-right-radius:1em;
+	border-bottom-left-radius:1em;
+	border:5px solid #ffc658;
+	
+	
+}
+
+#portfolio .image .content-img1 a {
+	display: block;
+	width: 100%;
+	color: white;
+	text-decoration: none;
+	background-color: rgba(0, 0, 0, 0.4);
+}
+
+#portfolio .image .content-img1 a i {
+	background: url("../image/LLBS/wild_oliva_blue_light.png");
+	line-height: 3.5;
+	border: solid 5px;
+	border-radius: 500px;
+	padding:20px;
+	
+	
+}
+
+
+
+#portfolio .content-img2 {
+	background: url("../image/LLBS/p3.jpg") center center;
+	height: 220px;
+	background-size: cover;
+	border-top-left-radius:1em;
+	border-top-right-radius:1em;
+	border-bottom-right-radius:1em;
+	border-bottom-left-radius:1em;
+	border:5px solid #ffc658;
+	
+	
+}
+
+
+#portfolio .image .content-img2 a {
+	display: block;
+	width: 100%;
+	color: white;
+	text-decoration: none;
+	background-color: rgba(0, 0, 0, 0.4);
+}
+
+#portfolio .image .content-img2 a i {
+	background: url("../image/LLBS/wild_oliva_blue_light.png");
+	line-height: 3.5;
+	border: solid 5px;
+	border-radius: 500px;
+	padding:20px;
+	
+}
+
+
+
+#portfolio .content-img3 {
+	background: url("../image/LLBS/t4.jpg") center center;
+	background-size: cover;
+	height: 220px;
+	border-top-left-radius:1em;
+	border-top-right-radius:1em;
+	border-bottom-right-radius:1em;
+	border-bottom-left-radius:1em;
+	border:5px solid #ffc658;
+	
+	
+}
+
+#portfolio .image .content-img3 a {
+	display: block;
+	width: 100%;
+	color: white;
+	text-decoration: none;
+	background-color: rgba(0, 0, 0, 0.4);
+}
+
+#portfolio .image .content-img3 a i {
+	background: url("../image/LLBS/wild_oliva_blue_light.png");
+	line-height: 3.5;
+	border: solid 5px;
+	border-radius: 500px;
+	padding:20px;
+	
+}
+
+#portfolio .content-img4 {
+	background: url("../image/LLBS/LLBS05.png") center center;
+	height: 220px;
+	background-size: cover;
+	border-top-left-radius:1em;
+	border-top-right-radius:1em;
+	border-bottom-right-radius:1em;
+	border-bottom-left-radius:1em;
+	border:5px solid #ffc658;
+	
+	
+}
+
+#portfolio .image .content-img4 a {
+	display: block;
+	width: 100%;
+	color: white;
+	text-decoration: none;
+	background-color: rgba(0, 0, 0, 0.4);
+}
+
+#portfolio .image .content-img4 a i {
+	background: url("../image/LLBS/grid.png");
+	line-height: 3.5;
+	border: solid 5px;
+	border-radius: 500px;
+	padding:20px;
+	
+}
+
+
+ 
+
+#portfolio .span3>.content-des {
+	padding: 10px;
+}
+
+#portfolio .span3 {
+	padding: 10px;
+	font-size: 16px;
+	background: white;
+	text-align: center;
+	}
+
+#portfolio .content-des  .brand {
+	
+	font-weight: bolder;
+	color: #0BB154;
+	line-height: 15px;
+}
+
+
+footer {
+    margin-top:10px;
+	/* color: #ffffff; */
+	border-top: solid 2px white;
+	background: url("../image/LLBS/wild_oliva_dark.png");
+} 
+
+footer a:hover,footer a:active {
+	color: #B9B9B9;
+	text-decoration: none;
+}
+
+#twitter_feed_wrapper {
+	padding: 14px;
+	background-color: rgba(0, 0, 0, 0.1);
+	border-bottom: solid 1px black;
+	border-top: solid 1px black;
+	margin-top: 48px;
+}
+
+#twitter_feed_wrapper .twitter_feed_icon a {
+	
+	font-size: 70px;
+	
+}
+
+#twitter_feed_wrapper blockquote {
+	margin: 11px 0;
+	min-height: 60px;
+	border-left: 5px solid #999;
+}
+
+#twitter_feed_wrapper blockquote p {
+	font-size: 16px;
+	margin-bottom: 3px;
+}
+
+#footer_teasers_wrapper {
+	padding: 55px 0;
+}
+
+#footer_teasers_wrapper .footer_teaser h3 {
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 18px;
+	padding: 0 0 16px 0;
+	margin: 10px 0 20px 0;
+}
+
+#footer_teasers_wrapper .footer_teaser p {
+	font-size: 13px;
+}
+
+li.media {
+	position: relative;
+}
+
+li.media .media-photo {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 70px;
+	height: 70px;
+	margin: 5px;
+	border-radius: 500px;
+	background: no-repeat center center;
+	background-size: cover;
+}
+
+li.media h5.media-heading {
+	font-weight: 600;
+	padding: 0px;
+	margin: 0;
+}
+
+li.media a.media-date {
+	width: 40px;
+	height: 40px;
+	float: left;
+	background: #000000;
+	background: rgba(0, 0, 0, 0.85);
+	border-radius: 500px;
+	text-align: center;
+	font-size: 20px;
+	font-weight: 600;
+	padding: 20px;
+	margin: 0 10px 0 0;
+	position: relative;
+	z-index: 2;
+	color: white;
+}
+
+
+.flex-caption {
+    position: absolute;
+    bottom: 20px;
+    max-width:920px;
+    padding: 10px 20px;
+    margin: 0;
+    background: #1d1d1d; /* browsers that don't support rgba */
+    background: rgba(0, 0, 0, .7);
+    font-size: 14px;
+    line-height: 24px;
+    color: #eaeaea;
+    text-align: left;
+    font-style: italic;
+}
+
+li.media a.media-date:hover {
+	background: #0085c8;
+	background-color: rgba(0, 133, 200, 0.4);
+}
+
+#latest-flickr-images ul {
+	margin: 0;
+	overflow: hidden;
+}
+
+#copyright {
+	border-top: solid 1px #000000;
+	padding: 15px 0;
+	background-color: rgba(0, 0, 0, 0.5);
+	font-weight: 300;
+}
+
+#copyright .text-right {
+	text-align: right;
+	float: left
+}
+
+#toTop {
+	display: none;
+	text-decoration: none;
+	position: fixed;
+	bottom: 35px;
+	right: 10px;
+	overflow: hidden;
+	width: 51px;
+	height: 51px;
+	border: none;
+	text-indent: 100%;
+	background: url("../image/LLBS/ui.totop.png") no-repeat left top;
+	opacity: 0.5;
+	filter: alpha(opacity =50);
+	z-index: 2;
+}
+
+#toTopHover {
+	background: url("../image/LLBS/ui.totop.png") no-repeat left -51px;
+	width: 51px;
+	height: 51px;
+	display: block;
+	overflow: hidden;
+	float: left;
+	opacity: 0;
+	filter: alpha(opacity =0);
+}
+
+#toTop:active,#toTop:focus {
+	outline: none;
+}
+
+
+/* ----- Header ----- */
+
+
+
+
+
+
+
+
+.header .navbar {
+    margin-bottom: 0;
+}
+
+.header .navbar-inner {
+    /* background: #fff; */
+     background: url("../image/LLBS/linen_bg_tile.jpg");
+    border: 0;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-top-left-radius:1em;
+	border-top-right-radius:1em;
+	border-bottom-right-radius:1em;
+	border-bottom-left-radius:1em;
+}
+
+.header h1 {
+    float: left;
+    margin: 0;
+    text-align: left;
+}
+
+
+.header ul.nav {
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.header ul.nav li a {
+    padding: 6px 20px 10px 20px;
+    color: #B4B4B4;
+    text-shadow: none;
+}
+
+.header ul.nav li.current-page a {
+    padding-top: 1px;
+    border-top: 5px solid #9B9894;
+    background: #f8f8f8;
+}
+
+.header ul.nav li a:hover {
+    background: #000;
+    color: #fff;
+}
+
+.header ul.nav li a i {
+    line-height: 35px;
+    color: #aaa;
+   padding:25px;
+}
+
+.header ul.nav li a:hover i { color: #fff; }
+
+
+.hed
+{
+	color:585858;
+}

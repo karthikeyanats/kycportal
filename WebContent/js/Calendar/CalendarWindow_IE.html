@@ -1,0 +1,879 @@
+<html>
+<xml id="leave_list_xml" src="Leave_List.xml"></xml>
+
+<head>
+<title>C a l e n d a r </title>
+<link rel="stylesheet" href="Calendar.css">
+</head>
+
+<body bgcolor="#EFEFE7" topmargin="0" leftmargin="0" onLoad="Load_Fun()" text='navy' style="font-size: 8pt;">
+<form name="Calendar_Parent_Form" method="POST">
+
+		<table align="center" border='0' height="20" width='114'>
+		<tr>
+		<td>
+		 <select class="tabledivison" size='1' name='D1' onChange='Choose_Fun(this.selectedIndex)' style="font-size: 7pt; color=navy;">
+		 <option>September</option>
+		 </select>
+		 <td>
+		 <img src='../../images/Calendar/cal_back.gif' onClick="Decrement_Function()">
+		 <td><input class="tabledivison" type="text" name="Year_Field" size="3" onKeyUp='Key_Function()' maxlength="4" style="font-size: 8pt; font-weight: bold; color=navy">
+		 <td><img src='../../images/Calendar/cal_forw.gif' onClick="Increment_Function()">
+		 </table>
+        <table border='0' width='184' height='20' cellspacing='0' style="font-size: 8pt; font-weight: bold">
+	        <tr align='center' style="font-size: 8pt; color: white;">
+	          <td width='20' height='20' bgcolor="#4C4B44" style="color: white" ><center><font size="1"><b>Su</b></font></center></td>
+	          <td width='20' height='20' bgcolor="#4C4B44" style="color: white" ><center><font size="1"><b>Mo</b></font></center></td>
+	          <td width='20' height='20' bgcolor="#4C4B44" style="color: white" ><center><font size="1"><b>Tu</b></font></center></td>
+	          <td width='20' height='20' bgcolor="#4C4B44" style="color: white" ><center><font size="1"><b>We</b></font></center></td>
+	          <td width='20' height='20' bgcolor="#4C4B44" style="color: white" ><center><font size="1"><b>Th</b></font></center></td>
+	          <td width='20' height='20' bgcolor="#4C4B44" style="color: white" ><center><font size="1"><b>Fr</b></font></center></td>
+	          <td width='20' height='20' bgcolor="#4C4B44" style="color: white" ><center><font size="1"><b>Sa</b></font></center></td>
+	        </tr>
+	      </table>
+        <table align="center" border='0' width='184' height='115' cellspacing='0' style="font-size: 8pt; font-weight: bold">
+	        <tr align='center' style="font-size: 8pt;">
+	          <td width='20' height='20' ><center><a name=s_day class="sundaystyle" onClick=getValue(this.name,'0') onDblClick=OK_Function()></a></center></td>
+	          <td width='20' height='20' ><center><a name=s_day class="ordinarystyle" onClick=getValue(this.name,'1') onDblClick=OK_Function()></a></center></td>
+	          <td width='20' height='20' ><center><a name=s_day class="ordinarystyle" onClick=getValue(this.name,'2') onDblClick=OK_Function()></a></center></td>
+	          <td width='20' height='20' ><center><a name=s_day class="ordinarystyle" onClick=getValue(this.name,'3') onDblClick=OK_Function()></a></center></td>
+	          <td width='20' height='20' ><center><a name=s_day class="ordinarystyle" onClick=getValue(this.name,'4') onDblClick=OK_Function()></a></center></td>
+	          <td width='20' height='20' ><center><a name=s_day class="ordinarystyle" onClick=getValue(this.name,'5') onDblClick=OK_Function()></a></center></td>
+	          <td width='20' height='20' ><center><a name=s_day class="ordinarystyle" onClick=getValue(this.name,'6') onDblClick=OK_Function()></a></center></td>
+	        </tr>
+	        <tr align='center' style="font-size: 8pt;">
+	          <td width='20' height='20'><center><a name=s_day class="sundaystyle" onClick=getValue(this.name,'7') onDblClick=OK_Function()></a></center></td>
+	          <td width='20' height='20'><center><a name=s_day class="ordinarystyle" onClick=getValue(this.name,'8') onDblClick=OK_Function()></a></center></td>
+	          <td width='20' height='20'><center><a name=s_day class="ordinarystyle" onClick=getValue(this.name,'9') onDblClick=OK_Function()></a></center></td>
+	          <td width='20' height='20'><center><a name=s_day class="ordinarystyle" onClick=getValue(this.name,'10') onDblClick=OK_Function()></a></center></td>
+	          <td width='20' height='20'><center><a name=s_day class="ordinarystyle" onClick=getValue(this.name,'11') onDblClick=OK_Function()></a></center></td>
+	          <td width='20' height='20'><center><a name=s_day class="ordinarystyle" onClick=getValue(this.name,'12') onDblClick=OK_Function()></a></center></td>
+	          <td width='20' height='20'><center><a name=s_day class="ordinarystyle" onClick=getValue(this.name,'13') onDblClick=OK_Function()></a></center></td>
+	        </tr>
+	        <tr align='center' style="font-size: 8pt;">
+	          <td width='20' height='20'><center><a name=s_day class="sundaystyle" onClick=getValue(this.name,'14') onDblClick=OK_Function()></a></center></td>
+	          <td width='20' height='20'><center><a name=s_day class="ordinarystyle" onClick=getValue(this.name,'15') onDblClick=OK_Function()></a></center></td>
+	          <td width='20' height='20'><center><a name=s_day class="ordinarystyle" onClick=getValue(this.name,'16') onDblClick=OK_Function()></a></center></td>
+	          <td width='20' height='20'><center><a name=s_day class="ordinarystyle" onClick=getValue(this.name,'17') onDblClick=OK_Function()></a></center></td>
+	          <td width='20' height='20'><center><a name=s_day class="ordinarystyle" onClick=getValue(this.name,'18') onDblClick=OK_Function()></a></center></td>
+	          <td width='20' height='20'><center><a name=s_day class="ordinarystyle" onClick=getValue(this.name,'19') onDblClick=OK_Function()></a></center></td>
+	          <td width='20' height='20'><center><a name=s_day class="ordinarystyle" onClick=getValue(this.name,'20') onDblClick=OK_Function()></a></center></td>
+	        </tr>
+	        <tr align='center' style="font-size: 8pt;">
+	          <td width='20' height='20'><center><a name=s_day class="sundaystyle" onClick=getValue(this.name,'21') onDblClick=OK_Function()></a></center></td>
+	          <td width='20' height='20'><center><a name=s_day class="ordinarystyle" onClick=getValue(this.name,'22') onDblClick=OK_Function()></a></center></td>
+	          <td width='20' height='20'><center><a name=s_day class="ordinarystyle" onClick=getValue(this.name,'23') onDblClick=OK_Function()></a></center></td>
+	          <td width='20' height='20'><center><a name=s_day class="ordinarystyle" onClick=getValue(this.name,'24') onDblClick=OK_Function()></a></center></td>
+	          <td width='20' height='20'><center><a name=s_day class="ordinarystyle" onClick=getValue(this.name,'25') onDblClick=OK_Function()></a></center></td>
+	          <td width='20' height='20'><center><a name=s_day class="ordinarystyle" onClick=getValue(this.name,'26') onDblClick=OK_Function()></a></center></td>
+	          <td width='20' height='20'><center><a name=s_day class="ordinarystyle" onClick=getValue(this.name,'27') onDblClick=OK_Function()></a></center></td>
+	        </tr>
+	        <tr align='center' style="font-size: 8pt;">
+	          <td width='20' height='20'><center><a name=s_day class="sundaystyle" onClick=getValue(this.name,'28') onDblClick=OK_Function()></a></center></td>
+	          <td width='20' height='20'><center><a name=s_day class="ordinarystyle" onClick=getValue(this.name,'29') onDblClick=OK_Function()></a></center></td>
+	          <td width='20' height='20'><center><a name=s_day class="ordinarystyle" onClick=getValue(this.name,'30') onDblClick=OK_Function()></a></center></td>
+	          <td width='20' height='20'><center><a name=s_day class="ordinarystyle" onClick=getValue(this.name,'31') onDblClick=OK_Function()></a></center></td>
+	          <td width='20' height='20'><center><a name=s_day class="ordinarystyle" onClick=getValue(this.name,'32') onDblClick=OK_Function()></a></center></td>
+	          <td width='20' height='20'><center><a name=s_day class="ordinarystyle" onClick=getValue(this.name,'33') onDblClick=OK_Function()></a></center></td>
+	          <td width='20' height='20'><center><a name=s_day class="ordinarystyle" onClick=getValue(this.name,'34') onDblClick=OK_Function()></a></center></td>
+	        </tr>
+	          <tr align='center' style="font-size: 8pt;">
+	          <td width='20' height='20'><center><a name=s_day class="sundaystyle" onClick=getValue(this.name,'35') onDblClick=OK_Function()></a></center></td>
+	          <td width='20' height='20'><center><a name=s_day class="ordinarystyle" onClick=getValue(this.name,'36') onDblClick=OK_Function()></a></center></td>
+	          <td width='20' height='20'><center><a name=s_day class="ordinarystyle" onClick=getValue(this.name,'37') onDblClick=OK_Function()></a></center></td>
+	          <td width='20' height='20'><center><a name=s_day class="ordinarystyle" onClick=getValue(this.name,'38') onDblClick=OK_Function()></a></center></td>
+	          <td width='20' height='20'><center><a name=s_day class="ordinarystyle" onClick=getValue(this.name,'39') onDblClick=OK_Function()></a></center></td>
+	          <td width='20' height='20'><center><a name=s_day class="ordinarystyle" onClick=getValue(this.name,'40') onDblClick=OK_Function()></a></center></td>
+	          <td width='20' height='20'><center><a name=s_day class="ordinarystyle" onClick=getValue(this.name,'41') onDblClick=OK_Function()></a></center></td>
+	        </tr>
+        </table>
+        <div style="position:absolute;top:163;left:20">
+        <table align="center" border='0'>
+        	<tr>
+        		<td><img src="../../images/Calendar/Ok_1.gif" onClick="OK_Function()"><input class="tabledivison" type="text" name="Date" onKeyDown='this.blur()' size="8"><img src="../../images/Calendar/Today.gif" onClick="Today_Function()">
+        </table>
+        </div>
+
+ 	  <input type="hidden" name="ParentField"  value="date">
+      <input type=hidden name=Mode value=0>
+      <input type=hidden name="Leave_Mode" value=0>
+      <input type=hidden name=Validate_Date>
+      <input type=hidden name=server_date>
+</form>
+    <script language="JavaScript">
+    var Date_Var;
+    var Month;
+    var Year;
+    var Day;
+    var totaldays;
+    var monthstr;
+    var today_date_string = "";
+
+    function blurWin()
+	{
+
+	  self.focus();
+
+
+    }
+
+
+
+   function Load_Fun()
+   {
+    Date_Var = new Date();
+    Month=Date_Var.getMonth();
+    Year=Date_Var.getFullYear();
+    today_date = Date_Var.getDate();
+    today_date_string = new String(today_date);
+
+    if(today_date_string.length == 1)
+		today_date_string = "0"+today_date_string;
+
+    this.today_date_string = today_date_string;
+
+    Load_Combo_Month(Month);
+    document.Calendar_Parent_Form.Year_Field.value=Year;
+    TotalDays_Fun(Month,Year);
+    Calendar_Parent_Fun(Year,Month);
+    window.opener.Assign_Fun();
+   }
+
+	function Load_Combo_Month(Month)
+	{
+		this.Month = Month;
+		document.Calendar_Parent_Form.D1.options[0]=new Option('January');
+		document.Calendar_Parent_Form.D1.options[1]=new Option('February');
+		document.Calendar_Parent_Form.D1.options[2]=new Option('March');
+		document.Calendar_Parent_Form.D1.options[3]=new Option('April');
+		document.Calendar_Parent_Form.D1.options[4]=new Option('May');
+		document.Calendar_Parent_Form.D1.options[5]=new Option('June');
+		document.Calendar_Parent_Form.D1.options[6]=new Option('July');
+		document.Calendar_Parent_Form.D1.options[7]=new Option('August');
+		document.Calendar_Parent_Form.D1.options[8]=new Option('September');
+		document.Calendar_Parent_Form.D1.options[9]=new Option('October');
+		document.Calendar_Parent_Form.D1.options[10]=new Option('November');
+		document.Calendar_Parent_Form.D1.options[11]=new Option('December');
+		document.Calendar_Parent_Form.D1.options[Month].selected='true';
+	}
+
+
+function UnLoad_Fun()
+{
+   window.opener.Calendar_ON=1;
+}
+
+function Choose_Fun(Month)
+{
+	this.Month = Month
+	this.Year = Year
+    TotalDays_Fun(Month,Year);
+    Calendar_Parent_Fun(Year,Month);
+}
+
+
+
+function Calendar_Parent_Fun(Year,Month)
+{
+    this.Year = Year;
+    this.Month = Month;
+
+            var d =new Date();
+            d.setFullYear(Year);
+            d.setMonth(Month);
+            d.setDate(1);
+            Day=d.getDay();
+
+            for(var i=0; i<=41; i++)
+            {
+              s_day[i].innerText=' ';
+			  s_day[i].className = "ordinarystyle";
+            }
+
+		    s_day[0].className = "sundaystyle";
+		    s_day[7].className = "sundaystyle";
+		    s_day[14].className  = "sundaystyle";
+		    s_day[21].className  = "sundaystyle";
+		    s_day[28].className  = "sundaystyle";
+
+            for(var i=1; i<=totaldays; i++)
+            {
+
+              if((i>=1) && (i<=9))date_str='0'+i.toString();
+              else date_str=i;
+              if(navigator.appName == "Netscape")
+              {
+                document.anchors[Day].text=date_str;
+              }
+              else
+              {
+              		var leave_status = false;
+              		var month_node = leave_list_xml.selectSingleNode("//LeaveDetails[leaveyear!value()='"+Year+"'$and$leavemonth!value()='"+parseInt(Month + 1)+"']");
+
+              		if(month_node != null)
+              		{
+              			var leave_days = month_node.selectSingleNode("leavedays").text.split(",");
+
+              			for(var z=0;z<leave_days.length;z++)
+              			{
+              				if(date_str == leave_days[z])
+              					leave_status = true;
+              			}
+              		}
+
+					if(date_str == today_date_string)
+					{
+						s_day[Day].className = "todaystyle";
+					}
+
+              		if(leave_status)
+              		{
+              			s_day[Day].innerText = date_str;
+						if(date_str == today_date_string)
+						{
+								if(Day == 0 || Day == 7 || Day == 14 || Day == 21 || Day == 28)
+								{
+									s_day[Day].innerText=date_str;
+									s_day[Day].className = "todaysundaystyle";
+								}
+								else
+									s_day[Day].className = "todayleavestyle";
+						}
+						else
+						{
+
+							if(Day == 0 || Day == 7 || Day == 14 || Day == 21 || Day == 28)
+							{
+								s_day[Day].innerText=date_str;
+								s_day[Day].className = "todaysundaystyle";
+							}
+							else
+								s_day[Day].className = "leavestyle";
+
+						}
+              		}
+              		else
+              		{
+              			if(Day == 0 || Day == 7 || Day == 14 || Day == 21 || Day == 28)
+              			{
+              				if(date_str == today_date_string)
+							{
+              					s_day[Day].innerText=date_str;
+              					s_day[Day].className = "todaysundaystyle";
+              				}
+              				else
+              				{
+              					s_day[Day].innerText=date_str;
+              					s_day[Day].className = "sundaystyle";
+              				}
+              			}
+              			else
+              				s_day[Day].innerText=date_str;
+              		}
+              }
+              Day++;
+            }
+
+       }
+
+
+
+  function Check_Leap(Year)
+  {
+       if(Year%4==0) return 29;
+       else return 28;
+
+  }
+
+  function TotalDays_Fun(Month,Year)
+    {
+
+      switch(Month)
+      {
+
+        case 0:
+                 monthstr="January";
+                 totaldays=31;
+                 break;
+        case 1:
+                 monthstr="February";
+                 totaldays=Check_Leap(Year);
+                 break;
+        case 2:
+                 monthstr="March";
+                 totaldays=31;
+                 break;
+        case 3:
+                 monthstr="April";
+                 totaldays=30;
+                 break;
+        case 4:
+                 monthstr="May";
+                 totaldays=31;
+                 break;
+        case 5:
+                 monthstr="June";
+                 totaldays=30;
+                 break;
+        case 6:
+                 monthstr="July";
+                 totaldays=31;
+                 break;
+        case 7:
+                 monthstr="August";
+                 totaldays=31;
+                 break;
+        case 8:
+                 monthstr="September";
+                 totaldays=30;
+                 break;
+        case 9:
+                 monthstr="October";
+                 totaldays=31;
+                 break;
+        case 10:
+                 monthstr="November";
+                 totaldays=30;
+                 break;
+        case 11:
+                 monthstr="December";
+                 totaldays=31;
+                 break;
+
+       default :  "Your information wrong"
+      }
+
+
+}
+
+
+
+  function getValue(value,id)
+  {
+      date_value=eval(value+"["+id+"].innerText");
+	  if(date_value==" "){return;}
+
+  	 if(document.Calendar_Parent_Form.Leave_Mode.value == "1")
+  	 {
+		var month_node = leave_list_xml.selectSingleNode("//LeaveDetails[leaveyear!value()='"+Year+"'$and$leavemonth!value()='"+parseInt(Month + 1)+"']");
+		var leave_status = false;
+
+		if(month_node != null)
+		{
+			var leave_days = month_node.selectSingleNode("leavedays").text.split(",");
+
+			for(var z=0;z<leave_days.length;z++)
+			{
+				if(date_value == leave_days[z])
+					leave_status = true;
+			}
+	    }
+
+
+	  if(leave_status)
+	  {
+		 alert("You can't fix leave date");
+	  	 return;
+	  }
+	  else
+	  {
+	     document.Calendar_Parent_Form.Date.value=date_value+'-'+monthstr.substring(0,3)+'-'+Year;
+	  }
+	}
+  else
+  {
+	 document.Calendar_Parent_Form.Date.value=date_value+'-'+monthstr.substring(0,3)+'-'+Year;
+  }
+}
+
+
+
+
+function Today_Function()
+{
+
+   d = new Date();
+   s=d.getDate()+"-"+d.getMonth()+"-"+d.getFullYear();
+
+	if(document.Calendar_Parent_Form.Leave_Mode.value == "1")
+	{
+		var leave_status = false;
+		var month_node = leave_list_xml.selectSingleNode("//LeaveDetails[leaveyear!value()='"+d.getYear()+"'$and$leavemonth!value()='"+d.getMonth()+"']");
+
+		if(month_node != null)
+		{
+			var leave_days = month_node.selectSingleNode("leavedays").text.split(",");
+
+			for(var z=0;z<leave_days.length;z++)
+			{
+				var string_date = new String(d.getDate());
+
+				if(string_date.length == 1)
+					string_date = "0"+string_date;
+
+				if(string_date == leave_days[z])
+					leave_status = true;
+			}
+		}
+
+   		if(leave_status)
+   		{
+			 if(document.Calendar_Parent_Form.Leave_Mode.value == "1")
+				alert("You can't fix leave date");
+
+  			 return;
+   		}
+   		else
+   		{
+   			TotalDays_Fun(d.getMonth(),d.getYear());
+   			document.Calendar_Parent_Form.Date.value=d.getDate()+"-"+monthstr.substring(0,3)+"-"+d.getFullYear();
+
+		var Child_Field=document.Calendar_Parent_Form.ParentField.value;
+
+		if(document.Calendar_Parent_Form.Validate_Date.value != "")
+		{
+			if(validateDatePassed(document.Calendar_Parent_Form.Validate_Date.value))
+			{
+				var Form_Field_Name=document.Calendar_Parent_Form.ParentField.value;
+				var mode=document.Calendar_Parent_Form.Mode.value;
+
+				if(mode==0)
+				{
+				  eval("window.opener.document."+Form_Field_Name+".value=document.Calendar_Parent_Form.Date.value");
+				  self.close();
+				}
+				else
+				{
+				  eval("window.opener.document."+Form_Field_Name+".value=document.Calendar_Parent_Form.Date.value");
+				}
+			}
+		}
+		else
+		{
+				var Form_Field_Name=document.Calendar_Parent_Form.ParentField.value;
+				var mode=document.Calendar_Parent_Form.Mode.value;
+
+				if(mode==0)
+				{
+				  eval("window.opener.document."+Form_Field_Name+".value=document.Calendar_Parent_Form.Date.value");
+				  self.close();
+				}
+				else
+				{
+				  eval("window.opener.document."+Form_Field_Name+".value=document.Calendar_Parent_Form.Date.value");
+				}
+
+		}
+		}
+	}
+	else
+	{
+   			TotalDays_Fun(d.getMonth(),d.getYear());
+   			document.Calendar_Parent_Form.Date.value=d.getDate()+"-"+monthstr.substring(0,3)+"-"+d.getFullYear();
+
+		var Child_Field=document.Calendar_Parent_Form.ParentField.value;
+
+		if(document.Calendar_Parent_Form.Validate_Date.value != "")
+		{
+			if(validateDatePassed(document.Calendar_Parent_Form.Validate_Date.value))
+			{
+				var Form_Field_Name=document.Calendar_Parent_Form.ParentField.value;
+				var mode=document.Calendar_Parent_Form.Mode.value;
+
+				if(mode==0)
+				{
+				  eval("window.opener.document."+Form_Field_Name+".value=document.Calendar_Parent_Form.Date.value");
+				  self.close();
+				}
+				else
+				{
+				  eval("window.opener.document."+Form_Field_Name+".value=document.Calendar_Parent_Form.Date.value");
+				}
+			}
+		}
+		else
+		{
+				var Form_Field_Name=document.Calendar_Parent_Form.ParentField.value;
+				var mode=document.Calendar_Parent_Form.Mode.value;
+
+				if(mode==0)
+				{
+				  eval("window.opener.document."+Form_Field_Name+".value=document.Calendar_Parent_Form.Date.value");
+				  self.close();
+				}
+				else
+				{
+				  eval("window.opener.document."+Form_Field_Name+".value=document.Calendar_Parent_Form.Date.value");
+				}
+
+		}
+	}
+
+}
+
+function OK_Function()
+{
+  if(document.Calendar_Parent_Form.Validate_Date.value != "")
+  {
+  	if(validateDatePassed(document.Calendar_Parent_Form.Validate_Date.value))
+  	{
+  		var Form_Field_Name=document.Calendar_Parent_Form.ParentField.value;
+  		var mode=document.Calendar_Parent_Form.Mode.value;
+
+  		if(mode==0)
+  		{
+  		  eval("window.opener.document."+Form_Field_Name+".value=document.Calendar_Parent_Form.Date.value");
+  		  self.close();
+  		}
+  		else
+  		{
+  		  eval("window.opener.document."+Form_Field_Name+".value=document.Calendar_Parent_Form.Date.value");
+		}
+  	}
+  }
+  else
+  {
+  		var Form_Field_Name=document.Calendar_Parent_Form.ParentField.value;
+  		var mode=document.Calendar_Parent_Form.Mode.value;
+
+  		if(mode==0)
+  		{
+  		  eval("window.opener.document."+Form_Field_Name+".value=document.Calendar_Parent_Form.Date.value");
+  		  self.close();
+  		}
+  		else
+  		{
+  		  eval("window.opener.document."+Form_Field_Name+".value=document.Calendar_Parent_Form.Date.value");
+		}
+
+  }
+}
+
+function validateDatePassed(check_for)
+{
+   if(check_for == "Not_Less_Than_CurrentDate")
+   {
+      split_date_selected = document.Calendar_Parent_Form.Date.value.split("-");
+      split_server_current_date = document.Calendar_Parent_Form.server_date.value.split("-");
+
+	  selected_month_no = getEquivalentMonthNumber(split_date_selected[1]);
+      server_month_no = getEquivalentMonthNumber(split_server_current_date[1]);
+
+      if(split_date_selected[0].length == 1)
+         split_date_selected[0] = "0"+split_date_selected[0];
+
+      if(split_server_current_date[0].length == 1)
+          split_server_current_date[0] = "0"+split_server_current_date[0];
+
+      total_selected_concate = split_date_selected[2]+""+selected_month_no+""+split_date_selected[0];
+      total_server_concate = split_server_current_date[2]+""+server_month_no+""+split_server_current_date[0];
+
+      if(parseInt(total_server_concate) > parseInt(total_selected_concate))
+      {
+      	//alert("Start Date should not be less than Current Date");
+      	alert("Start Date should not be less than today date");
+      	return false;
+      }
+   }
+   if(check_for == "Not_Less_Than_CreationDate")
+   {
+      	   split_date_selected = document.Calendar_Parent_Form.Date.value.split("-");
+           split_server_current_date = document.Calendar_Parent_Form.server_date.value.split("-");
+
+      	   selected_month_no = getEquivalentMonthNumber(split_date_selected[1]);
+           server_month_no = getEquivalentMonthNumber(split_server_current_date[1]);
+
+           if(split_date_selected[0].length == 1)
+               split_date_selected[0] = "0"+split_date_selected[0];
+
+           if(split_server_current_date[0].length == 1)
+                split_server_current_date[0] = "0"+split_server_current_date[0];
+
+           total_selected_concate = split_date_selected[2]+""+selected_month_no+""+split_date_selected[0];
+           total_server_concate = split_server_current_date[2]+""+server_month_no+""+split_server_current_date[0];
+
+            if(parseInt(total_server_concate) > parseInt(total_selected_concate))
+            {
+            	alert("Start Date should not be less than Creation Date");
+            	return false;
+            }
+   }
+   else if(check_for == "Not_Less_Than_StartDate")
+   {
+      split_date_selected = document.Calendar_Parent_Form.Date.value.split("-");
+      split_passed_date = document.Calendar_Parent_Form.server_date.value.split("-");
+
+      selected_month_no = getEquivalentMonthNumber(split_date_selected[1]);
+
+      passed_month_no = getEquivalentMonthNumber(split_passed_date[1]);
+
+      if(split_date_selected[0].length == 1)
+         split_date_selected[0] = "0"+split_date_selected[0];
+
+      if(split_passed_date[0].length == 1)
+          split_passed_date[0] = "0"+split_passed_date[0];
+
+      total_selected_concate = split_date_selected[2]+""+selected_month_no+""+split_date_selected[0];
+      total_passed_concate = split_passed_date[2]+""+passed_month_no+""+split_passed_date[0];
+
+      if(parseInt(total_passed_concate) > parseInt(total_selected_concate))
+      {
+      	//alert("End Date should not be less than or equal to startdate")
+      	alert("End Date should not be less than startdate")
+      	return false;
+      }
+   }
+   if(check_for == "Not_Greater_Than_CurrentDate")
+   {
+      split_date_selected = document.Calendar_Parent_Form.Date.value.split("-");
+      split_server_current_date = document.Calendar_Parent_Form.server_date.value.split("-");
+
+	  selected_month_no = getEquivalentMonthNumber(split_date_selected[1]);
+      server_month_no = getEquivalentMonthNumber(split_server_current_date[1]);
+
+      if(split_date_selected[0].length == 1)
+         split_date_selected[0] = "0"+split_date_selected[0];
+
+      if(split_server_current_date[0].length == 1)
+          split_server_current_date[0] = "0"+split_server_current_date[0];
+
+      total_selected_concate = split_date_selected[2]+""+selected_month_no+""+split_date_selected[0];
+      total_server_concate = split_server_current_date[2]+""+server_month_no+""+split_server_current_date[0];
+
+      if(parseInt(total_server_concate) < parseInt(total_selected_concate))
+      {
+      	alert("Start Date should be less than Current Date")
+      	return false;
+      }
+   }
+   else
+   {
+      return true;
+   }
+   return true;
+}
+
+
+
+ function Increment_Function()
+  {
+   var string_year = new String(Year);
+
+   if(string_year.charAt(0) == "0")
+   {
+   		if(string_year.charAt(1) == "0")
+   		{
+   			if(string_year.charAt(2) == "0")
+   			{
+   				Year = string_year.substring(3);
+   			}
+   			else
+   			{
+   				Year = string_year.substring(2);
+   			}
+   		}
+   		else
+   		{
+   			Year = string_year.substring(1);
+   		}
+   }
+
+   if(Year != "9999")
+   	   Year = parseInt(Year) + 1;
+
+   var year_as_string = new String(Year);
+
+
+   if(Year==9999)Year=9999;
+
+   if(year_as_string.length == 1)
+      Year = "000"+Year;
+   else if(year_as_string.length == 2)
+      Year = "00"+Year;
+   else if(year_as_string.length == 3)
+      Year = "0"+Year;
+
+   document.Calendar_Parent_Form.Year_Field.value=Year;
+   Month=document.Calendar_Parent_Form.D1.options.selectedIndex;
+   TotalDays_Fun(Month,Year);
+   Calendar_Parent_Fun(Year,Month);
+  }
+
+  function Decrement_Function()
+  {
+   	var decrement_year_as_string = new String(Year);
+
+   	if(decrement_year_as_string.charAt(0) == "0")
+   	{
+   		if(decrement_year_as_string.charAt(1) == "0")
+   		{
+   			if(decrement_year_as_string.charAt(2) == "0")
+   			{
+   				Year = decrement_year_as_string.substring(3);
+   			}
+   			else
+   			{
+   				Year = decrement_year_as_string.substring(2);
+   			}
+   		}
+   		else
+   		{
+   			Year = decrement_year_as_string.substring(1);
+   		}
+   	}
+
+ if(Year > 1)
+ {
+   	Year=parseInt(Year)-1;
+   	if(Year==1000)Year=1000;
+
+   	var year_as_string = new String(Year);
+
+   	if(year_as_string.length == 1)
+   	   Year = "000"+Year;
+   	else if(year_as_string.length == 2)
+   	   Year = "00"+Year;
+   	else if(year_as_string.length == 3)
+   	   Year = "0"+Year;
+
+   	document.Calendar_Parent_Form.Year_Field.value=Year;
+   	Month=document.Calendar_Parent_Form.D1.options.selectedIndex;
+   	TotalDays_Fun(Month,Year);
+   	Calendar_Parent_Fun(Year,Month);
+   }
+  }
+
+  function Key_Function()
+  {
+    var date_val=document.Calendar_Parent_Form.Year_Field.value;
+
+    if(date_val != "0000" & date_val != "000" & date_val != "00" & date_val != "0")
+    {
+    	if(date_val.length==4)
+    	{
+    	  if(!isNaN(date_val))
+    	  {
+    		Year=document.Calendar_Parent_Form.Year_Field.value;
+    		Month=document.Calendar_Parent_Form.D1.options.selectedIndex;
+    		TotalDays_Fun(Month,Year);
+    		Calendar_Parent_Fun(Year,Month);
+    	   }
+    	   else
+    	   {
+    	     alert("Invalid value");
+    	   }
+    	}
+    	else
+    	{
+    		Year=document.Calendar_Parent_Form.Year_Field.value;
+
+
+			if(Year.length == 1)
+			   Year = "000"+Year;
+			else if(Year.length == 2)
+			   Year = "00"+Year;
+			else if(Year.length == 3)
+			   Year = "0"+Year;
+    	}
+    }
+    else
+    {
+    	alert("Invalid entry");
+    	document.Calendar_Parent_Form.Year_Field.value = "";
+    	document.Calendar_Parent_Form.Year_Field.focus();
+    }
+  }
+
+  function Assign_Fun(field,mode)
+  {
+  	d.document.Calendar_Parent_Form.ParentField.value=field;
+  }
+
+
+function getEquivalentMonthNumber(month_name)
+{
+var s = 0;
+    switch(month_name)
+    {
+    	case "Jan":
+    	case "jan":
+    	{
+    		s= "01";
+    		break;
+    	}
+    	case "Feb":
+    	case "feb":
+    	{
+    	    s= "02";
+    	    break;
+    	}
+    	case "Mar":
+    	case "mar":
+    	{
+    	    s= "03";
+    	    break;
+    	}
+    	case "Apr":
+    	case "apr":
+    	{
+    	    s= "04";
+    	    break;
+    	}
+    	case "May":
+    	case "may":
+    	{
+    	    s= "05";
+    	    break;
+    	}
+    	case "Jun":
+    	case "jun":
+    	{
+    	    s= "06";
+    	    break;
+    	}
+    	case "Jul":
+    	case "jul":
+    	{
+    	    s= "07";
+    	    break;
+    	}
+    	case "Aug":
+    	case "aug":
+    	{
+    	    s= "08";
+    	    break;
+    	}
+    	case "Sep":
+    	case "sep":
+    	{
+    	    s= "09";
+    	    break;
+    	}
+    	case "Oct":
+    	case "oct":
+    	{
+    	    s= "10";
+    	    break;
+    	}
+    	case "Nov":
+    	case "nov":
+    	{
+    	    s= "11";
+    	    break;
+    	}
+    	case "Dec":
+    	case "dec":
+    	{
+    	    s= "12";
+    	    break;
+    	}
+    }
+    return s;
+}
+
+
+</script>
+</body>
+
+</html>
+

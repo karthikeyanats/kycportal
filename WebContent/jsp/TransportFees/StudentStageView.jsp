@@ -1,0 +1,524 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<%@page import="com.iGrandee.TransportFees.FeesSettingsAction"%>
+<%@page language="java" import="java.util.ResourceBundle"%>
+<%
+	
+	ResourceBundle bundle1  = ResourceBundle.getBundle("resources.ApplicationResources");
+
+%>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+<title>Know Your Child - <%=bundle1.getString("label.studentfeescollection.title")%> | Powered by i-Grandee</title>
+<link rel="stylesheet" type="text/css" href="<%=request.getContextPath()%>/jsp/kycpanel/style.css" />
+<script type="text/javascript" src="<%=request.getContextPath()%>/js/Validation.js"></script>
+<script type="text/javascript" src="<%=request.getContextPath()%>/js/Calendar/Calendar.js"></script>
+
+<script type="text/javascript">
+
+function addStagetostudent()
+{
+	var stageidfrmbpage = document.feescollectionform.existingstageid.value;
+	//alert("stageidfrmbpage===>>>"+stageidfrmbpage);
+	var studentstageallocationstatus = document.feescollectionform.studentstageallocationstatus.value;
+	
+	
+	//alert("studentstageallocationstatus===>>>"+studentstageallocationstatus);
+	if(check_ForParticularElements(document.feescollectionform.routename,"select",document.feescollectionform.stagename,"select"))
+	{
+		//alert(document.feescollectionform.stagename.options[document.feescollectionform.stagename.options.selectedIndex].value)
+		if(confirm("Do you want to change the stage?"))
+		{
+			
+	//	document.feescollectionform.action="StudentstageupdateSubmit.jsp?stageidname="+stageidfrmbpage;
+		document.feescollectionform.action="StudentstageupdateSubmit.jsp";
+		document.feescollectionform.submit();
+		}
+	}	
+}
+	
+	function selectFun()
+	{
+		//alert("Calling");
+		var stageid = document.feescollectionform.chkname.value;
+		//alert("stageid===>>"+stageid);
+	}
+		
+
+	function SelectRouteStage()
+	{
+		
+		document.feescollectionform.reqrollnumbertext.value = document.feescollectionform.reqrollnumbertext.value;
+		//alert("reqrollnumbertext===>>>"+document.feescollectionform.reqrollnumbertext.value);
+		
+		document.feescollectionform.routeid.value  = document.feescollectionform.routename.options[document.feescollectionform.routename.options.selectedIndex].value
+		//alert("routeid===>>>"+document.feescollectionform.routeid.value);
+		document.feescollectionform.action="StudentStageView.jsp";//?routeid="+document.feescollectionform.routeid.value+"&rollnumbertext="+document.feescollectionform.reqrollnumbertext.value;
+		document.feescollectionform.submit();
+	
+	}
+
+	function checkStatus()
+	{
+		//alert(document.feescollectionform.routenamename.options[document.ApplicantSearch.routename.options.selectedIndex].value);
+		
+		document.feescollectionform.reqrollnumbertext.value = document.feescollectionform.reqrollnumbertext.value;
+		//alert("reqrollnumbertext===>>>"+document.feescollectionform.reqrollnumbertext.value);
+		
+		document.feescollectionform.routeid.value  = document.feescollectionform.routename.options[document.feescollectionform.routename.options.selectedIndex].value
+		document.feescollectionform.transportstageid.value  = document.feescollectionform.stagename.options[document.feescollectionform.stagename.options.selectedIndex].value;
+		
+		document.ApplicantSearch.action="StudentStageView.jsp?routeid="+document.feescollectionform.routeid.value+"&reqrollnumbertext="+document.feescollectionform.reqrollnumbertext.value;
+		document.ApplicantSearch.submit();
+	
+	}
+	
+	function ChangeRoute()
+	{
+		document.feescollectionform.action="StudentStageView.jsp";
+		document.feescollectionform.submit();
+		
+	}
+	
+	
+	function CloseRoute()
+	{
+		if(confirm("Do you want to closed created stage?"))
+		{
+			document.feescollectionform.action="StudentStageCloseView.jsp";
+			document.feescollectionform.submit();
+		}
+	}
+
+</script>
+</head>
+<body>
+<div id="main_container">
+	<div class="header">
+<%@ include file="../include/userheader.jsp" %>
+   
+    </div>
+
+    <div class="main_content">
+
+<%@ include file="../include/header.jsp" %>
+
+    <div class="center_content">
+
+    <div class="left_content">
+
+    </div>
+
+    <div class="right_content">
+
+    <h2>Transport Fees/Student Stage Allocation</h2>
+<form name="feescollectionform" action="" method="post">
+
+  <%@ page import="java.util.ResourceBundle,java.util.ArrayList,java.util.HashMap,com.iGrandee.Common.DateTime,java.text.NumberFormat,java.util.Locale"%>
+<%
+String transportfeestypeid = null;
+
+String sessionid    = request.getParameter("sessionid");
+String studentapprovalid = request.getParameter("studentapprovalid");
+//out.println("studentapprovalid===>>>"+studentapprovalid);
+String studentstageallocationid = request.getParameter("studentstageallocationid");
+String studentstageallocationlogid = request.getParameter("studentstageallocationlogid");
+
+String routeid = request.getParameter("routeid");
+String transportrouteid  = null;
+
+String routename = request.getParameter("routeidname");
+//out.println("stageid===>>"+stagename);
+//out.println("routeid===>>"+routename);
+//out.println("studentstageallocationid===>>"+studentstageallocationid); 
+ 
+FeesSettingsAction  transportfeestype = new FeesSettingsAction();	
+ 
+	String sessionname = transportfeestype.getsessionname(sessionid);
+	
+	//out.println("sessionname===>>>"+sessionname);
+
+%>
+
+<%
+String existingstageid =null;
+ 		String routenamefrmbpage = request.getParameter("routeidname");
+ 	    //out.println("routename===>>>"+routename);
+ 	   String stagenamefrmbpage = request.getParameter("stageidname");
+ 	   String stageidfrmbpage = request.getParameter("stageid");
+ //	  out.println("stagenamefrmbpage===>>>"+stagenamefrmbpage);
+ 	//  out.println("stageidfrmbpage===>>>"+stageidfrmbpage);
+ 	 existingstageid = request.getParameter("existingstageid");
+ 	 
+%>
+
+<input type='hidden' name="stageidnames" 	value="<%=stageidfrmbpage%>"/>
+<input type='hidden' name="existingstageid" 	value="<%=existingstageid%>"/>
+     <%
+     
+     com.iGrandee.Fees.FeesSchedule  feesscheduleQuery = new com.iGrandee.Fees.FeesSchedule();  
+     
+    String reqrollnumbertext 				= null;
+   
+    String routeids = request.getParameter("routeid");  
+    //out.println("routeids===>>>"+routeids);
+    
+    reqrollnumbertext = request.getParameter("reqrollnumbertext");
+ //  out.println("reqrollnumbertext===>>>"+reqrollnumbertext);
+    String userid	 						= "";
+    String instituteid 						= null;
+    ArrayList studentfeescollectionList 	= null;
+    ArrayList feesScheduleList 				= null;
+   
+    String studentstandard 					= null;
+    String studentname 						= null;
+    String studentsection 					= null;
+    ArrayList loadscholarshipList  			= null; 
+    String today							= null;
+    String formattedCurrency 				= null;
+    String paidformattedCurrency 			= null;
+    ResourceBundle bundle 					= 	ResourceBundle.getBundle("resources.serversetup");
+	Locale localcurrency 					= new Locale(bundle.getString("language"), bundle.getString("code"));
+    String formattedCurrency1 				= null;
+     String paidformattedCurrency1 			= null;
+     String remformattedCurrency 			= null;
+     String remformattedCurrency1 			= null;
+     String colformattedCurrency 			= null;
+     String schformattedCurrency 			= null;
+     String schformattedCurrency1 			= null;
+     String studentstageallocationstatus = null;
+     String transportstageid = null; 
+     String transportstagename = null;
+     //String studentstageallocationstatus = request.getParameter("studentstageallocationstatus");
+     
+     float totalamount 						= 0f;
+     float totalPaidamount 					= 0f;
+     float temptotalamount 					= 0f;
+     float temptotalPaidamount 				= 0f;
+     
+     int count								= 0;
+
+     String extstageid = null;   
+     try
+     {
+    	  instituteid = (String)session.getAttribute("instituteid");
+    	//  out.println("instituteid"+instituteid);
+    	  reqrollnumbertext=request.getParameter("reqrollnumbertext");
+    	  //out.println("reqrollnumbertext===>>>"+reqrollnumbertext);
+    	  feesScheduleList = feesscheduleQuery.checkandLoadStudent(reqrollnumbertext,instituteid);
+    	  loadscholarshipList =  feesscheduleQuery.loadscholarship(instituteid);
+    	  today				= DateTime.showTime("calendar"); 
+    	  extstageid = request.getParameter("stageid");
+    	  
+    	
+    }catch(Exception e){
+    	
+    	e.printStackTrace();
+    	
+    }
+  
+    %>
+<table id="rounded-corner" border=0 summary="Department List" width="100%">
+    <thead>
+    	<tr>
+        	
+        	<th scope="col" class="rounded-company" width="90%"><%=bundle1.getString("label.studentfeescollection.StudentInformation")%></th>
+        	<th scope="col" class="rounded-q4" width="10%" ></th>
+            
+        </tr>
+    </thead>
+    <tfoot>
+    	<tr>
+        	<td class="rounded-foot-left"><em></em></td>
+        	<td class="rounded-foot-right">&nbsp;</td>
+       </tr>
+    </tfoot>
+     <tbody>
+   
+    <tr><td colspan=2><table id="rounded-corner1" width="100%">
+    	<tr>
+    	<td>
+	    	<table border="0" cellpadding="0" cellspacing="0" width="100%" align="center">
+	    	<%
+	    	String standardscheduleid     = null;
+	    	if(feesScheduleList!=null && feesScheduleList.size()>0)
+	    	{ int inc = 1;
+	//standardscheduleid, sectionscheduleid, studentallocationid, sectionname, standardname, groupname, boardname,
+	//mediumname, firstname, middlename, lastname, emailid, imagepath, prefix,studentapprovalid   		 		
+	    		HashMap feesScheduleListMap=(HashMap)feesScheduleList.get(0);
+	    		
+	    		standardscheduleid     = (String)feesScheduleListMap.get("standardscheduleid");
+	    		
+   		
+	    		String studentstandardname      = (String)feesScheduleListMap.get("standardname");
+	    		String sectionscheduleid     = (String)feesScheduleListMap.get("sectionscheduleid");
+	    		String studentsectionname      = (String)feesScheduleListMap.get("sectionname");
+	    		String studentallocationid     = (String)feesScheduleListMap.get("studentallocationid");
+	    		String studentgroupname      = (String)feesScheduleListMap.get("groupname");
+	    		String studentboardname     = (String)feesScheduleListMap.get("boardname");
+	    		String mediumname      = (String)feesScheduleListMap.get("mediumname");
+	    		String firstname      = (String)feesScheduleListMap.get("firstname");
+	    		String middlename      = (String)feesScheduleListMap.get("middlename");
+	    		String lastname      = (String)feesScheduleListMap.get("lastname");
+	    		String emailid      = (String)feesScheduleListMap.get("emailid");
+	    		String imagepath      = (String)feesScheduleListMap.get("imagepath");
+	    		String studprefix      = (String)feesScheduleListMap.get("prefix");
+	    		studentapprovalid      = (String)feesScheduleListMap.get("studentapprovalid");
+	    		
+	    		if(middlename==null || middlename.equals("") ||  middlename.equals("-"))
+	    		studentname = studprefix+""+firstname+""+lastname;
+	    		else
+	    			studentname = studprefix+""+firstname+""+middlename+""+lastname;
+	    		
+	    		if(studentgroupname ==null || studentgroupname.equals("-"))
+	    			studentstandardname = studentstandardname;
+	    		else
+	    			studentstandardname = studentstandardname+""+studentgroupname;
+	    		
+	    		userid					= (String)feesScheduleListMap.get("userid");
+	    		
+	    	%>
+	    	
+	    	<tr>
+	    		<td class=tablebold><%=bundle1.getString("label.studentfeescollection.StudentRollNumber")%></td>
+	    		<td class=tablebold>:</td><td><%=reqrollnumbertext %></td>
+	    		<td class=tablebold><%=bundle1.getString("label.studentfeescollection.StudentName")%></td>
+	    		<td class=tablebold>:</td><td><%=studentname %></td>
+	    		<td  rowspan=2 valign=top><img src='<%=request.getContextPath()%>/OpenDocument?r1=storagepath&r2=<%=imagepath %>' width=60 height=47></td>
+	    		</tr>
+	    	<tr>
+	    		<td class=tablebold><%=bundle1.getString("label.studentfeescollection.Standard")%></td>
+	    		<td class=tablebold>:</td><td><%=studentstandardname%></td>
+	    		<td class=tablebold><%=bundle1.getString("label.studentfeescollection.Section")%></td>
+	    		<td class=tablebold>:</td><td><%=studentsectionname%></td>
+	    		</tr>
+	    	<%
+		    }else
+		    	{
+			    	
+		    		out.print("<tr align='center' class='tablebold'><td colspan='2'><font color='red'>Data Not Found</font></td></tr>");
+			    	
+		    	}%>	 
+	       </tr>
+	       
+	       
+	       </table>
+	    </td>
+	    </tr>
+    </table>
+    <br>
+    </br>
+    </td></tr>
+    
+    </tbody>
+</table>
+
+<br><br><br>
+
+<table width="100%" align="center">
+	<tr>
+    		
+    		
+    		<td width="50%" align="left"> 
+    			<h4></>Existing Route Name: <%=routenamefrmbpage %> </h4>
+    		</td>
+    		<td width="50%" align="right"> 
+    			<h4></>Existing Stage Name: <%=stagenamefrmbpage %> </h4> 
+    		</td>
+    	</tr>
+</table> 
+
+
+ <table id="rounded-corner" border=0 summary="Examname List" width="100%" align="center">
+  <thead>
+    	
+        <tr>
+        	<th scope="col" class="rounded-company" colspan="3">Change Route</th>
+        	<th scope="col" class="rounded-q4"></th>
+        	
+        </tr>
+    </thead>
+ 	<tr>
+	       	<td class=tablebold>
+	       		Route:
+	       	</td>
+	       	<td>
+	       		<select name="routename" validate="Route Name" onchange="SelectRouteStage()">
+	       		<option value='' selected> - Select Route Name - </option>
+	       		 <%
+			     FeesSettingsAction  stageforamounallotment = new FeesSettingsAction();
+			     instituteid = null;
+			     ArrayList Loadstageforamounallotment = null;
+				     try
+				     {
+				    	  instituteid = (String)session.getValue("instituteid"); 
+				    	  //out.println("instituteid===>>"+instituteid); 
+				    	  Loadstageforamounallotment = stageforamounallotment.getchangerouteforstu(instituteid);
+
+					    	  ArrayList archivalDetails = new ArrayList();
+					    	  if(Loadstageforamounallotment!=null && Loadstageforamounallotment.size()>0)
+								{
+					    		 for (int i = 0, j = 1; i < Loadstageforamounallotment.size(); i++) {
+								
+									HashMap SessionListMap=(HashMap)Loadstageforamounallotment.get(i);
+									
+									transportrouteid        = (String)SessionListMap.get("transportrouteid");
+									routename   	= (String)SessionListMap.get("routename"); 
+		 
+								%>  
+								
+										<%
+										if(routeids != null && routeids.equals(transportrouteid))
+										{	
+										%>
+					       				<option value="<%=transportrouteid%>" selected><%=routename %></option>
+					       				<%
+										}else
+										{	
+										%>
+											<option value="<%=transportrouteid%>"><%=routename %></option>
+										<%	
+										}
+					       				%>
+					       		
+												 
+								<%					  
+								
+						    		 }					    		 
+					    		 		
+									}else
+									{
+										%>
+											<td>Data not found</td>
+										<%
+									}
+			     }catch(Exception e){}
+			          
+			     %>
+	       		
+	       		</select>
+	       		
+	       	</td>
+	       	
+	       	<td class=tablebold>
+	       		Stage:
+	       	</td>
+	       		<td>
+	       		<select name="stagename" validate="Stage Name">
+	       		<option value='' selected> - Select Stage Name - </option>
+	       		 <%
+			     FeesSettingsAction  stageallotment = new FeesSettingsAction();
+			     instituteid = null;
+			     ArrayList Loadstageallotment = null;
+				     try
+				     {
+				    	  instituteid = (String)session.getValue("instituteid"); 
+				    	  //out.println("instituteid===>>"+instituteid);
+//				    	  Loadstageallotment = stageallotment.getchangestageforamounallotment(stageid,routeids);
+				    	  Loadstageallotment = stageallotment.loadAllStagesforChangeRoute(studentapprovalid,routeids);
+
+					    	  ArrayList archivalDetails = new ArrayList(); 
+					    	  if(Loadstageallotment!=null && Loadstageallotment.size()>0)
+								{
+					    		 for (int i = 0, j = 1; i < Loadstageallotment.size(); i++) {
+								
+									HashMap SessionMap=(HashMap)Loadstageallotment.get(i);
+									
+									transportstageid        = (String)SessionMap.get("transportstageid");
+									transportstagename   	= (String)SessionMap.get("transportstagename"); 
+									studentstageallocationstatus = (String)SessionMap.get("studentstageallocationstatus");
+									//System.out.println("studentstageallocationstatus===>>>"+studentstageallocationstatus);		 
+									
+				%>   
+							 
+							<%-- <% 
+							if(studentstageallocationstatus.equals("D") && studentstageallocationstatus.equals("C"))
+							{	
+							%>
+	       					<option value="<%=transportstageid%>"><%=transportstagename %></option>
+	       					<%
+							}else
+							{
+							%>
+								<option value="<%=transportstageid%>"><%=transportstagename %></option>
+							<%	
+							}
+	       					%> --%>
+	       				<%
+	       				
+	       				if(studentstageallocationstatus ==null)
+							studentstageallocationstatus ="-";
+	       				
+	       				if(studentstageallocationstatus.equals("A"))
+	       				{
+	       				if(!existingstageid.equals(transportstageid)){
+	       				%>
+	       					<option value="<%=transportstageid%>"><%=transportstagename %></option>
+	       					<%}}else{ %>
+	       					<option value="<%=transportstageid%>"><%=transportstagename %></option><%} %>
+	       				 
+	       		
+				<%					  
+								
+						    		 }					    		 
+					    		 		
+									}
+			     }catch(Exception e){}
+			          
+			     %>
+	       		
+	       		
+	       		</select>
+	       		
+	       		 
+	       	</td>	       	
+	       </tr>  
+	       
+	       <tr>
+	             
+	       
+	       	<td align="right" colspan="4">
+	       	
+	       			<a href="<%=request.getContextPath() %>/jsp/TransportFees/StageFeesStudentinfo.jsp?rollnumbertext=<%=reqrollnumbertext %>" class="bt_blue"><span class="bt_blue_lft"></span><strong>Back</strong><span class="bt_blue_r"></span></a>
+	       	
+	       			       		
+	       		<a href="#" stageidfrmbpage=<%=existingstageid %> studentstageallocationstatus=<%=studentstageallocationstatus %> onClick="addStagetostudent(this)" class="bt_green"><span class="bt_green_lft"></span><strong>Update</strong><span class="bt_green_r"></span></a>
+	       			       		
+	       	</td>
+	       
+	       </tr>
+	         
+</table> 
+
+
+
+	<input type='hidden' name="reqrollnumbertext" 	value="<%=reqrollnumbertext%>"/>
+	<input type='hidden' name="stageid" 	value="<%=transportstageid %>"/>
+	<input type='hidden' name="routeid" 	value="<%=transportrouteid%>"/> 
+	
+	<input type='hidden' name="routeidname" 	value="<%=routenamefrmbpage%>"/>
+	<input type='hidden' name="stageidname" 	value="<%=stagenamefrmbpage%>"/>   
+	<input type="hidden" name="sessionid" value=<%=sessionid %> />
+	<input type="hidden" name="studentapprovalid" value=<%=studentapprovalid %> />
+	<input type="hidden" name="studentstageallocationstatus" value='<%=studentstageallocationstatus %>' />
+	<input type="hidden" name="transportfeestypeid" value='' />
+	<input type='hidden' name="studentstageallocationid" 	value="<%=studentstageallocationid%>"/>
+	<input type='hidden' name="studentstageallocationlogid" 	value="<%=studentstageallocationlogid%>"/>	
+	<input type='hidden' name="transportrouteid" 	value="<%=transportrouteid%>"/>
+		 
+</form>
+     </div><!-- end of right content-->
+
+
+  </div>   <!--end of center content -->
+
+
+    <div class="clear"></div>
+    </div> <!--end of main content-->
+
+<%@ include file="../include/footer.jsp" %>
+    
+
+</div>
+</body>
+</html>

@@ -1,0 +1,403 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>:::Welcome to Lalitha-Lal Bahadur Shastri Public
+	School:::</title>
+
+
+<link rel="stylesheet"
+	href="<%=request.getContextPath()%>/css/bootstrap-responsive.css">
+
+<link rel="stylesheet"
+	href="<%=request.getContextPath()%>/css/bootstrap.css">
+
+<link rel="stylesheet"
+	href="<%=request.getContextPath()%>/css/LLBS1.css">
+
+<link rel="stylesheet"
+	href="<%=request.getContextPath()%>/css/flexslider.css">
+
+<link rel="stylesheet"
+	href="<%=request.getContextPath()%>/css/font-awesome.min.css">
+
+
+
+
+<!-- <link rel="stylesheet" href="<%=request.getContextPath()%>/css/font-awesome-ie7.css">
+<link rel="stylesheet" href="<%=request.getContextPath()%>/css/font-awesome-ie7.min.css">
+<link rel="stylesheet" href="<%=request.getContextPath()%>/css/font-awesome.css"> -->
+
+
+
+
+<script type="text/javascript"
+	src="<%=request.getContextPath()%>/js/jquery-1.8.3.js"></script>
+<script type="text/javascript"
+	src="<%=request.getContextPath()%>/js/jquery.ui.totop.js"></script>
+<script type="text/javascript"
+	src="<%=request.getContextPath()%>/js/bootstrap.js"></script>
+<script type="text/javascript"
+	src="<%=request.getContextPath()%>/js/jquery.flexslider-min.js"></script>
+<script type="text/javascript"
+	src="<%=request.getContextPath()%>/js/jquery.flexslider.js"></script>
+	
+
+
+
+
+<script type="text/javascript">
+// Popup window code
+function newPopup(url) {
+	popupWindow = window.open(
+		url,'popUpWindow','height=700,width=800,left=10,top=10,resizable=yes,scrollbars=yes,toolbar=yes,menubar=no,location=no,directories=no,status=yes')
+}
+</script>
+
+
+
+
+
+</head>
+<body class="back">
+
+	<header>
+		<div class="container">
+
+			<div class="span12">	
+					<div class="span2 pull-right">
+							<ul class="nav pull-right">						
+								<li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Login | <strong class="caret"></strong></a>
+									
+									<div class="dropdown-menu">
+										<form method="post" name="loginForm">
+											<input type="text" name="username" id="login_name" placeholder="UserName"> 
+												<input type="password" name="password" id="login_password" placeholder="Password"> 
+												
+												<input class="btn btn-primary loginform" type="submit" name="commit" value="Login" onclick="checkLogin()" style="width:65px; ">												
+												  <input type="radio" name="userstate" value="parent" id="" size="54" onkeydown="if(event.keyCode==13) return checkLogin();"> Parent
+                       							  <input type="radio" name="userstate" value="others" id="" checked="" size="54" onkeydown="if(event.keyCode==13) return checkLogin();"> Others
+                       							  <div class="btn-group" data-toggle="buttons-radio">
+                       							   										 
+												</div>
+                       							  <a href="<%=request.getContextPath()%>/forgotpassword.jsp"><u>Forgot Your Password?</u></a>
+										</form>											
+									</div>
+									</li>
+								</ul>
+						</div>
+					
+					
+				</div>
+
+			<div class="row-fluid">
+				<div class="span12"></div>
+			</div>
+
+
+			<div class="navbar ">
+
+				<div class="row-fluid">
+					<div class="span12">
+
+						<div class="span6 letter">
+
+							<a class="brand" href=""> <img
+								src="<%=request.getContextPath()%>/image/LLBS/newlogo.png"
+								width="90" height="90" alt="optional log"></a> <span
+								class="logo"><strong>Lalitha-Lal Bahadur Shastri
+									Public School</strong>
+						</div>
+
+
+						<!-- Header -->
+						<div class="container">
+							<div class="header row-fluid">
+								<div class="span12">
+									<div class="navbar">
+										<div class="navbar-inner">
+											<a class="btn btn-navbar" data-toggle="collapse"
+												data-target=".nav-collapse"> <span class="icon-bar"></span>
+												<span class="icon-bar"></span> <span class="icon-bar"></span>
+											</a>
+					  							<div class="nav-collapse collapse">
+					                               <ul class="nav pull-right">
+														<li id="homelink" ><a href="index_LLBS.jsp"><i class="icon-home"></i>Home</a></li>
+														<li id="aboutuslink"><a href="#"><i class="icon-comments"></i>About Us</a></li>
+														<li id="gallerylink"><a href="#"><i class="icon-camera"></i>Gallery</a></li>
+														<li id="academiclink"><a href="#"><i class="icon-tasks"></i>Academics</a></li>	
+														<li id="contactuslink" class="current-page"><a href="Contact_LLBS.jsp"><i class="icon-envelope-alt "></i>Contact Us</a></li>
+													</ul>
+					                            </div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+
+
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+
+
+	</header>
+
+	<!-- slide show div start  -->
+	<div class="container">
+
+		<section id="carousel">
+			<div id="main_slider" class="slider">
+				<div id="myCarousel" class="carousel slide user">
+					<div class="carousel-inner">
+
+
+						<!-- slide1 div start  -->
+
+					<!-- LLBS02 div start  -->
+				
+					<div class="item active image1">
+						<p class="flex-caption" style="margin-left: 575px;">Correspandent Visit on the occasion of 20th sport meet-2012</p>
+						<img src="<%=request.getContextPath()%>/image/LLBS/LLBS03.png" alt="" style="margin-left: 155px;">
+						
+						<div class="container">	
+											
+						</div>
+					</div>
+					
+				<!-- LLBS02 div end  -->					
+					
+					
+					
+					<!-- LLBS02 div start  -->					
+					
+					<div class="item image1">
+					<p class="flex-caption" style="margin-left: 691px;">Students skating at 20th sport meet - 2012</p>
+						<img src="<%=request.getContextPath()%>/image/LLBS/LLBS02.png" alt="" style="margin-left: 155px;">
+						<div class="container">
+							</div>
+					</div>
+					
+					<!-- LLBS02 div end  -->
+					
+				
+					
+					<!--LLBS04 div end  -->
+					
+					<div class="item image1">
+					<p class="flex-caption" style="margin-left: 734px;">Received 2012 Best students award </p>
+						<img src="<%=request.getContextPath()%>/image/LLBS/LLBS04.png" alt="" style="margin-left: 155px;"/>
+						</div>
+					
+					<!-- LLBS04 div end  -->
+					
+					
+					
+					
+				<!-- LLBS05 div start  -->
+					
+					<div class="item image1">
+					<p class="flex-caption" style="margin-left: 748px;">Play school in our school Campus </p>
+						<img src="<%=request.getContextPath()%>/image/LLBS/LLBS05.png" alt="" style="margin-left: 155px;"/>
+						</div>
+					
+			   <!-- LLBS05 div end  -->
+					
+					
+					
+
+					</div>
+					<a class="left carousel-control" href="#myCarousel"
+						data-slide="prev">&lsaquo;</a> <a class="right carousel-control"
+						href="#myCarousel" data-slide="next">&rsaquo;</a>
+
+
+					<ol class="flex-control-nav flex-control-paging">
+
+
+					</ol>
+					<!-- <ul class="flex-direction-nav">
+					<li><a class="flex-prev" href="#">Previous</a></li>
+					<li><a class="flex-next" href="#">Next</a></li>
+				</ul> -->
+
+				</div>
+			</div>
+		</section>
+	</div>
+	<!-- slide show div end  -->
+
+
+
+
+
+
+
+
+
+
+	<div class="contain1">
+		<div class="pull-center">
+			<div class="container">
+				<div class="row-fluid">
+
+
+					<!-- Page Title div start -->
+
+
+					<div class="page-title">
+						<div class="container">
+							<div class="row">
+								<div class="span12">
+									<hr>
+									
+									<h4>Contact Us</h4>
+									
+									<hr>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!--Page Title div end  -->
+
+					<!-- Contact Us -->
+					<div class="contact-us container">
+						<div class="row-fluid">
+						<div class="span12">
+						
+						<div class="span7">	
+						
+						
+							<div class="contact-address">
+								<h4>We Are Here</h4>
+								
+								<!-- map div start -->
+								<div class="map">
+									<iframe src="http://www.map-generator.org/9bfeef17-f05a-4694-8905-ecd268806417/iframe-map.aspx"	scrolling="no" height="240px" width="610px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+									<br><small><a href="http://www.map-generator.org/9bfeef17-f05a-4694-8905-ecd268806417/large-map.aspx" target="_blank">Open large map</a></small>
+								</div>
+								<!-- map div end -->
+
+
+								
+								
+								<!-- Footer address div end -->
+
+
+							</div>	
+						
+						</div>
+						<div class="span4">
+						<div class="footcolor">
+						<h4>Address</h4>
+											<address>
+	
+												<strong>Lalitha-Lal Bahadur Shastri Public School(CBSE)</strong><br> 
+												
+												
+												<abbr title="address"> 
+												
+												<i	class="icon-pushpin i-org"></i></abbr>&nbsp; Sadayampatti Village, Sattur Taluk- 626 203, <br> 
+												Virudhunagar Dist,<br>Eastern Road side of SRNM College in N.H. Service Road<br>
+												Tamilnadu,India. <br> 
+												<abbr title="phone"> <i class="icon-phone i-org"></i></abbr>&nbsp; +91 99527 87222, +91 94422 72744<br>
+												
+												<abbr title="Email"><i class="icon-envelope i-org"></i></abbr>
+												
+												<a href="#">&nbsp;lpschool2010@gmail.com</a><br> 
+												<a href="http://www.drradhakrishnanvidhyalaya.com/index_LLBS.jsp" target="_blank"> URL:- www.llsps.com</a>
+											</address>
+										</div>
+						
+						</div>
+						
+						
+						</div>
+
+						</div>
+					</div>
+
+					<!-- Page Title div end -->
+
+
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<!-- footer div start -->
+
+	<footer>
+
+		<div class="row-fluid">
+			<div class="span12 footer_teaser">
+				<p style="text-align: center; margin-top: 7px;">
+					<a href="http://www.igrandee.com/" target="_blank">Powered by www.igrandee.com</a>
+				</p>
+			</div>
+		</div>
+
+	</footer>
+
+
+
+
+
+	<a href="#" id="toTop" style="display: inline;"><span
+		id="toTopHover" style="opacity: 1;"></span>To Top</a>
+
+
+
+	<script>
+	$(window).load(function() { 
+		$("#portfolio .content-img1 > a ").css('visibility','hidden');
+		$(".content-img1").mouseover(function() { $("#portfolio .content-img1 > a ").css('visibility','visible'); });
+		 $(".content-img1").mouseout(function() { $("#portfolio .content-img1 > a ").css('visibility','hidden'); });
+		 
+		
+	});
+	
+	</script>
+	<script>
+	$(window).load(function() { 
+		$("#portfolio .content-img2 > a ").css('visibility','hidden');
+		$(".content-img2").mouseover(function() { $("#portfolio .content-img2 > a ").css('visibility','visible'); });
+		 $(".content-img2").mouseout(function() { $("#portfolio .content-img2 > a ").css('visibility','hidden'); });
+		 
+		
+	});
+	</script>
+	<script>
+	$(window).load(function() { 
+		$("#portfolio .content-img3 > a ").css('visibility','hidden');
+		$(".content-img3").mouseover(function() { $("#portfolio .content-img3 > a ").css('visibility','visible'); });
+		 $(".content-img3").mouseout(function() { $("#portfolio .content-img3 > a ").css('visibility','hidden'); });
+		 
+		
+	});
+	
+	</script>
+
+	<script>
+	$(window).load(function() { 
+		$("#portfolio .content-img4 > a ").css('visibility','hidden');
+		$(".content-img4").mouseover(function() { $("#portfolio .content-img4 > a ").css('visibility','visible'); });
+		 $(".content-img4").mouseout(function() { $("#portfolio .content-img4 > a ").css('visibility','hidden'); });
+		 
+		
+	});
+	
+	</script>
+
+
+</body>
+</html>

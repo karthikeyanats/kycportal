@@ -1,0 +1,4959 @@
+<?xml version="1.0"?>
+<location>
+    <country id="1" name="Afghanistan">
+	 <state name="Badakhshan"></state>
+	 <state name="Badghis"></state>
+	 <state name="Baghlan"></state>
+	 <state name="Balkh"></state>
+	 <state name="Bamian"></state>
+	 <state name="Farah"></state>
+	 <state name="Faryab"></state>
+	 <state name="Ghazni"></state>
+	 <state name="Ghowr"></state>
+	 <state name="Helmand"></state>
+	 <state name="Herat"></state>
+	 <state name="Jowzjan"></state>
+	 <state name="Kabol"></state>
+	 <state name="Kandahar"></state>
+	 <state name="Kapisa"></state>
+	 <state name="Konar"></state>
+	 <state name="Kondoz"></state>
+	 <state name="Laghman"></state>
+	 <state name="Lowgar"></state>
+	 <state name="Nangarhar"></state>
+	 <state name="Nimruz"></state>
+	 <state name="Oruzgan"></state>
+	 <state name="Paktia"></state>
+	 <state name="Paktika"></state>
+	 <state name="Parvan"></state>
+	 <state name="Samangan"></state>
+	 <state name="Sar-e Pol"></state>
+	 <state name="Takhar"></state>
+	 <state name="Vardak"></state>
+	 <state name="Zabol"></state>
+    </country>
+    <country id="2" name="Albania">
+	 <state name="Berat"></state>
+	 <state name="Bulqize"></state>
+	 <state name="Delvine"></state>
+	 <state name="Devoll (Bilisht)"></state>
+	 <state name="Diber (Peshkopi)"></state>
+	 <state name="Durres"></state>
+	 <state name="Elbasan"></state>
+	 <state name="Fier"></state>
+	 <state name="Gjirokaster"></state>
+	 <state name="Gramsh"></state>
+	 <state name="Has (Krume)"></state>
+	 <state name="Kavaje"></state>
+	 <state name="Kolonje (Erseke)"></state>
+	 <state name="Korce"></state>
+	 <state name="Kruje"></state>
+	 <state name="Kucove"></state>
+	 <state name="Kukes"></state>
+	 <state name="Kurbin"></state>
+	 <state name="Lezhe"></state>
+	 <state name="Librazhd"></state>
+	 <state name="Lushnje"></state>
+	 <state name="Malesi e Madhe (Koplik)"></state>
+	 <state name="Mallakaster (Ballsh)"></state>
+	 <state name="Mat (Burrel)"></state>
+	 <state name="Mirdite (Rreshen)"></state>
+	 <state name="Peqin"></state>
+	 <state name="Permet"></state>
+	 <state name="Pogradec"></state>
+	 <state name="Puke"></state>
+	 <state name="Sarande"></state>
+	 <state name="Shkoder"></state>
+	 <state name="Skrapar (Corovode)"></state>
+	 <state name="Tepelene"></state>
+	 <state name="Tirane (Tirana)"></state>
+	 <state name="Tirane (Tirana)"></state>
+	 <state name="Tropoje (Bajram Curri)"></state>
+	 <state name="Vlore"></state>
+    </country>
+    <country id="3" name="Algeria">
+	 <state name="Adrar"></state>
+	 <state name="Ain Defla"></state>
+	 <state name="Ain Temouchent"></state>
+	 <state name="Alger"></state>
+	 <state name="Annaba"></state>
+	 <state name="Batna"></state>
+	 <state name="Bechar"></state>
+	 <state name="Bejaia"></state>
+	 <state name="Biskra"></state>
+	 <state name="Blida"></state>
+	 <state name="Bordj Bou Arreridj"></state>
+	 <state name="Bouira"></state>
+	 <state name="Boumerdes"></state>
+	 <state name="Chlef"></state>
+	 <state name="Constantine"></state>
+	 <state name="Djelfa"></state>
+	 <state name="El Bayadh"></state>
+	 <state name="El Oued"></state>
+	 <state name="El Tarf"></state>
+	 <state name="Ghardaia"></state>
+	 <state name="Guelma"></state>
+	 <state name="Illizi"></state>
+	 <state name="Jijel"></state>
+	 <state name="Khenchela"></state>
+	 <state name="Laghouat"></state>
+	 <state name="M'Sila"></state>
+	 <state name="Mascara"></state>
+	 <state name="Medea"></state>
+	 <state name="Mila"></state>
+	 <state name="Mostaganem"></state>
+	 <state name="Naama"></state>
+	 <state name="Oran"></state>
+	 <state name="Ouargla"></state>
+	 <state name="Oum el Bouaghi"></state>
+	 <state name="Relizane"></state>
+	 <state name="Saida"></state>
+	 <state name="Setif"></state>
+	 <state name="Sidi Bel Abbes"></state>
+	 <state name="Skikda"></state>
+	 <state name="Souk Ahras"></state>
+	 <state name="Tamanghasset"></state>
+	 <state name="Tebessa"></state>
+	 <state name="Tiaret"></state>
+	 <state name="Tindouf"></state>
+	 <state name="Tipaza"></state>
+	 <state name="Tissemsilt"></state>
+	 <state name="Tizi Ouzou"></state>
+	 <state name="Tlemcen"></state>
+    </country>
+    <country id="4" name="American Samoa">
+	 <state name="Eastern"></state>
+	 <state name="Manu'a"></state>
+	 <state name="Rose Island"></state>
+	 <state name="Swains Island"></state>
+	 <state name="Western"></state>
+    </country>
+    <country id="5" name="Angola">
+	 <state name="Andorra la Vella"></state>
+	 <state name="Bengo"></state>
+	 <state name="Benguela"></state>
+	 <state name="Bie"></state>
+	 <state name="Cabinda"></state>
+	 <state name="Canillo"></state>
+	 <state name="Cuando Cubango"></state>
+	 <state name="Cuanza Norte"></state>
+	 <state name="Cuanza Sul"></state>
+	 <state name="Cunene"></state>
+	 <state name="Encamp"></state>
+	 <state name="Escaldes-Engordany"></state>
+	 <state name="Huambo"></state>
+	 <state name="Huila"></state>
+	 <state name="La Massana"></state>
+	 <state name="Luanda"></state>
+	 <state name="Lunda Norte"></state>
+	 <state name="Lunda Sul"></state>
+	 <state name="Malanje"></state>
+	 <state name="Moxico"></state>
+	 <state name="Namibe"></state>
+	 <state name="Ordino"></state>
+	 <state name="Sant Julia de Loria"></state>
+	 <state name="Uige"></state>
+	 <state name="Zaire"></state>
+    </country>
+    <country id="6" name="Anguilla">
+	 <state name="Anguilla"></state>
+    </country>
+    <country id="7" name="Antartica">
+	 <state name="Antartica"></state>
+    </country>
+    <country id="8" name="Antigua and Barbuda">
+	 <state name="Barbuda"></state>
+	 <state name="Redonda"></state>
+	 <state name="Saint George"></state>
+	 <state name="Saint John"></state>
+	 <state name="Saint Mary"></state>
+	 <state name="Saint Paul"></state>
+	 <state name="Saint Peter"></state>
+	 <state name="Saint Philip"></state>
+    </country>
+    <country id="9" name="Argentina">
+	 <state name="Antartica e Islas del Atlantico Sur"></state>
+	 <state name="Buenos Aires"></state>
+	 <state name="Buenos Aires Capital Federal"></state>
+	 <state name="Catamarca"></state>
+	 <state name="Chaco"></state>
+	 <state name="Chubut"></state>
+	 <state name="Cordoba"></state>
+	 <state name="Corrientes"></state>
+	 <state name="Entre Rios"></state>
+	 <state name="Formosa"></state>
+	 <state name="Jujuy"></state>
+	 <state name="La Pampa"></state>
+	 <state name="La Rioja"></state>
+	 <state name="Mendoza"></state>
+	 <state name="Misiones"></state>
+	 <state name="Neuquen"></state>
+	 <state name="Rio Negro"></state>
+	 <state name="Salta"></state>
+	 <state name="San Juan"></state>
+	 <state name="San Luis"></state>
+	 <state name="Santa Cruz"></state>
+	 <state name="Santa Fe"></state>
+	 <state name="Santiago del Estero"></state>
+	 <state name="Tierra del Fuego"></state>
+	 <state name="Tucuman"></state>
+    </country>
+    <country id="10" name="Armenia">
+	 <state name="Aragatsotn"></state>
+	 <state name="Ararat"></state>
+	 <state name="Armavir"></state>
+	 <state name="Geghark'unik'"></state>
+	 <state name="Kotayk'"></state>
+	 <state name="Lorri"></state>
+	 <state name="Shirak"></state>
+	 <state name="Syunik'"></state>
+	 <state name="Tavush"></state>
+	 <state name="Vayots' Dzor"></state>
+	 <state name="Yerevan"></state>
+    </country>
+    <country id="11" name="Aruba">
+	 <state name="Aruba"></state>
+    </country>
+    <country id="12" name="Ashmore and Cartier Island">
+	 <state name="Ashmore and Cartier Island"></state>
+    </country>
+    <country id="13" name="Australia">
+	 <state name="Australian Capital Territory"></state>
+	 <state name="New South Wales"></state>
+	 <state name="Northern Territory"></state>
+	 <state name="Queensland"></state>
+	 <state name="South Australia"></state>
+	 <state name="Tasmania"></state>
+	 <state name="Victoria"></state>
+	 <state name="Western Australia"></state>
+    </country>
+    <country id="14" name="Austria">
+	 <state name="Burgenland"></state>
+	 <state name="Kaernten"></state>
+	 <state name="Niederoesterreich"></state>
+	 <state name="Oberoesterreich"></state>
+	 <state name="Salzburg"></state>
+	 <state name="Steiermark"></state>
+	 <state name="Tirol"></state>
+	 <state name="Vorarlberg"></state>
+	 <state name="Wien"></state>
+    </country>
+    <country id="15" name="Azerbaijan">
+	 <state name="Abseron Rayonu"></state>
+	 <state name="Agcabadi Rayonu"></state>
+	 <state name="Agdam Rayonu"></state>
+	 <state name="Agdas Rayonu"></state>
+	 <state name="Agstafa Rayonu"></state>
+	 <state name="Agsu Rayonu"></state>
+	 <state name="Ali Bayramli Sahari"></state>
+	 <state name="Astara Rayonu"></state>
+	 <state name="Baki Sahari"></state>
+	 <state name="Balakan Rayonu"></state>
+	 <state name="Barda Rayonu"></state>
+	 <state name="Beylaqan Rayonu"></state>
+	 <state name="Bilasuvar Rayonu"></state>
+	 <state name="Cabrayil Rayonu"></state>
+	 <state name="Calilabad Rayonu"></state>
+	 <state name="Daskasan Rayonu"></state>
+	 <state name="Davaci Rayonu"></state>
+	 <state name="Fuzuli Rayonu"></state>
+	 <state name="Gadabay Rayonu"></state>
+	 <state name="Ganca Sahari"></state>
+	 <state name="Goranboy Rayonu"></state>
+	 <state name="Goycay Rayonu"></state>
+	 <state name="Haciqabul Rayonu"></state>
+	 <state name="Imisli Rayonu"></state>
+	 <state name="Ismayilli Rayonu"></state>
+	 <state name="Kalbacar Rayonu"></state>
+	 <state name="Kurdamir Rayonu"></state>
+	 <state name="Lacin Rayonu"></state>
+	 <state name="Lankaran Rayonu"></state>
+	 <state name="Lankaran Sahari"></state>
+	 <state name="Lerik Rayonu"></state>
+	 <state name="Masalli Rayonu"></state>
+	 <state name="Mingacevir Sahari"></state>
+	 <state name="Naftalan Sahari"></state>
+	 <state name="Naxcivan Muxtar Respublikasi"></state>
+	 <state name="Neftcala Rayonu"></state>
+	 <state name="Oguz Rayonu"></state>
+	 <state name="Qabala Rayonu"></state>
+	 <state name="Qax Rayonu"></state>
+	 <state name="Qazax Rayonu"></state>
+	 <state name="Qobustan Rayonu"></state>
+	 <state name="Quba Rayonu"></state>
+	 <state name="Qubadli Rayonu"></state>
+	 <state name="Qusar Rayonu"></state>
+	 <state name="Saatli Rayonu"></state>
+	 <state name="Sabirabad Rayonu"></state>
+	 <state name="Saki Rayonu"></state>
+	 <state name="Saki Sahari"></state>
+	 <state name="Salyan Rayonu"></state>
+	 <state name="Samaxi Rayonu"></state>
+	 <state name="Samkir Rayonu"></state>
+	 <state name="Samux Rayonu"></state>
+	 <state name="Siyazan Rayonu"></state>
+	 <state name="Sumqayit Sahari"></state>
+	 <state name="Susa Rayonu"></state>
+	 <state name="Susa Sahari"></state>
+	 <state name="Tartar Rayonu"></state>
+	 <state name="Tovuz Rayonu"></state>
+	 <state name="Ucar Rayonu"></state>
+	 <state name="Xacmaz Rayonu"></state>
+	 <state name="Xankandi Sahari"></state>
+	 <state name="Xanlar Rayonu"></state>
+	 <state name="Xizi Rayonu"></state>
+	 <state name="Xocali Rayonu"></state>
+	 <state name="Xocavand Rayonu"></state>
+	 <state name="Yardimli Rayonu"></state>
+	 <state name="Yevlax Rayonu"></state>
+	 <state name="Yevlax Sahari"></state>
+	 <state name="Zangilan Rayonu"></state>
+	 <state name="Zaqatala Rayonu"></state>
+	 <state name="Zardab Rayonu"></state>
+    </country>
+    <country id="16" name="Bahamas">
+	 <state name="Acklins and Crooked Islands"></state>
+	 <state name="Bimini"></state>
+	 <state name="Cat Island"></state>
+	 <state name="Exuma"></state>
+	 <state name="Freeport"></state>
+	 <state name="Fresh Creek"></state>
+	 <state name="Governor's Harbour"></state>
+	 <state name="Green Turtle Cay"></state>
+	 <state name="Harbour Island"></state>
+	 <state name="High Rock"></state>
+	 <state name="Inagua"></state>
+	 <state name="Kemps Bay"></state>
+	 <state name="Long Island"></state>
+	 <state name="Marsh Harbour"></state>
+	 <state name="Mayaguana"></state>
+	 <state name="New Providence"></state>
+	 <state name="Nicholls Town and Berry Islands"></state>
+	 <state name="Ragged Island"></state>
+	 <state name="Rock Sound"></state>
+	 <state name="San Salvador and Rum Cay"></state>
+	 <state name="Sandy Point"></state>
+    </country>
+    <country id="17" name="Bahrain">
+	 <state name="Al Hadd"></state>
+	 <state name="Al Manamah"></state>
+	 <state name="Al Mintaqah al Gharbiyah"></state>
+	 <state name="Al Mintaqah al Wusta"></state>
+	 <state name="Al Mintaqah ash Shamaliyah"></state>
+	 <state name="Al Muharraq"></state>
+	 <state name="Ar Rifa' wa al Mintaqah al Janubiyah"></state>
+	 <state name="Jidd Hafs"></state>
+	 <state name="Juzur Hawar"></state>
+	 <state name="Madinat 'Isa"></state>
+	 <state name="Madinat Hamad"></state>
+	 <state name="Sitrah"></state>
+    </country>
+    <country id="18" name="Bangladesh">
+	 <state name="Barguna"></state>
+	 <state name="Barisal"></state>
+	 <state name="Bhola"></state>
+	 <state name="Jhalokati"></state>
+	 <state name="Patuakhali"></state>
+	 <state name="Pirojpur"></state>
+	 <state name="Bandarban"></state>
+	 <state name="Brahmanbaria"></state>
+	 <state name="Chandpur"></state>
+	 <state name="Chittagong"></state>
+	 <state name="Comilla"></state>
+	 <state name="Cox's Bazar"></state>
+	 <state name="Feni"></state>
+	 <state name="Khagrachari"></state>
+	 <state name="Lakshmipur"></state>
+	 <state name="Noakhali"></state>
+	 <state name="Rangamati"></state>
+	 <state name="Dhaka"></state>
+	 <state name="Faridpur"></state>
+	 <state name="Gazipur"></state>
+	 <state name="Gopalganj"></state>
+	 <state name="Jamalpur"></state>
+	 <state name="Kishoreganj"></state>
+	 <state name="Madaripur"></state>
+	 <state name="Manikganj"></state>
+	 <state name="Munshiganj"></state>
+	 <state name="Mymensingh"></state>
+	 <state name="Narayanganj"></state>
+	 <state name="Narsingdi"></state>
+	 <state name="Netrokona"></state>
+	 <state name="Rajbari"></state>
+	 <state name="Shariatpur"></state>
+	 <state name="Sherpur"></state>
+	 <state name="Tangail"></state>
+	 <state name="Bagerhat"></state>
+	 <state name="Chuadanga"></state>
+	 <state name="Jessore"></state>
+	 <state name="Jhenaidah"></state>
+	 <state name="Khulna"></state>
+	 <state name="Kushtia"></state>
+	 <state name="Magura"></state>
+	 <state name="Meherpur"></state>
+	 <state name="Narail"></state>
+	 <state name="Satkhira"></state>
+	 <state name="Bogra"></state>
+	 <state name="Dinajpur"></state>
+	 <state name="Gaibandha"></state>
+	 <state name="Jaipurhat"></state>
+	 <state name="Kurigram"></state>
+	 <state name="Lalmonirhat"></state>
+	 <state name="Naogaon"></state>
+	 <state name="Natore"></state>
+	 <state name="Nawabganj"></state>
+	 <state name="Nilphamari"></state>
+	 <state name="Pabna"></state>
+	 <state name="Panchagarh"></state>
+	 <state name="Rajshahi"></state>
+	 <state name="Rangpur"></state>
+	 <state name="Sirajganj"></state>
+	 <state name="Thakurgaon"></state>
+	 <state name="Habiganj"></state>
+	 <state name="Maulvi bazar"></state>
+	 <state name="Sunamganj"></state>
+	 <state name="Sylhet"></state>
+    </country>
+    <country id="19" name="Barbados">
+	 <state name="Bridgetown"></state>
+	 <state name="Christ Church"></state>
+	 <state name="Saint Andrew"></state>
+	 <state name="Saint George"></state>
+	 <state name="Saint James"></state>
+	 <state name="Saint John"></state>
+	 <state name="Saint Joseph"></state>
+	 <state name="Saint Lucy"></state>
+	 <state name="Saint Michael"></state>
+	 <state name="Saint Peter"></state>
+	 <state name="Saint Philip"></state>
+	 <state name="Saint Thomas"></state>
+    </country>
+    <country id="20" name="Belarus">
+	 <state name="Brestskaya (Brest)"></state>
+	 <state name="Homyel'skaya (Homyel')"></state>
+	 <state name="Horad Minsk"></state>
+	 <state name="Hrodzyenskaya (Hrodna)"></state>
+	 <state name="Mahilyowskaya (Mahilyow)"></state>
+	 <state name="Minskaya"></state>
+	 <state name="Vitsyebskaya (Vitsyebsk)"></state>
+    </country>
+    <country id="21" name="Belgium">
+	 <state name="Antwerpen"></state>
+	 <state name="Brabant Wallon"></state>
+	 <state name="Brussels Capitol Region"></state>
+	 <state name="Hainaut"></state>
+	 <state name="Liege"></state>
+	 <state name="Limburg"></state>
+	 <state name="Luxembourg"></state>
+	 <state name="Namur"></state>
+	 <state name="Oost-Vlaanderen"></state>
+	 <state name="Vlaams Brabant"></state>
+	 <state name="West-Vlaanderen"></state>
+    </country>
+    <country id="22" name="Belize">
+	 <state name="Belize"></state>
+	 <state name="Cayo"></state>
+	 <state name="Corozal"></state>
+	 <state name="Orange Walk"></state>
+	 <state name="Stann Creek"></state>
+	 <state name="Toledo"></state>
+    </country>
+    <country id="23" name="Benin">
+	 <state name="Alibori"></state>
+	 <state name="Atakora"></state>
+	 <state name="Atlantique"></state>
+	 <state name="Borgou"></state>
+	 <state name="Collines"></state>
+	 <state name="Couffo"></state>
+	 <state name="Donga"></state>
+	 <state name="Littoral"></state>
+	 <state name="Mono"></state>
+	 <state name="Oueme"></state>
+	 <state name="Plateau"></state>
+	 <state name="Zou"></state>
+    </country>
+    <country id="24" name="Bermuda">
+	 <state name="Devonshire"></state>
+	 <state name="Hamilton"></state>
+	 <state name="Hamilton"></state>
+	 <state name="Paget"></state>
+	 <state name="Pembroke"></state>
+	 <state name="Saint George"></state>
+	 <state name="Saint Georges"></state>
+	 <state name="Sandys"></state>
+	 <state name="Smiths"></state>
+	 <state name="Southampton"></state>
+	 <state name="Warwick"></state>
+    </country>
+    <country id="25" name="Bhutan">
+	 <state name="Bumthang"></state>
+	 <state name="Chhukha"></state>
+	 <state name="Chirang"></state>
+	 <state name="Daga"></state>
+	 <state name="Geylegphug"></state>
+	 <state name="Ha"></state>
+	 <state name="Lhuntshi"></state>
+	 <state name="Mongar"></state>
+	 <state name="Paro"></state>
+	 <state name="Pemagatsel"></state>
+	 <state name="Punakha"></state>
+	 <state name="Samchi"></state>
+	 <state name="Samdrup Jongkhar"></state>
+	 <state name="Shemgang"></state>
+	 <state name="Tashigang"></state>
+	 <state name="Thimphu"></state>
+	 <state name="Tongsa"></state>
+	 <state name="Wangdi Phodrang"></state>
+    </country>
+    <country id="26" name="Bolivia">
+	 <state name="Beni"></state>
+	 <state name="Chuquisaca"></state>
+	 <state name="Cochabamba"></state>
+	 <state name="La Paz"></state>
+	 <state name="Oruro"></state>
+	 <state name="Pando"></state>
+	 <state name="Potosi"></state>
+	 <state name="Santa Cruz"></state>
+	 <state name="Tarija"></state>
+    </country>
+    <country id="27" name="Bosnia and Herzegovina">
+	 <state name="Federation of Bosnia and Herzegovina"></state>
+	 <state name="Republika Srpska"></state>
+    </country>
+    <country id="28" name="Botswana">
+	 <state name="Central"></state>
+	 <state name="Chobe"></state>
+	 <state name="Francistown"></state>
+	 <state name="Gaborone"></state>
+	 <state name="Ghanzi"></state>
+	 <state name="Kgalagadi"></state>
+	 <state name="Kgatleng"></state>
+	 <state name="Kweneng"></state>
+	 <state name="Lobatse"></state>
+	 <state name="Ngamiland"></state>
+	 <state name="North-East"></state>
+	 <state name="Selebi-Pikwe"></state>
+	 <state name="South-East"></state>
+	 <state name="Southern"></state>
+    </country>
+    <country id="29" name="Brazil">
+	 <state name="Acre"></state>
+	 <state name="Alagoas"></state>
+	 <state name="Amapa"></state>
+	 <state name="Amazonas"></state>
+	 <state name="Bahia"></state>
+	 <state name="Ceara"></state>
+	 <state name="Distrito Federal"></state>
+	 <state name="Espirito Santo"></state>
+	 <state name="Goias"></state>
+	 <state name="Maranhao"></state>
+	 <state name="Mato Grosso"></state>
+	 <state name="Mato Grosso do Sul"></state>
+	 <state name="Minas Gerais"></state>
+	 <state name="Para"></state>
+	 <state name="Paraiba"></state>
+	 <state name="Parana"></state>
+	 <state name="Pernambuco"></state>
+	 <state name="Piaui"></state>
+	 <state name="Rio de Janeiro"></state>
+	 <state name="Rio Grande do Norte"></state>
+	 <state name="Rio Grande do Sul"></state>
+	 <state name="Rondonia"></state>
+	 <state name="Roraima"></state>
+	 <state name="Santa Catarina"></state>
+	 <state name="Sao Paulo"></state>
+	 <state name="Sergipe"></state>
+	 <state name="Tocantins"></state>
+    </country>
+    <country id="30" name="British Virgin Islands">
+	 <state name="Anegada"></state>
+	 <state name="Jost Van Dyke"></state>
+	 <state name="Tortola"></state>
+	 <state name="Virgin Gorda"></state>
+    </country>
+    <country id="31" name="Brunei">
+	 <state name="Belait"></state>
+	 <state name="Brunei and Muara"></state>
+	 <state name="Temburong"></state>
+	 <state name="Tutong"></state>
+    </country>
+    <country id="32" name="Bulgaria">
+	 <state name="Blagoevgrad"></state>
+	 <state name="Burgas"></state>
+	 <state name="Dobrich"></state>
+	 <state name="Gabrovo"></state>
+	 <state name="Khaskovo"></state>
+	 <state name="Kurdzhali"></state>
+	 <state name="Kyustendil"></state>
+	 <state name="Lovech"></state>
+	 <state name="Montana"></state>
+	 <state name="Pazardzhik"></state>
+	 <state name="Pernik"></state>
+	 <state name="Pleven"></state>
+	 <state name="Plovdiv"></state>
+	 <state name="Razgrad"></state>
+	 <state name="Ruse"></state>
+	 <state name="Shumen"></state>
+	 <state name="Silistra"></state>
+	 <state name="Sliven"></state>
+	 <state name="Smolyan"></state>
+	 <state name="Sofiya"></state>
+	 <state name="Sofiya-Grad"></state>
+	 <state name="Stara Zagora"></state>
+	 <state name="Turgovishte"></state>
+	 <state name="Varna"></state>
+	 <state name="Veliko Turnovo"></state>
+	 <state name="Vidin"></state>
+	 <state name="Vratsa"></state>
+	 <state name="Yambol"></state>
+    </country>
+    <country id="33" name="Burkina Faso">
+	 <state name="Bale"></state>
+	 <state name="Bam"></state>
+	 <state name="Banwa"></state>
+	 <state name="Bazega"></state>
+	 <state name="Bougouriba"></state>
+	 <state name="Boulgou"></state>
+	 <state name="Boulkiemde"></state>
+	 <state name="Comoe"></state>
+	 <state name="Ganzourgou"></state>
+	 <state name="Gnagna"></state>
+	 <state name="Gourma"></state>
+	 <state name="Houet"></state>
+	 <state name="Ioba"></state>
+	 <state name="Kadiogo"></state>
+	 <state name="Kenedougou"></state>
+	 <state name="Komandjari"></state>
+	 <state name="Kompienga"></state>
+	 <state name="Kossi"></state>
+	 <state name="Koupelogo"></state>
+	 <state name="Kouritenga"></state>
+	 <state name="Kourweogo"></state>
+	 <state name="Leraba"></state>
+	 <state name="Loroum"></state>
+	 <state name="Mouhoun"></state>
+	 <state name="Nahouri"></state>
+	 <state name="Namentenga"></state>
+	 <state name="Naumbiel"></state>
+	 <state name="Nayala"></state>
+	 <state name="Oubritenga"></state>
+	 <state name="Oudalan"></state>
+	 <state name="Passore"></state>
+	 <state name="Poni"></state>
+	 <state name="Samentenga"></state>
+	 <state name="Sanguie"></state>
+	 <state name="Seno"></state>
+	 <state name="Sissili"></state>
+	 <state name="Soum"></state>
+	 <state name="Sourou"></state>
+	 <state name="Tapoa"></state>
+	 <state name="Tuy"></state>
+	 <state name="Yagha"></state>
+	 <state name="Yatenga"></state>
+	 <state name="Ziro"></state>
+	 <state name="Zondomo"></state>
+	 <state name="Zoundweogo"></state>
+    </country>
+    <country id="34" name="Burma">
+	 <state name="Ayeyarwady"></state>
+	 <state name="Bago"></state>
+	 <state name="Chin State"></state>
+	 <state name="Kachin State"></state>
+	 <state name="Kayah State"></state>
+	 <state name="Kayin State"></state>
+	 <state name="Magway"></state>
+	 <state name="Mandalay"></state>
+	 <state name="Mon State"></state>
+	 <state name="Rakhine State"></state>
+	 <state name="Sagaing"></state>
+	 <state name="Shan State"></state>
+	 <state name="Tanintharyi"></state>
+	 <state name="Yangon"></state>
+    </country>
+    <country id="35" name="Burundi">
+	 <state name="Bubanza"></state>
+	 <state name="Bujumbura"></state>
+	 <state name="Bururi"></state>
+	 <state name="Cankuzo"></state>
+	 <state name="Cibitoke"></state>
+	 <state name="Gitega"></state>
+	 <state name="Karuzi"></state>
+	 <state name="Kayanza"></state>
+	 <state name="Kirundo"></state>
+	 <state name="Makamba"></state>
+	 <state name="Muramvya"></state>
+	 <state name="Muyinga"></state>
+	 <state name="Mwaro"></state>
+	 <state name="Ngozi"></state>
+	 <state name="Rutana"></state>
+	 <state name="Ruyigi"></state>
+    </country>
+    <country id="36" name="Cambodia">
+	 <state name="Banteay Mean Cheay"></state>
+	 <state name="Batdambang"></state>
+	 <state name="Kampong Cham"></state>
+	 <state name="Kampong Chhnang"></state>
+	 <state name="Kampong Spoe"></state>
+	 <state name="Kampong Thum"></state>
+	 <state name="Kampot"></state>
+	 <state name="Kandal"></state>
+	 <state name="Kaoh Kong"></state>
+	 <state name="Keb"></state>
+	 <state name="Kracheh"></state>
+	 <state name="Mondol Kiri"></state>
+	 <state name="Otdar Mean Cheay"></state>
+	 <state name="Pailin"></state>
+	 <state name="Phnum Penh"></state>
+	 <state name="Pouthisat"></state>
+	 <state name="Preah Seihanu (Sihanoukville)"></state>
+	 <state name="Preah Vihear"></state>
+	 <state name="Prey Veng"></state>
+	 <state name="Rotanah Kiri"></state>
+	 <state name="Siem Reab"></state>
+	 <state name="Stoeng Treng"></state>
+	 <state name="Svay Rieng"></state>
+	 <state name="Takev"></state>
+    </country>
+    <country id="37" name="Cameroon">
+	 <state name="Adamaoua"></state>
+	 <state name="Centre"></state>
+	 <state name="Est"></state>
+	 <state name="Extreme-Nord"></state>
+	 <state name="Littoral"></state>
+	 <state name="Nord"></state>
+	 <state name="Nord-Ouest"></state>
+	 <state name="Ouest"></state>
+	 <state name="Sud"></state>
+	 <state name="Sud-Ouest"></state>
+    </country>
+    <country id="38" name="Canada">
+	 <state name="Alberta"></state>
+	 <state name="British Columbia"></state>
+	 <state name="Manitoba"></state>
+	 <state name="New Brunswick"></state>
+	 <state name="Newfoundland"></state>
+	 <state name="Northwest Territories"></state>
+	 <state name="Nova Scotia"></state>
+	 <state name="Nunavut"></state>
+	 <state name="Ontario"></state>
+	 <state name="Prince Edward Island"></state>
+	 <state name="Quebec"></state>
+	 <state name="Saskatchewan"></state>
+	 <state name="Yukon Territory"></state>
+    </country>
+    <country id="39" name="Cape Verde">
+	 <state name="Boa Vista"></state>
+	 <state name="Brava"></state>
+	 <state name="Maio"></state>
+	 <state name="Mosteiros"></state>
+	 <state name="Paul"></state>
+	 <state name="Porto Novo"></state>
+	 <state name="Praia"></state>
+	 <state name="Ribeira Grande"></state>
+	 <state name="Sal"></state>
+	 <state name="Santa Catarina"></state>
+	 <state name="Santa Cruz"></state>
+	 <state name="Sao Domingos"></state>
+	 <state name="Sao Filipe"></state>
+	 <state name="Sao Nicolau"></state>
+	 <state name="Sao Vicente"></state>
+	 <state name="Tarrafal"></state>
+    </country>
+    <country id="40" name="Cayman Islands">
+	 <state name="Creek"></state>
+	 <state name="Eastern"></state>
+	 <state name="Midland"></state>
+	 <state name="South Town"></state>
+	 <state name="Spot Bay"></state>
+	 <state name="Stake Bay"></state>
+	 <state name="West End"></state>
+	 <state name="Western"></state>
+    </country>
+    <country id="41" name="Central African Republic">
+	 <state name="Bamingui-Bangoran"></state>
+	 <state name="Bangui"></state>
+	 <state name="Basse-Kotto"></state>
+	 <state name="Gribingui"></state>
+	 <state name="Haut-Mbomou"></state>
+	 <state name="Haute-Kotto"></state>
+	 <state name="Haute-Sangha"></state>
+	 <state name="Kemo-Gribingui"></state>
+	 <state name="Lobaye"></state>
+	 <state name="Mbomou"></state>
+	 <state name="Nana-Mambere"></state>
+	 <state name="Ombella-Mpoko"></state>
+	 <state name="Ouaka"></state>
+	 <state name="Ouham"></state>
+	 <state name="Ouham-Pende"></state>
+	 <state name="Sangha"></state>
+	 <state name="Vakaga"></state>
+    </country>
+    <country id="42" name="Chad">
+	 <state name="Batha"></state>
+	 <state name="Biltine"></state>
+	 <state name="Borkou-Ennedi-Tibesti"></state>
+	 <state name="Chari-Baguirmi"></state>
+	 <state name="Guera"></state>
+	 <state name="Kanem"></state>
+	 <state name="Lac"></state>
+	 <state name="Logone Occidental"></state>
+	 <state name="Logone Oriental"></state>
+	 <state name="Mayo-Kebbi"></state>
+	 <state name="Moyen-Chari"></state>
+	 <state name="Ouaddai"></state>
+	 <state name="Salamat"></state>
+	 <state name="Tandjile"></state>
+    </country>
+    <country id="43" name="Chile">
+	 <state name="Aisen del General Carlos Ibanez del Campo"></state>
+	 <state name="Antofagasta"></state>
+	 <state name="Araucania"></state>
+	 <state name="Atacama"></state>
+	 <state name="Bio-Bio"></state>
+	 <state name="Coquimbo"></state>
+	 <state name="Libertador General Bernardo O'Higgins"></state>
+	 <state name="Los Lagos"></state>
+	 <state name="Magallanes y de la Antartica Chilena"></state>
+	 <state name="Maule"></state>
+	 <state name="Region Metropolitana (Santiago)"></state>
+	 <state name="Tarapaca"></state>
+	 <state name="Valparaiso"></state>
+    </country>
+    <country id="44" name="China">
+	 <state name="Anhui"></state>
+	 <state name="Beijing"></state>
+	 <state name="Chongqing"></state>
+	 <state name="Fujian"></state>
+	 <state name="Gansu"></state>
+	 <state name="Guangdong"></state>
+	 <state name="Guangxi"></state>
+	 <state name="Guizhou"></state>
+	 <state name="Hainan"></state>
+	 <state name="Hebei"></state>
+	 <state name="Heilongjiang"></state>
+	 <state name="Henan"></state>
+	 <state name="Hubei"></state>
+	 <state name="Hunan"></state>
+	 <state name="Jiangsu"></state>
+	 <state name="Jiangxi"></state>
+	 <state name="Jilin"></state>
+	 <state name="Liaoning"></state>
+	 <state name="Nei Mongol"></state>
+	 <state name="Ningxia"></state>
+	 <state name="Qinghai"></state>
+	 <state name="Shaanxi"></state>
+	 <state name="Shandong"></state>
+	 <state name="Shanghai"></state>
+	 <state name="Shanxi"></state>
+	 <state name="Sichuan"></state>
+	 <state name="Tianjin"></state>
+	 <state name="Xinjiang"></state>
+	 <state name="Xizang (Tibet)"></state>
+	 <state name="Yunnan"></state>
+	 <state name="Zhejiang"></state>
+    </country>
+    <country id="45" name="Christmas Island">
+	 <state name="Christmas Island"></state>
+    </country>
+    <country id="46" name="Clipperton Island">
+	 <state name="Clipperton Island"></state>
+    </country>
+    <country id="47" name="Cocos (Keeling) Islands">
+	 <state name="Direction Island"></state>
+	 <state name="Home Island"></state>
+	 <state name="Horsburgh Island"></state>
+	 <state name="North Keeling Island"></state>
+	 <state name="South Island"></state>
+	 <state name="West Island"></state>
+    </country>
+    <country id="48" name="Colombia">
+	 <state name="Amazonas"></state>
+	 <state name="Antioquia"></state>
+	 <state name="Arauca"></state>
+	 <state name="Atlantico"></state>
+	 <state name="Bolivar"></state>
+	 <state name="Boyaca"></state>
+	 <state name="Caldas"></state>
+	 <state name="Caqueta"></state>
+	 <state name="Casanare"></state>
+	 <state name="Cauca"></state>
+	 <state name="Cesar"></state>
+	 <state name="Choco"></state>
+	 <state name="Cordoba"></state>
+	 <state name="Cundinamarca"></state>
+	 <state name="Distrito Capital de Santa Fe de Bogota"></state>
+	 <state name="Guainia"></state>
+	 <state name="Guaviare"></state>
+	 <state name="Huila"></state>
+	 <state name="La Guajira"></state>
+	 <state name="Magdalena"></state>
+	 <state name="Meta"></state>
+	 <state name="Narino"></state>
+	 <state name="Norte de Santander"></state>
+	 <state name="Putumayo"></state>
+	 <state name="Quindio"></state>
+	 <state name="Risaralda"></state>
+	 <state name="San Andres y Providencia"></state>
+	 <state name="Santander"></state>
+	 <state name="Sucre"></state>
+	 <state name="Tolima"></state>
+	 <state name="Valle del Cauca"></state>
+	 <state name="Vaupes"></state>
+	 <state name="Vichada"></state>
+    </country>
+    <country id="49" name="Comoros">
+	 <state name="Anjouan (Nzwani)"></state>
+	 <state name="Domoni"></state>
+	 <state name="Fomboni"></state>
+	 <state name="Grande Comore (Njazidja)"></state>
+	 <state name="Moheli (Mwali)"></state>
+	 <state name="Moroni"></state>
+	 <state name="Moutsamoudou"></state>
+    </country>
+    <country id="50" name="Congo, Democratic Republic of the">
+	 <state name="Bandundu"></state>
+	 <state name="Bas-Congo"></state>
+	 <state name="Equateur"></state>
+	 <state name="Kasai-Occidental"></state>
+	 <state name="Kasai-Oriental"></state>
+	 <state name="Katanga"></state>
+	 <state name="Kinshasa"></state>
+	 <state name="Maniema"></state>
+	 <state name="Nord-Kivu"></state>
+	 <state name="Orientale"></state>
+	 <state name="Sud-Kivu"></state>
+    </country>
+    <country id="51" name="Congo, Republic of the">
+	 <state name="Bouenza"></state>
+	 <state name="Brazzaville"></state>
+	 <state name="Cuvette"></state>
+	 <state name="Kouilou"></state>
+	 <state name="Lekoumou"></state>
+	 <state name="Likouala"></state>
+	 <state name="Niari"></state>
+	 <state name="Plateaux"></state>
+	 <state name="Pool"></state>
+	 <state name="Sangha"></state>
+    </country>
+    <country id="52" name="Cook Islands">
+	 <state name="Aitutaki"></state>
+	 <state name="Atiu"></state>
+	 <state name="Avarua"></state>
+	 <state name="Mangaia"></state>
+	 <state name="Manihiki"></state>
+	 <state name="Manuae"></state>
+	 <state name="Mauke"></state>
+	 <state name="Mitiaro"></state>
+	 <state name="Nassau Island"></state>
+	 <state name="Palmerston"></state>
+	 <state name="Penrhyn"></state>
+	 <state name="Pukapuka"></state>
+	 <state name="Rakahanga"></state>
+	 <state name="Rarotonga"></state>
+	 <state name="Suwarrow"></state>
+	 <state name="Takutea"></state>
+    </country>
+    <country id="53" name="Costa Rica">
+	 <state name="Alajuela"></state>
+	 <state name="Cartago"></state>
+	 <state name="Guanacaste"></state>
+	 <state name="Heredia"></state>
+	 <state name="Limon"></state>
+	 <state name="Puntarenas"></state>
+	 <state name="San Jose"></state>
+    </country>
+    <country id="54" name="Cote d'Ivoire">
+	 <state name="Abengourou"></state>
+	 <state name="Abidjan"></state>
+	 <state name="Aboisso"></state>
+	 <state name="Adiake'"></state>
+	 <state name="Adzope"></state>
+	 <state name="Agboville"></state>
+	 <state name="Agnibilekrou"></state>
+	 <state name="Ale'pe'"></state>
+	 <state name="Bangolo"></state>
+	 <state name="Beoumi"></state>
+	 <state name="Biankouma"></state>
+	 <state name="Bocanda"></state>
+	 <state name="Bondoukou"></state>
+	 <state name="Bongouanou"></state>
+	 <state name="Bouafle"></state>
+	 <state name="Bouake"></state>
+	 <state name="Bouna"></state>
+	 <state name="Boundiali"></state>
+	 <state name="Dabakala"></state>
+	 <state name="Dabon"></state>
+	 <state name="Daloa"></state>
+	 <state name="Danane"></state>
+	 <state name="Daoukro"></state>
+	 <state name="Dimbokro"></state>
+	 <state name="Divo"></state>
+	 <state name="Duekoue"></state>
+	 <state name="Ferkessedougou"></state>
+	 <state name="Gagnoa"></state>
+	 <state name="Grand Bassam"></state>
+	 <state name="Grand-Lahou"></state>
+	 <state name="Guiglo"></state>
+	 <state name="Issia"></state>
+	 <state name="Jacqueville"></state>
+	 <state name="Katiola"></state>
+	 <state name="Korhogo"></state>
+	 <state name="Lakota"></state>
+	 <state name="Man"></state>
+	 <state name="Mankono"></state>
+	 <state name="Mbahiakro"></state>
+	 <state name="Odienne"></state>
+	 <state name="Oume"></state>
+	 <state name="Sakassou"></state>
+	 <state name="San-Pedro"></state>
+	 <state name="Sassandra"></state>
+	 <state name="Seguela"></state>
+	 <state name="Sinfra"></state>
+	 <state name="Soubre"></state>
+	 <state name="Tabou"></state>
+	 <state name="Tanda"></state>
+	 <state name="Tiassale"></state>
+	 <state name="Tiebissou"></state>
+	 <state name="Tingrela"></state>
+	 <state name="Touba"></state>
+	 <state name="Toulepleu"></state>
+	 <state name="Toumodi"></state>
+	 <state name="Vavoua"></state>
+	 <state name="Yamoussoukro"></state>
+	 <state name="Zuenoula"></state>
+    </country>
+    <country id="55" name="Croatia">
+	 <state name="Bjelovarsko-Bilogorska Zupanija"></state>
+	 <state name="Brodsko-Posavska Zupanija"></state>
+	 <state name="Dubrovacko-Neretvanska Zupanija"></state>
+	 <state name="Istarska Zupanija"></state>
+	 <state name="Karlovacka Zupanija"></state>
+	 <state name="Koprivnicko-Krizevacka Zupanija"></state>
+	 <state name="Krapinsko-Zagorska Zupanija"></state>
+	 <state name="Licko-Senjska Zupanija"></state>
+	 <state name="Medimurska Zupanija"></state>
+	 <state name="Osjecko-Baranjska Zupanija"></state>
+	 <state name="Pozesko-Slavonska Zupanija"></state>
+	 <state name="Primorsko-Goranska Zupanija"></state>
+	 <state name="Sibensko-Kninska Zupanija"></state>
+	 <state name="Sisacko-Moslavacka Zupanija"></state>
+	 <state name="Splitsko-Dalmatinska Zupanija"></state>
+	 <state name="Varazdinska Zupanija"></state>
+	 <state name="Viroviticko-Podravska Zupanija"></state>
+	 <state name="Vukovarsko-Srijemska Zupanija"></state>
+	 <state name="Zadarska Zupanija"></state>
+	 <state name="Zagreb"></state>
+	 <state name="Zagrebacka Zupanija"></state>
+    </country>
+    <country id="56" name="Cuba">
+	 <state name="Camaguey"></state>
+	 <state name="Ciego de Avila"></state>
+	 <state name="Cienfuegos"></state>
+	 <state name="Ciudad de La Habana"></state>
+	 <state name="Granma"></state>
+	 <state name="Guantanamo"></state>
+	 <state name="Holguin"></state>
+	 <state name="Isla de la Juventud"></state>
+	 <state name="La Habana"></state>
+	 <state name="Las Tunas"></state>
+	 <state name="Matanzas"></state>
+	 <state name="Pinar del Rio"></state>
+	 <state name="Sancti Spiritus"></state>
+	 <state name="Santiago de Cuba"></state>
+	 <state name="Villa Clara"></state>
+    </country>
+    <country id="57" name="Cyprus">
+	 <state name="Famagusta"></state>
+	 <state name="Kyrenia"></state>
+	 <state name="Larnaca"></state>
+	 <state name="Limassol"></state>
+	 <state name="Nicosia"></state>
+	 <state name="Paphos"></state>
+    </country>
+    <country id="58" name="Czeck Republic">
+	 <state name="Brnensky"></state>
+	 <state name="Budejovicky"></state>
+	 <state name="Jihlavsky"></state>
+	 <state name="Karlovarsky"></state>
+	 <state name="Kralovehradecky"></state>
+	 <state name="Liberecky"></state>
+	 <state name="Olomoucky"></state>
+	 <state name="Ostravsky"></state>
+	 <state name="Pardubicky"></state>
+	 <state name="Plzensky"></state>
+	 <state name="Praha"></state>
+	 <state name="Stredocesky"></state>
+	 <state name="Ustecky"></state>
+	 <state name="Zlinsky"></state>
+    </country>
+    <country id="59" name="Denmark">
+	 <state name="Arhus"></state>
+	 <state name="Bornholm"></state>
+	 <state name="Fredericksberg"></state>
+	 <state name="Frederiksborg"></state>
+	 <state name="Fyn"></state>
+	 <state name="Kobenhavn"></state>
+	 <state name="Kobenhavns"></state>
+	 <state name="Nordjylland"></state>
+	 <state name="Ribe"></state>
+	 <state name="Ringkobing"></state>
+	 <state name="Roskilde"></state>
+	 <state name="Sonderjylland"></state>
+	 <state name="Storstrom"></state>
+	 <state name="Vejle"></state>
+	 <state name="Vestsjalland"></state>
+	 <state name="Viborg"></state>
+    </country>
+    <country id="60" name="Djibouti">
+	 <state name="'Ali Sabih"></state>
+	 <state name="Dikhil"></state>
+	 <state name="Djibouti"></state>
+	 <state name="Obock"></state>
+	 <state name="Tadjoura"></state>
+    </country>
+    <country id="61" name="Dominica">
+	 <state name="Saint Andrew"></state>
+	 <state name="Saint David"></state>
+	 <state name="Saint George"></state>
+	 <state name="Saint John"></state>
+	 <state name="Saint Joseph"></state>
+	 <state name="Saint Luke"></state>
+	 <state name="Saint Mark"></state>
+	 <state name="Saint Patrick"></state>
+	 <state name="Saint Paul"></state>
+	 <state name="Saint Peter"></state>
+    </country>
+    <country id="62" name="Dominican Republic">
+	 <state name="Azua"></state>
+	 <state name="Baoruco"></state>
+	 <state name="Barahona"></state>
+	 <state name="Dajabon"></state>
+	 <state name="Distrito Nacional"></state>
+	 <state name="Duarte"></state>
+	 <state name="El Seibo"></state>
+	 <state name="Elias Pina"></state>
+	 <state name="Espaillat"></state>
+	 <state name="Hato Mayor"></state>
+	 <state name="Independencia"></state>
+	 <state name="La Altagracia"></state>
+	 <state name="La Romana"></state>
+	 <state name="La Vega"></state>
+	 <state name="Maria Trinidad Sanchez"></state>
+	 <state name="Monsenor Nouel"></state>
+	 <state name="Monte Cristi"></state>
+	 <state name="Monte Plata"></state>
+	 <state name="Pedernales"></state>
+	 <state name="Peravia"></state>
+	 <state name="Puerto Plata"></state>
+	 <state name="Salcedo"></state>
+	 <state name="Samana"></state>
+	 <state name="San Cristobal"></state>
+	 <state name="San Juan"></state>
+	 <state name="San Pedro de Macoris"></state>
+	 <state name="Sanchez Ramirez"></state>
+	 <state name="Santiago"></state>
+	 <state name="Santiago Rodriguez"></state>
+	 <state name="Valverde"></state>
+    </country>
+    <country id="63" name="Ecuador">
+	 <state name="Azuay"></state>
+	 <state name="Bolivar"></state>
+	 <state name="Canar"></state>
+	 <state name="Carchi"></state>
+	 <state name="Chimborazo"></state>
+	 <state name="Cotopaxi"></state>
+	 <state name="El Oro"></state>
+	 <state name="Esmeraldas"></state>
+	 <state name="Galapagos"></state>
+	 <state name="Guayas"></state>
+	 <state name="Imbabura"></state>
+	 <state name="Loja"></state>
+	 <state name="Los Rios"></state>
+	 <state name="Manabi"></state>
+	 <state name="Morona-Santiago"></state>
+	 <state name="Napo"></state>
+	 <state name="Orellana"></state>
+	 <state name="Pastaza"></state>
+	 <state name="Pichincha"></state>
+	 <state name="Sucumbios"></state>
+	 <state name="Tungurahua"></state>
+	 <state name="Zamora-Chinchipe"></state>
+    </country>
+    <country id="64" name="Egypt">
+	 <state name="Ad Daqahliyah"></state>
+	 <state name="Al Bahr al Ahmar"></state>
+	 <state name="Al Buhayrah"></state>
+	 <state name="Al Fayyum"></state>
+	 <state name="Al Gharbiyah"></state>
+	 <state name="Al Iskandariyah"></state>
+	 <state name="Al Isma'iliyah"></state>
+	 <state name="Al Jizah"></state>
+	 <state name="Al Minufiyah"></state>
+	 <state name="Al Minya"></state>
+	 <state name="Al Qahirah"></state>
+	 <state name="Al Qalyubiyah"></state>
+	 <state name="Al Wadi al Jadid"></state>
+	 <state name="As Suways"></state>
+	 <state name="Ash Sharqiyah"></state>
+	 <state name="Aswan"></state>
+	 <state name="Asyut"></state>
+	 <state name="Bani Suwayf"></state>
+	 <state name="Bur Sa'id"></state>
+	 <state name="Dumyat"></state>
+	 <state name="Janub Sina'"></state>
+	 <state name="Kafr ash Shaykh"></state>
+	 <state name="Matruh"></state>
+	 <state name="Qina"></state>
+	 <state name="Shamal Sina'"></state>
+	 <state name="Suhaj"></state>
+    </country>
+    <country id="65" name="El Salvador">
+	 <state name="Ahuachapan"></state>
+	 <state name="Cabanas"></state>
+	 <state name="Chalatenango"></state>
+	 <state name="Cuscatlan"></state>
+	 <state name="La Libertad"></state>
+	 <state name="La Paz"></state>
+	 <state name="La Union"></state>
+	 <state name="Morazan"></state>
+	 <state name="San Miguel"></state>
+	 <state name="San Salvador"></state>
+	 <state name="San Vicente"></state>
+	 <state name="Santa Ana"></state>
+	 <state name="Sonsonate"></state>
+	 <state name="Usulutan"></state>
+    </country>
+    <country id="66" name="Equatorial Guinea">
+	 <state name="Annobon"></state>
+	 <state name="Bioko Norte"></state>
+	 <state name="Bioko Sur"></state>
+	 <state name="Centro Sur"></state>
+	 <state name="Kie-Ntem"></state>
+	 <state name="Litoral"></state>
+	 <state name="Wele-Nzas"></state>
+    </country>
+    <country id="67" name="Eritrea">
+	 <state name="Akale Guzay"></state>
+	 <state name="Barka"></state>
+	 <state name="Denkel"></state>
+	 <state name="Hamasen"></state>
+	 <state name="Sahil"></state>
+	 <state name="Semhar"></state>
+	 <state name="Senhit"></state>
+	 <state name="Seraye"></state>
+    </country>
+    <country id="68" name="Estonia">
+	 <state name="Harjumaa (Tallinn)"></state>
+	 <state name="Hiiumaa (Kardla)"></state>
+	 <state name="Ida-Virumaa (Johvi)"></state>
+	 <state name="Jarvamaa (Paide)"></state>
+	 <state name="Jogevamaa (Jogeva)"></state>
+	 <state name="Laane-Virumaa (Rakvere)"></state>
+	 <state name="Laanemaa (Haapsalu)"></state>
+	 <state name="Parnumaa (Parnu)"></state>
+	 <state name="Polvamaa (Polva)"></state>
+	 <state name="Raplamaa (Rapla)"></state>
+	 <state name="Saaremaa (Kuessaare)"></state>
+	 <state name="Tartumaa (Tartu)"></state>
+	 <state name="Valgamaa (Valga)"></state>
+	 <state name="Viljandimaa (Viljandi)"></state>
+	 <state name="Vorumaa (Voru)"></state>
+    </country>
+    <country id="69" name="Ethiopia">
+	 <state name="Adis Abeba (Addis Ababa)"></state>
+	 <state name="Afar"></state>
+	 <state name="Amara"></state>
+	 <state name="Dire Dawa"></state>
+	 <state name="Gambela Hizboch"></state>
+	 <state name="Hareri Hizb"></state>
+	 <state name="Oromiya"></state>
+	 <state name="Sumale"></state>
+	 <state name="Tigray"></state>
+	 <state name="YeDebub Biheroch Bihereseboch na Hizboch"></state>
+    </country>
+    <country id="70" name="Europa Island">
+	 <state name="Europa Island"></state>
+    </country>
+    <country id="71" name="Falkland Islands (Islas Malvinas)">
+	 <state name="Falkland Islands (Islas Malvinas)"></state>
+    </country>
+    <country id="72" name="Faroe Islands">
+	 <state name="Bordoy"></state>
+	 <state name="Eysturoy"></state>
+	 <state name="Mykines"></state>
+	 <state name="Sandoy"></state>
+	 <state name="Skuvoy"></state>
+	 <state name="Streymoy"></state>
+	 <state name="Suduroy"></state>
+	 <state name="Tvoroyri"></state>
+	 <state name="Vagar"></state>
+    </country>
+    <country id="73" name="Fiji">
+	 <state name="Central"></state>
+	 <state name="Eastern"></state>
+	 <state name="Northern"></state>
+	 <state name="Rotuma"></state>
+	 <state name="Western"></state>
+    </country>
+    <country id="74" name="Finland">
+	 <state name="Aland"></state>
+	 <state name="Etela-Suomen Laani"></state>
+	 <state name="Ita-Suomen Laani"></state>
+	 <state name="Lansi-Suomen Laani"></state>
+	 <state name="Lappi"></state>
+	 <state name="Oulun Laani"></state>
+    </country>
+    <country id="75" name="France">
+	 <state name="Alsace"></state>
+	 <state name="Aquitaine"></state>
+	 <state name="Auvergne"></state>
+	 <state name="Basse-Normandie"></state>
+	 <state name="Bourgogne"></state>
+	 <state name="Bretagne"></state>
+	 <state name="Centre"></state>
+	 <state name="Champagne-Ardenne"></state>
+	 <state name="Corse"></state>
+	 <state name="Franche-Comte"></state>
+	 <state name="Haute-Normandie"></state>
+	 <state name="Ile-de-France"></state>
+	 <state name="Languedoc-Roussillon"></state>
+	 <state name="Limousin"></state>
+	 <state name="Lorraine"></state>
+	 <state name="Midi-Pyrenees"></state>
+	 <state name="Nord-Pas-de-Calais"></state>
+	 <state name="Pays de la Loire"></state>
+	 <state name="Picardie"></state>
+	 <state name="Poitou-Charentes"></state>
+	 <state name="Provence-Alpes-Cote d'Azur"></state>
+	 <state name="Rhone-Alpes"></state>
+    </country>
+    <country id="76" name="French Guiana">
+	 <state name="French Guiana"></state>
+    </country>
+    <country id="77" name="French Polynesia">
+	 <state name="Archipel des Marquises"></state>
+	 <state name="Archipel des Tuamotu"></state>
+	 <state name="Archipel des Tubuai"></state>
+	 <state name="Iles du Vent"></state>
+	 <state name="Iles Sous-le-Vent"></state>
+    </country>
+    <country id="78" name="French Southern and Antarctic Lands">
+	 <state name="Adelie Land"></state>
+	 <state name="Ile Crozet"></state>
+	 <state name="Iles Kerguelen"></state>
+	 <state name="Iles Saint-Paul et Amsterdam"></state>
+    </country>
+    <country id="79" name="Gabon">
+	 <state name="Estuaire"></state>
+	 <state name="Haut-Ogooue"></state>
+	 <state name="Moyen-Ogooue"></state>
+	 <state name="Ngounie"></state>
+	 <state name="Nyanga"></state>
+	 <state name="Ogooue-Ivindo"></state>
+	 <state name="Ogooue-Lolo"></state>
+	 <state name="Ogooue-Maritime"></state>
+	 <state name="Woleu-Ntem"></state>
+    </country>
+    <country id="80" name="Gambia, The">
+	 <state name="Banjul"></state>
+	 <state name="Central River"></state>
+	 <state name="Lower River"></state>
+	 <state name="North Bank"></state>
+	 <state name="Upper River"></state>
+	 <state name="Western"></state>
+    </country>
+    <country id="81" name="Gaza Strip">
+	 <state name="Gaza Strip"></state>
+    </country>
+    <country id="82" name="Georgia">
+	 <state name="Abashis"></state>
+	 <state name="Abkhazia or Ap'khazet'is Avtonomiuri Respublika (Sokhumi)"></state>
+	 <state name="Adigenis"></state>
+	 <state name="Ajaria or Acharis Avtonomiuri Respublika (Bat'umi)"></state>
+	 <state name="Akhalgoris"></state>
+	 <state name="Akhalk'alak'is"></state>
+	 <state name="Akhalts'ikhis"></state>
+	 <state name="Akhmetis"></state>
+	 <state name="Ambrolauris"></state>
+	 <state name="Aspindzis"></state>
+	 <state name="Baghdat'is"></state>
+	 <state name="Bolnisis"></state>
+	 <state name="Borjomis"></state>
+	 <state name="Ch'khorotsqus"></state>
+	 <state name="Ch'okhatauris"></state>
+	 <state name="Chiat'ura"></state>
+	 <state name="Dedop'listsqaros"></state>
+	 <state name="Dmanisis"></state>
+	 <state name="Dushet'is"></state>
+	 <state name="Gardabanis"></state>
+	 <state name="Gori"></state>
+	 <state name="Goris"></state>
+	 <state name="Gurjaanis"></state>
+	 <state name="Javis"></state>
+	 <state name="K'arelis"></state>
+	 <state name="K'ut'aisi"></state>
+	 <state name="Kaspis"></state>
+	 <state name="Kharagaulis"></state>
+	 <state name="Khashuris"></state>
+	 <state name="Khobis"></state>
+	 <state name="Khonis"></state>
+	 <state name="Lagodekhis"></state>
+	 <state name="Lanch'khut'is"></state>
+	 <state name="Lentekhis"></state>
+	 <state name="Marneulis"></state>
+	 <state name="Martvilis"></state>
+	 <state name="Mestiis"></state>
+	 <state name="Mts'khet'is"></state>
+	 <state name="Ninotsmindis"></state>
+	 <state name="Onis"></state>
+	 <state name="Ozurget'is"></state>
+	 <state name="P'ot'i"></state>
+	 <state name="Qazbegis"></state>
+	 <state name="Qvarlis"></state>
+	 <state name="Rust'avi"></state>
+	 <state name="Sach'kheris"></state>
+	 <state name="Sagarejos"></state>
+	 <state name="Samtrediis"></state>
+	 <state name="Senakis"></state>
+	 <state name="Sighnaghis"></state>
+	 <state name="T'bilisi"></state>
+	 <state name="T'elavis"></state>
+	 <state name="T'erjolis"></state>
+	 <state name="T'et'ritsqaros"></state>
+	 <state name="T'ianet'is"></state>
+	 <state name="Tqibuli"></state>
+	 <state name="Ts'ageris"></state>
+	 <state name="Tsalenjikhis"></state>
+	 <state name="Tsalkis"></state>
+	 <state name="Tsqaltubo"></state>
+	 <state name="Vanis"></state>
+	 <state name="Zestap'onis"></state>
+	 <state name="Zugdidi"></state>
+	 <state name="Zugdidis"></state>
+    </country>
+    <country id="83" name="Germany">
+	 <state name="Baden-Wuerttemberg"></state>
+	 <state name="Bayern"></state>
+	 <state name="Berlin"></state>
+	 <state name="Brandenburg"></state>
+	 <state name="Bremen"></state>
+	 <state name="Hamburg"></state>
+	 <state name="Hessen"></state>
+	 <state name="Mecklenburg-Vorpommern"></state>
+	 <state name="Niedersachsen"></state>
+	 <state name="Nordrhein-Westfalen"></state>
+	 <state name="Rheinland-Pfalz"></state>
+	 <state name="Saarland"></state>
+	 <state name="Sachsen"></state>
+	 <state name="Sachsen-Anhalt"></state>
+	 <state name="Schleswig-Holstein"></state>
+	 <state name="Thueringen"></state>
+    </country>
+    <country id="84" name="Ghana">
+	 <state name="Ashanti"></state>
+	 <state name="Brong-Ahafo"></state>
+	 <state name="Central"></state>
+	 <state name="Eastern"></state>
+	 <state name="Greater Accra"></state>
+	 <state name="Northern"></state>
+	 <state name="Upper East"></state>
+	 <state name="Upper West"></state>
+	 <state name="Volta"></state>
+	 <state name="Western"></state>
+    </country>
+    <country id="85" name="Gibraltar">
+	 <state name="Gibraltar"></state>
+    </country>
+    <country id="86" name="Glorioso Islands">
+	 <state name="Ile du Lys"></state>
+	 <state name="Ile Glorieuse"></state>
+    </country>
+    <country id="87" name="Greece">
+	 <state name="Aitolia kai Akarnania"></state>
+	 <state name="Akhaia"></state>
+	 <state name="Argolis"></state>
+	 <state name="Arkadhia"></state>
+	 <state name="Arta"></state>
+	 <state name="Attiki"></state>
+	 <state name="Ayion Oros (Mt. Athos)"></state>
+	 <state name="Dhodhekanisos"></state>
+	 <state name="Drama"></state>
+	 <state name="Evritania"></state>
+	 <state name="Evros"></state>
+	 <state name="Evvoia"></state>
+	 <state name="Florina"></state>
+	 <state name="Fokis"></state>
+	 <state name="Fthiotis"></state>
+	 <state name="Grevena"></state>
+	 <state name="Ilia"></state>
+	 <state name="Imathia"></state>
+	 <state name="Ioannina"></state>
+	 <state name="Irakleion"></state>
+	 <state name="Kardhitsa"></state>
+	 <state name="Kastoria"></state>
+	 <state name="Kavala"></state>
+	 <state name="Kefallinia"></state>
+	 <state name="Kerkyra"></state>
+	 <state name="Khalkidhiki"></state>
+	 <state name="Khania"></state>
+	 <state name="Khios"></state>
+	 <state name="Kikladhes"></state>
+	 <state name="Kilkis"></state>
+	 <state name="Korinthia"></state>
+	 <state name="Kozani"></state>
+	 <state name="Lakonia"></state>
+	 <state name="Larisa"></state>
+	 <state name="Lasithi"></state>
+	 <state name="Lesvos"></state>
+	 <state name="Levkas"></state>
+	 <state name="Magnisia"></state>
+	 <state name="Messinia"></state>
+	 <state name="Pella"></state>
+	 <state name="Pieria"></state>
+	 <state name="Preveza"></state>
+	 <state name="Rethimni"></state>
+	 <state name="Rodhopi"></state>
+	 <state name="Samos"></state>
+	 <state name="Serrai"></state>
+	 <state name="Thesprotia"></state>
+	 <state name="Thessaloniki"></state>
+	 <state name="Trikala"></state>
+	 <state name="Voiotia"></state>
+	 <state name="Xanthi"></state>
+	 <state name="Zakinthos"></state>
+    </country>
+    <country id="88" name="Greenland">
+	 <state name="Avannaa (Nordgronland)"></state>
+	 <state name="Kitaa (Vestgronland)"></state>
+	 <state name="Tunu (Ostgronland)"></state>
+    </country>
+    <country id="89" name="Grenada">
+	 <state name="Carriacou and Petit Martinique"></state>
+	 <state name="Saint Andrew"></state>
+	 <state name="Saint David"></state>
+	 <state name="Saint George"></state>
+	 <state name="Saint John"></state>
+	 <state name="Saint Mark"></state>
+	 <state name="Saint Patrick"></state>
+    </country>
+    <country id="90" name="Guadeloupe">
+	 <state name="Basse-Terre"></state>
+	 <state name="Grande-Terre"></state>
+	 <state name="Iles de la Petite Terre"></state>
+	 <state name="Iles des Saintes"></state>
+	 <state name="Marie-Galante"></state>
+    </country>
+    <country id="91" name="Guam">
+	 <state name="Guam"></state>
+    </country>
+    <country id="92" name="Guatemala">
+	 <state name="Alta Verapaz"></state>
+	 <state name="Baja Verapaz"></state>
+	 <state name="Chimaltenango"></state>
+	 <state name="Chiquimula"></state>
+	 <state name="El Progreso"></state>
+	 <state name="Escuintla"></state>
+	 <state name="Guatemala"></state>
+	 <state name="Huehuetenango"></state>
+	 <state name="Izabal"></state>
+	 <state name="Jalapa"></state>
+	 <state name="Jutiapa"></state>
+	 <state name="Peten"></state>
+	 <state name="Quetzaltenango"></state>
+	 <state name="Quiche"></state>
+	 <state name="Retalhuleu"></state>
+	 <state name="Sacatepequez"></state>
+	 <state name="San Marcos"></state>
+	 <state name="Santa Rosa"></state>
+	 <state name="Solola"></state>
+	 <state name="Suchitepequez"></state>
+	 <state name="Totonicapan"></state>
+	 <state name="Zacapa"></state>
+    </country>
+    <country id="93" name="Guernsey">
+	 <state name="Castel"></state>
+	 <state name="Forest"></state>
+	 <state name="St. Andrew"></state>
+	 <state name="St. Martin"></state>
+	 <state name="St. Peter Port"></state>
+	 <state name="St. Pierre du Bois"></state>
+	 <state name="St. Sampson"></state>
+	 <state name="St. Saviour"></state>
+	 <state name="Torteval"></state>
+	 <state name="Vale"></state>
+    </country>
+    <country id="94" name="Guinea">
+	 <state name="Beyla"></state>
+	 <state name="Boffa"></state>
+	 <state name="Boke"></state>
+	 <state name="Conakry"></state>
+	 <state name="Coyah"></state>
+	 <state name="Dabola"></state>
+	 <state name="Dalaba"></state>
+	 <state name="Dinguiraye"></state>
+	 <state name="Dubreka"></state>
+	 <state name="Faranah"></state>
+	 <state name="Forecariah"></state>
+	 <state name="Fria"></state>
+	 <state name="Gaoual"></state>
+	 <state name="Gueckedou"></state>
+	 <state name="Kankan"></state>
+	 <state name="Kerouane"></state>
+	 <state name="Kindia"></state>
+	 <state name="Kissidougou"></state>
+	 <state name="Koubia"></state>
+	 <state name="Koundara"></state>
+	 <state name="Kouroussa"></state>
+	 <state name="Labe"></state>
+	 <state name="Lelouma"></state>
+	 <state name="Lola"></state>
+	 <state name="Macenta"></state>
+	 <state name="Mali"></state>
+	 <state name="Mamou"></state>
+	 <state name="Mandiana"></state>
+	 <state name="Nzerekore"></state>
+	 <state name="Pita"></state>
+	 <state name="Siguiri"></state>
+	 <state name="Telimele"></state>
+	 <state name="Tougue"></state>
+	 <state name="Yomou"></state>
+    </country>
+    <country id="95" name="Guinea-Bissau">
+	 <state name="Bafata"></state>
+	 <state name="Biombo"></state>
+	 <state name="Bissau"></state>
+	 <state name="Bolama-Bijagos"></state>
+	 <state name="Cacheu"></state>
+	 <state name="Gabu"></state>
+	 <state name="Oio"></state>
+	 <state name="Quinara"></state>
+	 <state name="Tombali"></state>
+    </country>
+    <country id="96" name="Guyana">
+	 <state name="Barima-Waini"></state>
+	 <state name="Cuyuni-Mazaruni"></state>
+	 <state name="Demerara-Mahaica"></state>
+	 <state name="East Berbice-Corentyne"></state>
+	 <state name="Essequibo Islands-West Demerara"></state>
+	 <state name="Mahaica-Berbice"></state>
+	 <state name="Pomeroon-Supenaam"></state>
+	 <state name="Potaro-Siparuni"></state>
+	 <state name="Upper Demerara-Berbice"></state>
+	 <state name="Upper Takutu-Upper Essequibo"></state>
+    </country>
+    <country id="97" name="Haiti">
+	 <state name="Artibonite"></state>
+	 <state name="Centre"></state>
+	 <state name="Grand'Anse"></state>
+	 <state name="Nord"></state>
+	 <state name="Nord-Est"></state>
+	 <state name="Nord-Ouest"></state>
+	 <state name="Ouest"></state>
+	 <state name="Sud"></state>
+	 <state name="Sud-Est"></state>
+    </country>
+    <country id="98" name="Heard Island and McDonald Islands">
+	 <state name="Heard Island and McDonald Islands"></state>
+    </country>
+    <country id="99" name="Holy See (Vatican City)">
+	 <state name="Holy See (Vatican City)"></state>
+    </country>
+    <country id="100" name="Honduras">
+	 <state name="Atlantida"></state>
+	 <state name="Choluteca"></state>
+	 <state name="Colon"></state>
+	 <state name="Comayagua"></state>
+	 <state name="Copan"></state>
+	 <state name="Cortes"></state>
+	 <state name="El Paraiso"></state>
+	 <state name="Francisco Morazan"></state>
+	 <state name="Gracias a Dios"></state>
+	 <state name="Intibuca"></state>
+	 <state name="Islas de la Bahia"></state>
+	 <state name="La Paz"></state>
+	 <state name="Lempira"></state>
+	 <state name="Ocotepeque"></state>
+	 <state name="Olancho"></state>
+	 <state name="Santa Barbara"></state>
+	 <state name="Valle"></state>
+	 <state name="Yoro"></state>
+    </country>
+    <country id="101" name="Hong Kong">
+	 <state name="Hong Kong"></state>
+    </country>
+    <country id="102" name="Howland Island">
+	 <state name="Howland Island"></state>
+    </country>
+    <country id="103" name="Hungary">
+	 <state name="Bacs-Kiskun"></state>
+	 <state name="Baranya"></state>
+	 <state name="Bekes"></state>
+	 <state name="Bekescsaba"></state>
+	 <state name="Borsod-Abauj-Zemplen"></state>
+	 <state name="Budapest"></state>
+	 <state name="Csongrad"></state>
+	 <state name="Debrecen"></state>
+	 <state name="Dunaujvaros"></state>
+	 <state name="Eger"></state>
+	 <state name="Fejer"></state>
+	 <state name="Gyor"></state>
+	 <state name="Gyor-Moson-Sopron"></state>
+	 <state name="Hajdu-Bihar"></state>
+	 <state name="Heves"></state>
+	 <state name="Hodmezovasarhely"></state>
+	 <state name="Jasz-Nagykun-Szolnok"></state>
+	 <state name="Kaposvar"></state>
+	 <state name="Kecskemet"></state>
+	 <state name="Komarom-Esztergom"></state>
+	 <state name="Miskolc"></state>
+	 <state name="Nagykanizsa"></state>
+	 <state name="Nograd"></state>
+	 <state name="Nyiregyhaza"></state>
+	 <state name="Pecs"></state>
+	 <state name="Pest"></state>
+	 <state name="Somogy"></state>
+	 <state name="Sopron"></state>
+	 <state name="Szabolcs-Szatmar-Bereg"></state>
+	 <state name="Szeged"></state>
+	 <state name="Szekesfehervar"></state>
+	 <state name="Szolnok"></state>
+	 <state name="Szombathely"></state>
+	 <state name="Tatabanya"></state>
+	 <state name="Tolna"></state>
+	 <state name="Vas"></state>
+	 <state name="Veszprem"></state>
+	 <state name="Veszprem"></state>
+	 <state name="Zala"></state>
+	 <state name="Zalaegerszeg"></state>
+    </country>
+    <country id="104" name="Iceland">
+	 <state name="Akranes"></state>
+	 <state name="Akureyri"></state>
+	 <state name="Arnessysla"></state>
+	 <state name="Austur-Bardhastrandarsysla"></state>
+	 <state name="Austur-Hunavatnssysla"></state>
+	 <state name="Austur-Skaftafellssysla"></state>
+	 <state name="Borgarfjardharsysla"></state>
+	 <state name="Dalasysla"></state>
+	 <state name="Eyjafjardharsysla"></state>
+	 <state name="Gullbringusysla"></state>
+	 <state name="Hafnarfjordhur"></state>
+	 <state name="Husavik"></state>
+	 <state name="Isafjordhur"></state>
+	 <state name="Keflavik"></state>
+	 <state name="Kjosarsysla"></state>
+	 <state name="Kopavogur"></state>
+	 <state name="Myrasysla"></state>
+	 <state name="Neskaupstadhur"></state>
+	 <state name="Nordhur-Isafjardharsysla"></state>
+	 <state name="Nordhur-Mulasys-la"></state>
+	 <state name="Nordhur-Thingeyjarsysla"></state>
+	 <state name="Olafsfjordhur"></state>
+	 <state name="Rangarvallasysla"></state>
+	 <state name="Reykjavik"></state>
+	 <state name="Saudharkrokur"></state>
+	 <state name="Seydhisfjordhur"></state>
+	 <state name="Siglufjordhur"></state>
+	 <state name="Skagafjardharsysla"></state>
+	 <state name="Snaefellsnes-og Hnappadalssysla"></state>
+	 <state name="Strandasysla"></state>
+	 <state name="Sudhur-Mulasysla"></state>
+	 <state name="Sudhur-Thingeyjarsysla"></state>
+	 <state name="Vesttmannaeyjar"></state>
+	 <state name="Vestur-Bardhastrandarsysla"></state>
+	 <state name="Vestur-Hunavatnssysla"></state>
+	 <state name="Vestur-Isafjardharsysla"></state>
+	 <state name="Vestur-Skaftafellssysla"></state>
+    </country>
+    <country id="105" name="India">
+	 <state name="Andaman and Nicobar Islands"></state>
+	 <state name="Andhra Pradesh"></state>
+	 <state name="Arunachal Pradesh"></state>
+	 <state name="Assam"></state>
+	 <state name="Bihar"></state>
+	 <state name="Chandigarh"></state>
+	 <state name="Chhattisgarh"></state>
+	 <state name="Dadra and Nagar Haveli"></state>
+	 <state name="Daman and Diu"></state>
+	 <state name="Delhi"></state>
+	 <state name="Goa"></state>
+	 <state name="Gujarat"></state>
+	 <state name="Haryana"></state>
+	 <state name="Himachal Pradesh"></state>
+	 <state name="Jammu and Kashmir"></state>
+	 <state name="Jharkhand"></state>
+	 <state name="Karnataka"></state>
+	 <state name="Kerala"></state>
+	 <state name="Lakshadweep"></state>
+	 <state name="Madhya Pradesh"></state>
+	 <state name="Maharashtra"></state>
+	 <state name="Manipur"></state>
+	 <state name="Meghalaya"></state>
+	 <state name="Mizoram"></state>
+	 <state name="Nagaland"></state>
+	 <state name="Orissa"></state>
+	 <state name="Pondicherry"></state>
+	 <state name="Punjab"></state>
+	 <state name="Rajasthan"></state>
+	 <state name="Sikkim"></state>
+	 <state name="Tamil Nadu"></state>
+	 <state name="Tripura"></state>
+	 <state name="Uttar Pradesh"></state>
+	 <state name="Uttaranchal"></state>
+	 <state name="West Bengal"></state>
+    </country>
+    <country id="106" name="Indonesia">
+	 <state name="Aceh"></state>
+	 <state name="Bali"></state>
+	 <state name="Banten"></state>
+	 <state name="Bengkulu"></state>
+	 <state name="East Timor"></state>
+	 <state name="Gorontalo"></state>
+	 <state name="Irian Jaya"></state>
+	 <state name="Jakarta Raya"></state>
+	 <state name="Jambi"></state>
+	 <state name="Jawa Barat"></state>
+	 <state name="Jawa Tengah"></state>
+	 <state name="Jawa Timur"></state>
+	 <state name="Kalimantan Barat"></state>
+	 <state name="Kalimantan Selatan"></state>
+	 <state name="Kalimantan Tengah"></state>
+	 <state name="Kalimantan Timur"></state>
+	 <state name="Kepulauan Bangka Belitung"></state>
+	 <state name="Lampung"></state>
+	 <state name="Maluku"></state>
+	 <state name="Maluku Utara"></state>
+	 <state name="Nusa Tenggara Barat"></state>
+	 <state name="Nusa Tenggara Timur"></state>
+	 <state name="Riau"></state>
+	 <state name="Sulawesi Selatan"></state>
+	 <state name="Sulawesi Tengah"></state>
+	 <state name="Sulawesi Tenggara"></state>
+	 <state name="Sulawesi Utara"></state>
+	 <state name="Sumatera Barat"></state>
+	 <state name="Sumatera Selatan"></state>
+	 <state name="Sumatera Utara"></state>
+	 <state name="Yogyakarta"></state>
+    </country>
+    <country id="107" name="Iran">
+	 <state name="Ardabil"></state>
+	 <state name="Azarbayjan-e Gharbi"></state>
+	 <state name="Azarbayjan-e Sharqi"></state>
+	 <state name="Bushehr"></state>
+	 <state name="Chahar Mahall va Bakhtiari"></state>
+	 <state name="Esfahan"></state>
+	 <state name="Fars"></state>
+	 <state name="Gilan"></state>
+	 <state name="Golestan"></state>
+	 <state name="Hamadan"></state>
+	 <state name="Hormozgan"></state>
+	 <state name="Ilam"></state>
+	 <state name="Kerman"></state>
+	 <state name="Kermanshah"></state>
+	 <state name="Khorasan"></state>
+	 <state name="Khuzestan"></state>
+	 <state name="Kohgiluyeh va Buyer Ahmad"></state>
+	 <state name="Kordestan"></state>
+	 <state name="Lorestan"></state>
+	 <state name="Markazi"></state>
+	 <state name="Mazandaran"></state>
+	 <state name="Qazvin"></state>
+	 <state name="Qom"></state>
+	 <state name="Semnan"></state>
+	 <state name="Sistan va Baluchestan"></state>
+	 <state name="Tehran"></state>
+	 <state name="Yazd"></state>
+	 <state name="Zanjan"></state>
+    </country>
+    <country id="108" name="Iraq">
+	 <state name="Al Anbar"></state>
+	 <state name="Al Basrah"></state>
+	 <state name="Al Muthanna"></state>
+	 <state name="Al Qadisiyah"></state>
+	 <state name="An Najaf"></state>
+	 <state name="Arbil"></state>
+	 <state name="As Sulaymaniyah"></state>
+	 <state name="At Ta'mim"></state>
+	 <state name="Babil"></state>
+	 <state name="Baghdad"></state>
+	 <state name="Dahuk"></state>
+	 <state name="Dhi Qar"></state>
+	 <state name="Diyala"></state>
+	 <state name="Karbala'"></state>
+	 <state name="Maysan"></state>
+	 <state name="Ninawa"></state>
+	 <state name="Salah ad Din"></state>
+	 <state name="Wasit"></state>
+    </country>
+    <country id="109" name="Ireland">
+	 <state name="Carlow"></state>
+	 <state name="Cavan"></state>
+	 <state name="Clare"></state>
+	 <state name="Cork"></state>
+	 <state name="Donegal"></state>
+	 <state name="Dublin"></state>
+	 <state name="Galway"></state>
+	 <state name="Kerry"></state>
+	 <state name="Kildare"></state>
+	 <state name="Kilkenny"></state>
+	 <state name="Laois"></state>
+	 <state name="Leitrim"></state>
+	 <state name="Limerick"></state>
+	 <state name="Longford"></state>
+	 <state name="Louth"></state>
+	 <state name="Mayo"></state>
+	 <state name="Meath"></state>
+	 <state name="Monaghan"></state>
+	 <state name="Offaly"></state>
+	 <state name="Roscommon"></state>
+	 <state name="Sligo"></state>
+	 <state name="Tipperary"></state>
+	 <state name="Waterford"></state>
+	 <state name="Westmeath"></state>
+	 <state name="Wexford"></state>
+	 <state name="Wicklow"></state>
+    </country>
+    <country id="110" name="Ireland, Northern">
+	 <state name="Antrim"></state>
+	 <state name="Ards"></state>
+	 <state name="Armagh"></state>
+	 <state name="Ballymena"></state>
+	 <state name="Ballymoney"></state>
+	 <state name="Banbridge"></state>
+	 <state name="Belfast"></state>
+	 <state name="Carrickfergus"></state>
+	 <state name="Castlereagh"></state>
+	 <state name="Coleraine"></state>
+	 <state name="Cookstown"></state>
+	 <state name="Craigavon"></state>
+	 <state name="Derry"></state>
+	 <state name="Down"></state>
+	 <state name="Dungannon"></state>
+	 <state name="Fermanagh"></state>
+	 <state name="Larne"></state>
+	 <state name="Limavady"></state>
+	 <state name="Lisburn"></state>
+	 <state name="Magherafelt"></state>
+	 <state name="Moyle"></state>
+	 <state name="Newry and Mourne"></state>
+	 <state name="Newtownabbey"></state>
+	 <state name="North Down"></state>
+	 <state name="Omagh"></state>
+	 <state name="Strabane"></state>
+    </country>
+    <country id="111" name="Israel">
+	 <state name="Central"></state>
+	 <state name="Haifa"></state>
+	 <state name="Jerusalem"></state>
+	 <state name="Northern"></state>
+	 <state name="Southern"></state>
+	 <state name="Tel Aviv"></state>
+    </country>
+    <country id="112" name="Italy">
+	 <state name="Abruzzo"></state>
+	 <state name="Basilicata"></state>
+	 <state name="Calabria"></state>
+	 <state name="Campania"></state>
+	 <state name="Emilia-Romagna"></state>
+	 <state name="Friuli-Venezia Giulia"></state>
+	 <state name="Lazio"></state>
+	 <state name="Liguria"></state>
+	 <state name="Lombardia"></state>
+	 <state name="Marche"></state>
+	 <state name="Molise"></state>
+	 <state name="Piemonte"></state>
+	 <state name="Puglia"></state>
+	 <state name="Sardegna"></state>
+	 <state name="Sicilia"></state>
+	 <state name="Toscana"></state>
+	 <state name="Trentino-Alto Adige"></state>
+	 <state name="Umbria"></state>
+	 <state name="Valle d'Aosta"></state>
+	 <state name="Veneto"></state>
+    </country>
+    <country id="113" name="Jamaica">
+	 <state name="Clarendon"></state>
+	 <state name="Hanover"></state>
+	 <state name="Kingston"></state>
+	 <state name="Manchester"></state>
+	 <state name="Portland"></state>
+	 <state name="Saint Andrew"></state>
+	 <state name="Saint Ann"></state>
+	 <state name="Saint Catherine"></state>
+	 <state name="Saint Elizabeth"></state>
+	 <state name="Saint James"></state>
+	 <state name="Saint Mary"></state>
+	 <state name="Saint Thomas"></state>
+	 <state name="Trelawny"></state>
+	 <state name="Westmoreland"></state>
+    </country>
+    <country id="114" name="Jan Mayen">
+	 <state name="Jan Mayen"></state>
+    </country>
+    <country id="115" name="Japan">
+	 <state name="Aichi"></state>
+	 <state name="Akita"></state>
+	 <state name="Aomori"></state>
+	 <state name="Chiba"></state>
+	 <state name="Ehime"></state>
+	 <state name="Fukui"></state>
+	 <state name="Fukuoka"></state>
+	 <state name="Fukushima"></state>
+	 <state name="Gifu"></state>
+	 <state name="Gumma"></state>
+	 <state name="Hiroshima"></state>
+	 <state name="Hokkaido"></state>
+	 <state name="Hyogo"></state>
+	 <state name="Ibaraki"></state>
+	 <state name="Ishikawa"></state>
+	 <state name="Iwate"></state>
+	 <state name="Kagawa"></state>
+	 <state name="Kagoshima"></state>
+	 <state name="Kanagawa"></state>
+	 <state name="Kochi"></state>
+	 <state name="Kumamoto"></state>
+	 <state name="Kyoto"></state>
+	 <state name="Mie"></state>
+	 <state name="Miyagi"></state>
+	 <state name="Miyazaki"></state>
+	 <state name="Nagano"></state>
+	 <state name="Nagasaki"></state>
+	 <state name="Nara"></state>
+	 <state name="Niigata"></state>
+	 <state name="Oita"></state>
+	 <state name="Okayama"></state>
+	 <state name="Okinawa"></state>
+	 <state name="Osaka"></state>
+	 <state name="Saga"></state>
+	 <state name="Saitama"></state>
+	 <state name="Shiga"></state>
+	 <state name="Shimane"></state>
+	 <state name="Shizuoka"></state>
+	 <state name="Tochigi"></state>
+	 <state name="Tokushima"></state>
+	 <state name="Tokyo"></state>
+	 <state name="Tottori"></state>
+	 <state name="Toyama"></state>
+	 <state name="Wakayama"></state>
+	 <state name="Yamagata"></state>
+	 <state name="Yamaguchi"></state>
+	 <state name="Yamanashi"></state>
+    </country>
+    <country id="116" name="Jarvis Island">
+	 <state name="Jarvis Island"></state>
+    </country>
+    <country id="117" name="Jersey">
+	 <state name="Jersey"></state>
+    </country>
+    <country id="118" name="Johnston Atoll">
+	 <state name="Johnston Atoll"></state>
+    </country>
+    <country id="119" name="Jordan">
+	 <state name="Amman"></state>
+	 <state name="Ajlun"></state>
+	 <state name="Al Aqabah"></state>
+	 <state name="Al Balqa'"></state>
+	 <state name="Al Karak"></state>
+	 <state name="Al Mafraq"></state>
+	 <state name="At Tafilah"></state>
+	 <state name="Az Zarqa'"></state>
+	 <state name="Irbid"></state>
+	 <state name="Jarash"></state>
+	 <state name="Ma'an"></state>
+	 <state name="Madaba"></state>
+    </country>
+    <country id="120" name="Juan de Nova Island">
+	 <state name="Juan de Nova Island"></state>
+    </country>
+    <country id="121" name="Kazakhstan">
+	 <state name="Almaty"></state>
+	 <state name="Aqmola"></state>
+	 <state name="Aqtobe"></state>
+	 <state name="Astana"></state>
+	 <state name="Atyrau"></state>
+	 <state name="Batys Qazaqstan"></state>
+	 <state name="Bayqongyr"></state>
+	 <state name="Mangghystau"></state>
+	 <state name="Ongtustik Qazaqstan"></state>
+	 <state name="Pavlodar"></state>
+	 <state name="Qaraghandy"></state>
+	 <state name="Qostanay"></state>
+	 <state name="Qyzylorda"></state>
+	 <state name="Shyghys Qazaqstan"></state>
+	 <state name="Soltustik Qazaqstan"></state>
+	 <state name="Zhambyl"></state>
+    </country>
+    <country id="122" name="Kenya">
+	 <state name="Central"></state>
+	 <state name="Coast"></state>
+	 <state name="Eastern"></state>
+	 <state name="Nairobi Area"></state>
+	 <state name="North Eastern"></state>
+	 <state name="Nyanza"></state>
+	 <state name="Rift Valley"></state>
+	 <state name="Western"></state>
+    </country>
+    <country id="123" name="Kiribati">
+	 <state name="Abaiang"></state>
+	 <state name="Abemama"></state>
+	 <state name="Aranuka"></state>
+	 <state name="Arorae"></state>
+	 <state name="Banaba"></state>
+	 <state name="Banaba"></state>
+	 <state name="Beru"></state>
+	 <state name="Butaritari"></state>
+	 <state name="Central Gilberts"></state>
+	 <state name="Gilbert Islands"></state>
+	 <state name="Kanton"></state>
+	 <state name="Kiritimati"></state>
+	 <state name="Kuria"></state>
+	 <state name="Line Islands"></state>
+	 <state name="Line Islands"></state>
+	 <state name="Maiana"></state>
+	 <state name="Makin"></state>
+	 <state name="Marakei"></state>
+	 <state name="Nikunau"></state>
+	 <state name="Nonouti"></state>
+	 <state name="Northern Gilberts"></state>
+	 <state name="Onotoa"></state>
+	 <state name="Phoenix Islands"></state>
+	 <state name="Southern Gilberts"></state>
+	 <state name="Tabiteuea"></state>
+	 <state name="Tabuaeran"></state>
+	 <state name="Tamana"></state>
+	 <state name="Tarawa"></state>
+	 <state name="Tarawa"></state>
+	 <state name="Teraina"></state>
+    </country>
+    <country id="124" name="Korea, North">
+	 <state name="Chagang-do (Chagang Province)"></state>
+	 <state name="Hamgyong-bukto (North Hamgyong Province)"></state>
+	 <state name="Hamgyong-namdo (South Hamgyong Province)"></state>
+	 <state name="Hwanghae-bukto (North Hwanghae Province)"></state>
+	 <state name="Hwanghae-namdo (South Hwanghae Province)"></state>
+	 <state name="Kaesong-si (Kaesong City)"></state>
+	 <state name="Kangwon-do (Kangwon Province)"></state>
+	 <state name="Namp'o-si (Namp'o City)"></state>
+	 <state name="P'yongan-bukto (North P'yongan Province)"></state>
+	 <state name="P'yongan-namdo (South P'yongan Province)"></state>
+	 <state name="P'yongyang-si (P'yongyang City)"></state>
+	 <state name="Yanggang-do (Yanggang Province)"></state>
+    </country>
+    <country id="125" name="Korea, South">
+	 <state name="Ch'ungch'ong-bukto"></state>
+	 <state name="Ch'ungch'ong-namdo"></state>
+	 <state name="Cheju-do"></state>
+	 <state name="Cholla-bukto"></state>
+	 <state name="Cholla-namdo"></state>
+	 <state name="Inch'on-gwangyoksi"></state>
+	 <state name="Kangwon-do"></state>
+	 <state name="Kwangju-gwangyoksi"></state>
+	 <state name="Kyonggi-do"></state>
+	 <state name="Kyongsang-bukto"></state>
+	 <state name="Kyongsang-namdo"></state>
+	 <state name="Pusan-gwangyoksi"></state>
+	 <state name="Soul-t'ukpyolsi"></state>
+	 <state name="Taegu-gwangyoksi"></state>
+	 <state name="Taejon-gwangyoksi"></state>
+	 <state name="Ulsan-gwangyoksi"></state>
+    </country>
+    <country id="126" name="Kuwait">
+	 <state name="Al 'Asimah"></state>
+	 <state name="Al Ahmadi"></state>
+	 <state name="Al Farwaniyah"></state>
+	 <state name="Al Jahra'"></state>
+	 <state name="Hawalli"></state>
+    </country>
+    <country id="127" name="Kyrgyzstan">
+	 <state name="Batken Oblasty"></state>
+	 <state name="Bishkek Shaary"></state>
+	 <state name="Chuy Oblasty (Bishkek)"></state>
+	 <state name="Jalal-Abad Oblasty"></state>
+	 <state name="Naryn Oblasty"></state>
+	 <state name="Osh Oblasty"></state>
+	 <state name="Talas Oblasty"></state>
+	 <state name="Ysyk-Kol Oblasty (Karakol)"></state>
+    </country>
+    <country id="128" name="Laos">
+	 <state name="Attapu"></state>
+	 <state name="Bokeo"></state>
+	 <state name="Bolikhamxai"></state>
+	 <state name="Champasak"></state>
+	 <state name="Houaphan"></state>
+	 <state name="Khammouan"></state>
+	 <state name="Louangnamtha"></state>
+	 <state name="Louangphabang"></state>
+	 <state name="Oudomxai"></state>
+	 <state name="Phongsali"></state>
+	 <state name="Salavan"></state>
+	 <state name="Savannakhet"></state>
+	 <state name="Viangchan"></state>
+	 <state name="Viangchan"></state>
+	 <state name="Xaignabouli"></state>
+	 <state name="Xaisomboun"></state>
+	 <state name="Xekong"></state>
+	 <state name="Xiangkhoang"></state>
+    </country>
+    <country id="129" name="Latvia">
+	 <state name="Aizkraukles Rajons"></state>
+	 <state name="Aluksnes Rajons"></state>
+	 <state name="Balvu Rajons"></state>
+	 <state name="Bauskas Rajons"></state>
+	 <state name="Cesu Rajons"></state>
+	 <state name="Daugavpils"></state>
+	 <state name="Daugavpils Rajons"></state>
+	 <state name="Dobeles Rajons"></state>
+	 <state name="Gulbenes Rajons"></state>
+	 <state name="Jekabpils Rajons"></state>
+	 <state name="Jelgava"></state>
+	 <state name="Jelgavas Rajons"></state>
+	 <state name="Jurmala"></state>
+	 <state name="Kraslavas Rajons"></state>
+	 <state name="Kuldigas Rajons"></state>
+	 <state name="Leipaja"></state>
+	 <state name="Liepajas Rajons"></state>
+	 <state name="Limbazu Rajons"></state>
+	 <state name="Ludzas Rajons"></state>
+	 <state name="Madonas Rajons"></state>
+	 <state name="Ogres Rajons"></state>
+	 <state name="Preilu Rajons"></state>
+	 <state name="Rezekne"></state>
+	 <state name="Rezeknes Rajons"></state>
+	 <state name="Riga"></state>
+	 <state name="Rigas Rajons"></state>
+	 <state name="Saldus Rajons"></state>
+	 <state name="Talsu Rajons"></state>
+	 <state name="Tukuma Rajons"></state>
+	 <state name="Valkas Rajons"></state>
+	 <state name="Valmieras Rajons"></state>
+	 <state name="Ventspils"></state>
+	 <state name="Ventspils Rajons"></state>
+    </country>
+    <country id="130" name="Lebanon">
+	 <state name="Beyrouth"></state>
+	 <state name="Ech Chimal"></state>
+	 <state name="Ej Jnoub"></state>
+	 <state name="El Bekaa"></state>
+	 <state name="Jabal Loubnane"></state>
+    </country>
+    <country id="131" name="Lesotho">
+	 <state name="Berea"></state>
+	 <state name="Butha-Buthe"></state>
+	 <state name="Leribe"></state>
+	 <state name="Mafeteng"></state>
+	 <state name="Maseru"></state>
+	 <state name="Mohales Hoek"></state>
+	 <state name="Mokhotlong"></state>
+	 <state name="Qacha's Nek"></state>
+	 <state name="Quthing"></state>
+	 <state name="Thaba-Tseka"></state>
+    </country>
+    <country id="132" name="Liberia">
+	 <state name="Bomi"></state>
+	 <state name="Bong"></state>
+	 <state name="Grand Bassa"></state>
+	 <state name="Grand Cape Mount"></state>
+	 <state name="Grand Gedeh"></state>
+	 <state name="Grand Kru"></state>
+	 <state name="Lofa"></state>
+	 <state name="Margibi"></state>
+	 <state name="Maryland"></state>
+	 <state name="Montserrado"></state>
+	 <state name="Nimba"></state>
+	 <state name="River Cess"></state>
+	 <state name="Sinoe"></state>
+    </country>
+    <country id="133" name="Libya">
+	 <state name="Ajdabiya"></state>
+	 <state name="Al 'Aziziyah"></state>
+	 <state name="Al Fatih"></state>
+	 <state name="Al Jabal al Akhdar"></state>
+	 <state name="Al Jufrah"></state>
+	 <state name="Al Khums"></state>
+	 <state name="Al Kufrah"></state>
+	 <state name="An Nuqat al Khams"></state>
+	 <state name="Ash Shati'"></state>
+	 <state name="Awbari"></state>
+	 <state name="Az Zawiyah"></state>
+	 <state name="Banghazi"></state>
+	 <state name="Darnah"></state>
+	 <state name="Ghadamis"></state>
+	 <state name="Gharyan"></state>
+	 <state name="Misratah"></state>
+	 <state name="Murzuq"></state>
+	 <state name="Sabha"></state>
+	 <state name="Sawfajjin"></state>
+	 <state name="Surt"></state>
+	 <state name="Tarabulus"></state>
+	 <state name="Tarhunah"></state>
+	 <state name="Tubruq"></state>
+	 <state name="Yafran"></state>
+	 <state name="Zlitan"></state>
+    </country>
+    <country id="134" name="Liechtenstein">
+	 <state name="Balzers"></state>
+	 <state name="Eschen"></state>
+	 <state name="Gamprin"></state>
+	 <state name="Mauren"></state>
+	 <state name="Planken"></state>
+	 <state name="Ruggell"></state>
+	 <state name="Schaan"></state>
+	 <state name="Schellenberg"></state>
+	 <state name="Triesen"></state>
+	 <state name="Triesenberg"></state>
+	 <state name="Vaduz"></state>
+    </country>
+    <country id="135" name="Lithuania">
+	 <state name="Akmenes Rajonas"></state>
+	 <state name="Alytaus Rajonas"></state>
+	 <state name="Alytus"></state>
+	 <state name="Anyksciu Rajonas"></state>
+	 <state name="Birstonas"></state>
+	 <state name="Birzu Rajonas"></state>
+	 <state name="Druskininkai"></state>
+	 <state name="Ignalinos Rajonas"></state>
+	 <state name="Jonavos Rajonas"></state>
+	 <state name="Joniskio Rajonas"></state>
+	 <state name="Jurbarko Rajonas"></state>
+	 <state name="Kaisiadoriu Rajonas"></state>
+	 <state name="Kaunas"></state>
+	 <state name="Kauno Rajonas"></state>
+	 <state name="Kedainiu Rajonas"></state>
+	 <state name="Kelmes Rajonas"></state>
+	 <state name="Klaipeda"></state>
+	 <state name="Klaipedos Rajonas"></state>
+	 <state name="Kretingos Rajonas"></state>
+	 <state name="Kupiskio Rajonas"></state>
+	 <state name="Lazdiju Rajonas"></state>
+	 <state name="Marijampole"></state>
+	 <state name="Marijampoles Rajonas"></state>
+	 <state name="Mazeikiu Rajonas"></state>
+	 <state name="Moletu Rajonas"></state>
+	 <state name="Neringa Pakruojo Rajonas"></state>
+	 <state name="Palanga"></state>
+	 <state name="Panevezio Rajonas"></state>
+	 <state name="Panevezys"></state>
+	 <state name="Pasvalio Rajonas"></state>
+	 <state name="Plunges Rajonas"></state>
+	 <state name="Prienu Rajonas"></state>
+	 <state name="Radviliskio Rajonas"></state>
+	 <state name="Raseiniu Rajonas"></state>
+	 <state name="Rokiskio Rajonas"></state>
+	 <state name="Sakiu Rajonas"></state>
+	 <state name="Salcininku Rajonas"></state>
+	 <state name="Siauliai"></state>
+	 <state name="Siauliu Rajonas"></state>
+	 <state name="Silales Rajonas"></state>
+	 <state name="Silutes Rajonas"></state>
+	 <state name="Sirvintu Rajonas"></state>
+	 <state name="Skuodo Rajonas"></state>
+	 <state name="Svencioniu Rajonas"></state>
+	 <state name="Taurages Rajonas"></state>
+	 <state name="Telsiu Rajonas"></state>
+	 <state name="Traku Rajonas"></state>
+	 <state name="Ukmerges Rajonas"></state>
+	 <state name="Utenos Rajonas"></state>
+	 <state name="Varenos Rajonas"></state>
+	 <state name="Vilkaviskio Rajonas"></state>
+	 <state name="Vilniaus Rajonas"></state>
+	 <state name="Vilnius"></state>
+	 <state name="Zarasu Rajonas"></state>
+    </country>
+    <country id="136" name="Luxembourg">
+	 <state name="Diekirch"></state>
+	 <state name="Grevenmacher"></state>
+	 <state name="Luxembourg"></state>
+    </country>
+    <country id="137" name="Macau">
+	 <state name="Macau"></state>
+    </country>
+    <country id="138" name="Macedonia, Former Yugoslav Republic of">
+	 <state name="Aracinovo"></state>
+	 <state name="Bac"></state>
+	 <state name="Belcista"></state>
+	 <state name="Berovo"></state>
+	 <state name="Bistrica"></state>
+	 <state name="Bitola"></state>
+	 <state name="Blatec"></state>
+	 <state name="Bogdanci"></state>
+	 <state name="Bogomila"></state>
+	 <state name="Bogovinje"></state>
+	 <state name="Bosilovo"></state>
+	 <state name="Brvenica"></state>
+	 <state name="Cair (Skopje)"></state>
+	 <state name="Capari"></state>
+	 <state name="Caska"></state>
+	 <state name="Cegrane"></state>
+	 <state name="Centar (Skopje)"></state>
+	 <state name="Centar Zupa"></state>
+	 <state name="Cesinovo"></state>
+	 <state name="Cucer-Sandevo"></state>
+	 <state name="Debar"></state>
+	 <state name="Delcevo"></state>
+	 <state name="Delogozdi"></state>
+	 <state name="Demir Hisar"></state>
+	 <state name="Demir Kapija"></state>
+	 <state name="Dobrusevo"></state>
+	 <state name="Dolna Banjica"></state>
+	 <state name="Dolneni"></state>
+	 <state name="Dorce Petrov (Skopje)"></state>
+	 <state name="Drugovo"></state>
+	 <state name="Dzepciste"></state>
+	 <state name="Gazi Baba (Skopje)"></state>
+	 <state name="Gevgelija"></state>
+	 <state name="Gostivar"></state>
+	 <state name="Gradsko"></state>
+	 <state name="Ilinden"></state>
+	 <state name="Izvor"></state>
+	 <state name="Jegunovce"></state>
+	 <state name="Kamenjane"></state>
+	 <state name="Karbinci"></state>
+	 <state name="Karpos (Skopje)"></state>
+	 <state name="Kavadarci"></state>
+	 <state name="Kicevo"></state>
+	 <state name="Kisela Voda (Skopje)"></state>
+	 <state name="Klecevce"></state>
+	 <state name="Kocani"></state>
+	 <state name="Konce"></state>
+	 <state name="Kondovo"></state>
+	 <state name="Konopiste"></state>
+	 <state name="Kosel"></state>
+	 <state name="Kratovo"></state>
+	 <state name="Kriva Palanka"></state>
+	 <state name="Krivogastani"></state>
+	 <state name="Krusevo"></state>
+	 <state name="Kuklis"></state>
+	 <state name="Kukurecani"></state>
+	 <state name="Kumanovo"></state>
+	 <state name="Labunista"></state>
+	 <state name="Lipkovo"></state>
+	 <state name="Lozovo"></state>
+	 <state name="Lukovo"></state>
+	 <state name="Makedonska Kamenica"></state>
+	 <state name="Makedonski Brod"></state>
+	 <state name="Mavrovi Anovi"></state>
+	 <state name="Meseista"></state>
+	 <state name="Miravci"></state>
+	 <state name="Mogila"></state>
+	 <state name="Murtino"></state>
+	 <state name="Negotino"></state>
+	 <state name="Negotino-Poloska"></state>
+	 <state name="Novaci"></state>
+	 <state name="Novo Selo"></state>
+	 <state name="Oblesevo"></state>
+	 <state name="Ohrid"></state>
+	 <state name="Orasac"></state>
+	 <state name="Orizari"></state>
+	 <state name="Oslomej"></state>
+	 <state name="Pehcevo"></state>
+	 <state name="Petrovec"></state>
+	 <state name="Plasnia"></state>
+	 <state name="Podares"></state>
+	 <state name="Prilep"></state>
+	 <state name="Probistip"></state>
+	 <state name="Radovis"></state>
+	 <state name="Rankovce"></state>
+	 <state name="Resen"></state>
+	 <state name="Rosoman"></state>
+	 <state name="Rostusa"></state>
+	 <state name="Samokov"></state>
+	 <state name="Saraj"></state>
+	 <state name="Sipkovica"></state>
+	 <state name="Sopiste"></state>
+	 <state name="Sopotnika"></state>
+	 <state name="Srbinovo"></state>
+	 <state name="Star Dojran"></state>
+	 <state name="Staravina"></state>
+	 <state name="Staro Nagoricane"></state>
+	 <state name="Stip"></state>
+	 <state name="Struga"></state>
+	 <state name="Strumica"></state>
+	 <state name="Studenicani"></state>
+	 <state name="Suto Orizari (Skopje)"></state>
+	 <state name="Sveti Nikole"></state>
+	 <state name="Tearce"></state>
+	 <state name="Tetovo"></state>
+	 <state name="Topolcani"></state>
+	 <state name="Valandovo"></state>
+	 <state name="Vasilevo"></state>
+	 <state name="Veles"></state>
+	 <state name="Velesta"></state>
+	 <state name="Vevcani"></state>
+	 <state name="Vinica"></state>
+	 <state name="Vitoliste"></state>
+	 <state name="Vranestica"></state>
+	 <state name="Vrapciste"></state>
+	 <state name="Vratnica"></state>
+	 <state name="Vrutok"></state>
+	 <state name="Zajas"></state>
+	 <state name="Zelenikovo"></state>
+	 <state name="Zileno"></state>
+	 <state name="Zitose"></state>
+	 <state name="Zletovo"></state>
+	 <state name="Zrnovci"></state>
+    </country>
+    <country id="139" name="Madagascar">
+	 <state name="Antananarivo"></state>
+	 <state name="Antsiranana"></state>
+	 <state name="Fianarantsoa"></state>
+	 <state name="Mahajanga"></state>
+	 <state name="Toamasina"></state>
+	 <state name="Toliara"></state>
+    </country>
+    <country id="140" name="Malawi">
+	 <state name="Balaka"></state>
+	 <state name="Blantyre"></state>
+	 <state name="Chikwawa"></state>
+	 <state name="Chiradzulu"></state>
+	 <state name="Chitipa"></state>
+	 <state name="Dedza"></state>
+	 <state name="Dowa"></state>
+	 <state name="Karonga"></state>
+	 <state name="Kasungu"></state>
+	 <state name="Likoma"></state>
+	 <state name="Lilongwe"></state>
+	 <state name="Machinga (Kasupe)"></state>
+	 <state name="Mangochi"></state>
+	 <state name="Mchinji"></state>
+	 <state name="Mulanje"></state>
+	 <state name="Mwanza"></state>
+	 <state name="Mzimba"></state>
+	 <state name="Nkhata Bay"></state>
+	 <state name="Nkhotakota"></state>
+	 <state name="Nsanje"></state>
+	 <state name="Ntcheu"></state>
+	 <state name="Ntchisi"></state>
+	 <state name="Phalombe"></state>
+	 <state name="Rumphi"></state>
+	 <state name="Salima"></state>
+	 <state name="Thyolo"></state>
+	 <state name="Zomba"></state>
+    </country>
+    <country id="141" name="Malaysia">
+	 <state name="Johor"></state>
+	 <state name="Kedah"></state>
+	 <state name="Kelantan"></state>
+	 <state name="Labuan"></state>
+	 <state name="Melaka"></state>
+	 <state name="Negeri Sembilan"></state>
+	 <state name="Pahang"></state>
+	 <state name="Perak"></state>
+	 <state name="Perlis"></state>
+	 <state name="Pulau Pinang"></state>
+	 <state name="Sabah"></state>
+	 <state name="Sarawak"></state>
+	 <state name="Selangor"></state>
+	 <state name="Terengganu"></state>
+	 <state name="Wilayah Persekutuan"></state>
+    </country>
+    <country id="142" name="Maldives">
+	 <state name="Alifu"></state>
+	 <state name="Baa"></state>
+	 <state name="Dhaalu"></state>
+	 <state name="Faafu"></state>
+	 <state name="Gaafu Alifu"></state>
+	 <state name="Gaafu Dhaalu"></state>
+	 <state name="Gnaviyani"></state>
+	 <state name="Haa Alifu"></state>
+	 <state name="Haa Dhaalu"></state>
+	 <state name="Kaafu"></state>
+	 <state name="Laamu"></state>
+	 <state name="Lhaviyani"></state>
+	 <state name="Maale"></state>
+	 <state name="Meemu"></state>
+	 <state name="Noonu"></state>
+	 <state name="Raa"></state>
+	 <state name="Seenu"></state>
+	 <state name="Shaviyani"></state>
+	 <state name="Thaa"></state>
+	 <state name="Vaavu"></state>
+    </country>
+    <country id="143" name="Mali">
+	 <state name="Gao"></state>
+	 <state name="Kayes"></state>
+	 <state name="Kidal"></state>
+	 <state name="Koulikoro"></state>
+	 <state name="Mopti"></state>
+	 <state name="Segou"></state>
+	 <state name="Sikasso"></state>
+	 <state name="Tombouctou"></state>
+    </country>
+    <country id="144" name="Malta">
+	 <state name="Valletta"></state>
+    </country>
+    <country id="145" name="Man, Isle of">
+	 <state name="Man, Isle of"></state>
+    </country>
+    <country id="146" name="Marshall Islands">
+	 <state name="Ailinginae"></state>
+	 <state name="Ailinglaplap"></state>
+	 <state name="Ailuk"></state>
+	 <state name="Arno"></state>
+	 <state name="Aur"></state>
+	 <state name="Bikar"></state>
+	 <state name="Bikini"></state>
+	 <state name="Bokak"></state>
+	 <state name="Ebon"></state>
+	 <state name="Enewetak"></state>
+	 <state name="Erikub"></state>
+	 <state name="Jabat"></state>
+	 <state name="Jaluit"></state>
+	 <state name="Jemo"></state>
+	 <state name="Kili"></state>
+	 <state name="Kwajalein"></state>
+	 <state name="Lae"></state>
+	 <state name="Lib"></state>
+	 <state name="Likiep"></state>
+	 <state name="Majuro"></state>
+	 <state name="Maloelap"></state>
+	 <state name="Mejit"></state>
+	 <state name="Mili"></state>
+	 <state name="Namorik"></state>
+	 <state name="Namu"></state>
+	 <state name="Rongelap"></state>
+	 <state name="Rongrik"></state>
+	 <state name="Toke"></state>
+	 <state name="Ujae"></state>
+	 <state name="Ujelang"></state>
+	 <state name="Utirik"></state>
+	 <state name="Wotho"></state>
+	 <state name="Wotje"></state>
+    </country>
+    <country id="147" name="Martinique">
+	 <state name="Martinique"></state>
+    </country>
+    <country id="148" name="Mauritania">
+	 <state name="Adrar"></state>
+	 <state name="Assaba"></state>
+	 <state name="Brakna"></state>
+	 <state name="Dakhlet Nouadhibou"></state>
+	 <state name="Gorgol"></state>
+	 <state name="Guidimaka"></state>
+	 <state name="Hodh Ech Chargui"></state>
+	 <state name="Hodh El Gharbi"></state>
+	 <state name="Inchiri"></state>
+	 <state name="Nouakchott"></state>
+	 <state name="Tagant"></state>
+	 <state name="Tiris Zemmour"></state>
+	 <state name="Trarza"></state>
+    </country>
+    <country id="149" name="Mauritius">
+	 <state name="Agalega Islands"></state>
+	 <state name="Black River"></state>
+	 <state name="Cargados Carajos Shoals"></state>
+	 <state name="Flacq"></state>
+	 <state name="Grand Port"></state>
+	 <state name="Moka"></state>
+	 <state name="Pamplemousses"></state>
+	 <state name="Plaines Wilhems"></state>
+	 <state name="Port Louis"></state>
+	 <state name="Riviere du Rempart"></state>
+	 <state name="Rodrigues"></state>
+	 <state name="Savanne"></state>
+    </country>
+    <country id="150" name="Mayotte">
+	 <state name="Mayotte"></state>
+    </country>
+    <country id="151" name="Mexico">
+	 <state name="Aguascalientes"></state>
+	 <state name="Baja California"></state>
+	 <state name="Baja California Sur"></state>
+	 <state name="Campeche"></state>
+	 <state name="Chiapas"></state>
+	 <state name="Chihuahua"></state>
+	 <state name="Coahuila de Zaragoza"></state>
+	 <state name="Colima"></state>
+	 <state name="Distrito Federal"></state>
+	 <state name="Durango"></state>
+	 <state name="Guanajuato"></state>
+	 <state name="Guerrero"></state>
+	 <state name="Hidalgo"></state>
+	 <state name="Jalisco"></state>
+	 <state name="Mexico"></state>
+	 <state name="Michoacan de Ocampo"></state>
+	 <state name="Morelos"></state>
+	 <state name="Nayarit"></state>
+	 <state name="Nuevo Leon"></state>
+	 <state name="Oaxaca"></state>
+	 <state name="Puebla"></state>
+	 <state name="Queretaro de Arteaga"></state>
+	 <state name="Quintana Roo"></state>
+	 <state name="San Luis Potosi"></state>
+	 <state name="Sinaloa"></state>
+	 <state name="Sonora"></state>
+	 <state name="Tabasco"></state>
+	 <state name="Tamaulipas"></state>
+	 <state name="Tlaxcala"></state>
+	 <state name="Veracruz-Llave"></state>
+	 <state name="Yucatan"></state>
+	 <state name="Zacatecas"></state>
+    </country>
+    <country id="152" name="Micronesia, Federated States of">
+	 <state name="Chuuk (Truk)"></state>
+	 <state name="Kosrae"></state>
+	 <state name="Pohnpei"></state>
+	 <state name="Yap"></state>
+    </country>
+    <country id="153" name="Midway Islands">
+	 <state name="Midway Islands"></state>
+    </country>
+    <country id="154" name="Moldova">
+	 <state name="Balti"></state>
+	 <state name="Cahul"></state>
+	 <state name="Chisinau"></state>
+	 <state name="Chisinau"></state>
+	 <state name="Dubasari"></state>
+	 <state name="Edinet"></state>
+	 <state name="Gagauzia"></state>
+	 <state name="Lapusna"></state>
+	 <state name="Orhei"></state>
+	 <state name="Soroca"></state>
+	 <state name="Tighina"></state>
+	 <state name="Ungheni"></state>
+    </country>
+    <country id="155" name="Monaco">
+	 <state name="Fontvieille"></state>
+	 <state name="La Condamine"></state>
+	 <state name="Monaco-Ville"></state>
+	 <state name="Monte-Carlo"></state>
+    </country>
+    <country id="156" name="Mongolia">
+	 <state name="Arhangay"></state>
+	 <state name="Bayan-Olgiy"></state>
+	 <state name="Bayanhongor"></state>
+	 <state name="Bulgan"></state>
+	 <state name="Darhan"></state>
+	 <state name="Dornod"></state>
+	 <state name="Dornogovi"></state>
+	 <state name="Dundgovi"></state>
+	 <state name="Dzavhan"></state>
+	 <state name="Erdenet"></state>
+	 <state name="Govi-Altay"></state>
+	 <state name="Hentiy"></state>
+	 <state name="Hovd"></state>
+	 <state name="Hovsgol"></state>
+	 <state name="Omnogovi"></state>
+	 <state name="Ovorhangay"></state>
+	 <state name="Selenge"></state>
+	 <state name="Suhbaatar"></state>
+	 <state name="Tov"></state>
+	 <state name="Ulaanbaatar"></state>
+	 <state name="Uvs"></state>
+    </country>
+    <country id="157" name="Montserrat">
+	 <state name="Saint Anthony"></state>
+	 <state name="Saint Georges"></state>
+	 <state name="Saint Peter's"></state>
+    </country>
+    <country id="158" name="Morocco">
+	 <state name="Agadir"></state>
+	 <state name="Al Hoceima"></state>
+	 <state name="Azilal"></state>
+	 <state name="Ben Slimane"></state>
+	 <state name="Beni Mellal"></state>
+	 <state name="Boulemane"></state>
+	 <state name="Casablanca"></state>
+	 <state name="Chaouen"></state>
+	 <state name="El Jadida"></state>
+	 <state name="El Kelaa des Srarhna"></state>
+	 <state name="Er Rachidia"></state>
+	 <state name="Essaouira"></state>
+	 <state name="Fes"></state>
+	 <state name="Figuig"></state>
+	 <state name="Guelmim"></state>
+	 <state name="Ifrane"></state>
+	 <state name="Kenitra"></state>
+	 <state name="Khemisset"></state>
+	 <state name="Khenifra"></state>
+	 <state name="Khouribga"></state>
+	 <state name="Laayoune"></state>
+	 <state name="Larache"></state>
+	 <state name="Marrakech"></state>
+	 <state name="Meknes"></state>
+	 <state name="Nador"></state>
+	 <state name="Ouarzazate"></state>
+	 <state name="Oujda"></state>
+	 <state name="Rabat-Sale"></state>
+	 <state name="Safi"></state>
+	 <state name="Settat"></state>
+	 <state name="Sidi Kacem"></state>
+	 <state name="Tan-Tan"></state>
+	 <state name="Tanger"></state>
+	 <state name="Taounate"></state>
+	 <state name="Taroudannt"></state>
+	 <state name="Tata"></state>
+	 <state name="Taza"></state>
+	 <state name="Tetouan"></state>
+	 <state name="Tiznit"></state>
+    </country>
+    <country id="159" name="Mozambique">
+	 <state name="Cabo Delgado"></state>
+	 <state name="Gaza"></state>
+	 <state name="Inhambane"></state>
+	 <state name="Manica"></state>
+	 <state name="Maputo"></state>
+	 <state name="Nampula"></state>
+	 <state name="Niassa"></state>
+	 <state name="Sofala"></state>
+	 <state name="Tete"></state>
+	 <state name="Zambezia"></state>
+    </country>
+    <country id="160" name="Namibia">
+	 <state name="Caprivi"></state>
+	 <state name="Erongo"></state>
+	 <state name="Hardap"></state>
+	 <state name="Karas"></state>
+	 <state name="Khomas"></state>
+	 <state name="Kunene"></state>
+	 <state name="Ohangwena"></state>
+	 <state name="Okavango"></state>
+	 <state name="Omaheke"></state>
+	 <state name="Omusati"></state>
+	 <state name="Oshana"></state>
+	 <state name="Oshikoto"></state>
+	 <state name="Otjozondjupa"></state>
+    </country>
+    <country id="161" name="Nauru">
+	 <state name="Aiwo"></state>
+	 <state name="Anabar"></state>
+	 <state name="Anetan"></state>
+	 <state name="Anibare"></state>
+	 <state name="Baiti"></state>
+	 <state name="Boe"></state>
+	 <state name="Buada"></state>
+	 <state name="Denigomodu"></state>
+	 <state name="Ewa"></state>
+	 <state name="Ijuw"></state>
+	 <state name="Meneng"></state>
+	 <state name="Nibok"></state>
+	 <state name="Uaboe"></state>
+	 <state name="Yaren"></state>
+    </country>
+    <country id="162" name="Nepal">
+	 <state name="Bagmati"></state>
+	 <state name="Bheri"></state>
+	 <state name="Dhawalagiri"></state>
+	 <state name="Gandaki"></state>
+	 <state name="Janakpur"></state>
+	 <state name="Karnali"></state>
+	 <state name="Kosi"></state>
+	 <state name="Lumbini"></state>
+	 <state name="Mahakali"></state>
+	 <state name="Mechi"></state>
+	 <state name="Narayani"></state>
+	 <state name="Rapti"></state>
+	 <state name="Sagarmatha"></state>
+	 <state name="Seti"></state>
+    </country>
+    <country id="163" name="Netherlands">
+	 <state name="Drenthe"></state>
+	 <state name="Flevoland"></state>
+	 <state name="Friesland"></state>
+	 <state name="Gelderland"></state>
+	 <state name="Groningen"></state>
+	 <state name="Limburg"></state>
+	 <state name="Noord-Brabant"></state>
+	 <state name="Noord-Holland"></state>
+	 <state name="Overijssel"></state>
+	 <state name="Utrecht"></state>
+	 <state name="Zeeland"></state>
+	 <state name="Zuid-Holland"></state>
+    </country>
+    <country id="164" name="Netherlands Antilles">
+	 <state name="Netherlands Antilles"></state>
+    </country>
+    <country id="165" name="New Caledonia">
+	 <state name="Iles Loyaute"></state>
+	 <state name="Nord"></state>
+	 <state name="Sud"></state>
+    </country>
+    <country id="166" name="New Zealand">
+	 <state name="Akaroa"></state>
+	 <state name="Amuri"></state>
+	 <state name="Ashburton"></state>
+	 <state name="Bay of Islands"></state>
+	 <state name="Bruce"></state>
+	 <state name="Buller"></state>
+	 <state name="Chatham Islands"></state>
+	 <state name="Cheviot"></state>
+	 <state name="Clifton"></state>
+	 <state name="Clutha"></state>
+	 <state name="Cook"></state>
+	 <state name="Dannevirke"></state>
+	 <state name="Egmont"></state>
+	 <state name="Eketahuna"></state>
+	 <state name="Ellesmere"></state>
+	 <state name="Eltham"></state>
+	 <state name="Eyre"></state>
+	 <state name="Featherston"></state>
+	 <state name="Franklin"></state>
+	 <state name="Golden Bay"></state>
+	 <state name="Great Barrier Island"></state>
+	 <state name="Grey"></state>
+	 <state name="Hauraki Plains"></state>
+	 <state name="Hawera"></state>
+	 <state name="Hawke's Bay"></state>
+	 <state name="Heathcote"></state>
+	 <state name="Hikurangi"></state>
+	 <state name="Hobson"></state>
+	 <state name="Hokianga"></state>
+	 <state name="Horowhenua"></state>
+	 <state name="Hurunui"></state>
+	 <state name="Hutt"></state>
+	 <state name="Inangahua"></state>
+	 <state name="Inglewood"></state>
+	 <state name="Kaikoura"></state>
+	 <state name="Kairanga"></state>
+	 <state name="Kiwitea"></state>
+	 <state name="Lake"></state>
+	 <state name="Mackenzie"></state>
+	 <state name="Malvern"></state>
+	 <state name="Manaia"></state>
+	 <state name="Manawatu"></state>
+	 <state name="Mangonui"></state>
+	 <state name="Maniototo"></state>
+	 <state name="Marlborough"></state>
+	 <state name="Masterton"></state>
+	 <state name="Matamata"></state>
+	 <state name="Mount Herbert"></state>
+	 <state name="Ohinemuri"></state>
+	 <state name="Opotiki"></state>
+	 <state name="Oroua"></state>
+	 <state name="Otamatea"></state>
+	 <state name="Otorohanga"></state>
+	 <state name="Oxford"></state>
+	 <state name="Pahiatua"></state>
+	 <state name="Paparua"></state>
+	 <state name="Patea"></state>
+	 <state name="Piako"></state>
+	 <state name="Pohangina"></state>
+	 <state name="Raglan"></state>
+	 <state name="Rangiora"></state>
+	 <state name="Rangitikei"></state>
+	 <state name="Rodney"></state>
+	 <state name="Rotorua"></state>
+	 <state name="Runanga"></state>
+	 <state name="Saint Kilda"></state>
+	 <state name="Silverpeaks"></state>
+	 <state name="Southland"></state>
+	 <state name="Stewart Island"></state>
+	 <state name="Stratford"></state>
+	 <state name="Strathallan"></state>
+	 <state name="Taranaki"></state>
+	 <state name="Taumarunui"></state>
+	 <state name="Taupo"></state>
+	 <state name="Tauranga"></state>
+	 <state name="Thames-Coromandel"></state>
+	 <state name="Tuapeka"></state>
+	 <state name="Vincent"></state>
+	 <state name="Waiapu"></state>
+	 <state name="Waiheke"></state>
+	 <state name="Waihemo"></state>
+	 <state name="Waikato"></state>
+	 <state name="Waikohu"></state>
+	 <state name="Waimairi"></state>
+	 <state name="Waimarino"></state>
+	 <state name="Waimate"></state>
+	 <state name="Waimate West"></state>
+	 <state name="Waimea"></state>
+	 <state name="Waipa"></state>
+	 <state name="Waipawa"></state>
+	 <state name="Waipukurau"></state>
+	 <state name="Wairarapa South"></state>
+	 <state name="Wairewa"></state>
+	 <state name="Wairoa"></state>
+	 <state name="Waitaki"></state>
+	 <state name="Waitomo"></state>
+	 <state name="Waitotara"></state>
+	 <state name="Wallace"></state>
+	 <state name="Wanganui"></state>
+	 <state name="Waverley"></state>
+	 <state name="Westland"></state>
+	 <state name="Whakatane"></state>
+	 <state name="Whangarei"></state>
+	 <state name="Whangaroa"></state>
+	 <state name="Woodville"></state>
+    </country>
+    <country id="167" name="Nicaragua">
+	 <state name="Atlantico Norte"></state>
+	 <state name="Atlantico Sur"></state>
+	 <state name="Boaco"></state>
+	 <state name="Carazo"></state>
+	 <state name="Chinandega"></state>
+	 <state name="Chontales"></state>
+	 <state name="Esteli"></state>
+	 <state name="Granada"></state>
+	 <state name="Jinotega"></state>
+	 <state name="Leon"></state>
+	 <state name="Madriz"></state>
+	 <state name="Managua"></state>
+	 <state name="Masaya"></state>
+	 <state name="Matagalpa"></state>
+	 <state name="Nueva Segovia"></state>
+	 <state name="Rio San Juan"></state>
+	 <state name="Rivas"></state>
+    </country>
+    <country id="168" name="Niger">
+	 <state name="Agadez"></state>
+	 <state name="Diffa"></state>
+	 <state name="Dosso"></state>
+	 <state name="Maradi"></state>
+	 <state name="Niamey"></state>
+	 <state name="Tahoua"></state>
+	 <state name="Tillaberi"></state>
+	 <state name="Zinder"></state>
+    </country>
+    <country id="169" name="Nigeria">
+	 <state name="Abia"></state>
+	 <state name="Abuja Federal Capital Territory"></state>
+	 <state name="Adamawa"></state>
+	 <state name="Akwa Ibom"></state>
+	 <state name="Anambra"></state>
+	 <state name="Bauchi"></state>
+	 <state name="Bayelsa"></state>
+	 <state name="Benue"></state>
+	 <state name="Borno"></state>
+	 <state name="Cross River"></state>
+	 <state name="Delta"></state>
+	 <state name="Ebonyi"></state>
+	 <state name="Edo"></state>
+	 <state name="Ekiti"></state>
+	 <state name="Enugu"></state>
+	 <state name="Gombe"></state>
+	 <state name="Imo"></state>
+	 <state name="Jigawa"></state>
+	 <state name="Kaduna"></state>
+	 <state name="Kano"></state>
+	 <state name="Katsina"></state>
+	 <state name="Kebbi"></state>
+	 <state name="Kogi"></state>
+	 <state name="Kwara"></state>
+	 <state name="Lagos"></state>
+	 <state name="Nassarawa"></state>
+	 <state name="Niger"></state>
+	 <state name="Ogun"></state>
+	 <state name="Ondo"></state>
+	 <state name="Osun"></state>
+	 <state name="Oyo"></state>
+	 <state name="Plateau"></state>
+	 <state name="Rivers"></state>
+	 <state name="Sokoto"></state>
+	 <state name="Taraba"></state>
+	 <state name="Yobe"></state>
+	 <state name="Zamfara"></state>
+    </country>
+    <country id="170" name="Niue">
+	 <state name="Niue"></state>
+    </country>
+    <country id="171" name="Norfolk Island">
+	 <state name="Norfolk Island"></state>
+    </country>
+    <country id="172" name="Northern Mariana Islands">
+	 <state name="Northern Islands"></state>
+	 <state name="Rota"></state>
+	 <state name="Saipan"></state>
+	 <state name="Tinian"></state>
+    </country>
+    <country id="173" name="Norway">
+	 <state name="Akershus"></state>
+	 <state name="Aust-Agder"></state>
+	 <state name="Buskerud"></state>
+	 <state name="Finnmark"></state>
+	 <state name="Hedmark"></state>
+	 <state name="Hordaland"></state>
+	 <state name="More og Romsdal"></state>
+	 <state name="Nord-Trondelag"></state>
+	 <state name="Nordland"></state>
+	 <state name="Oppland"></state>
+	 <state name="Oslo"></state>
+	 <state name="Ostfold"></state>
+	 <state name="Rogaland"></state>
+	 <state name="Sogn og Fjordane"></state>
+	 <state name="Sor-Trondelag"></state>
+	 <state name="Telemark"></state>
+	 <state name="Troms"></state>
+	 <state name="Vest-Agder"></state>
+	 <state name="Vestfold"></state>
+    </country>
+    <country id="174" name="Oman">
+	 <state name="Ad Dakhiliyah"></state>
+	 <state name="Al Batinah"></state>
+	 <state name="Al Wusta"></state>
+	 <state name="Ash Sharqiyah"></state>
+	 <state name="Az Zahirah"></state>
+	 <state name="Masqat"></state>
+	 <state name="Musandam"></state>
+	 <state name="Zufar"></state>
+    </country>
+    <country id="175" name="Pakistan">
+	 <state name="Balochistan"></state>
+	 <state name="Federally Administered Tribal Areas"></state>
+	 <state name="Islamabad Capital Territory"></state>
+	 <state name="North-West Frontier Province"></state>
+	 <state name="Punjab"></state>
+	 <state name="Sindh"></state>
+    </country>
+    <country id="176" name="Palau">
+	 <state name="Aimeliik"></state>
+	 <state name="Airai"></state>
+	 <state name="Angaur"></state>
+	 <state name="Hatobohei"></state>
+	 <state name="Kayangel"></state>
+	 <state name="Koror"></state>
+	 <state name="Melekeok"></state>
+	 <state name="Ngaraard"></state>
+	 <state name="Ngarchelong"></state>
+	 <state name="Ngardmau"></state>
+	 <state name="Ngatpang"></state>
+	 <state name="Ngchesar"></state>
+	 <state name="Ngeremlengui"></state>
+	 <state name="Ngiwal"></state>
+	 <state name="Palau Island"></state>
+	 <state name="Peleliu"></state>
+	 <state name="Sonsoral"></state>
+	 <state name="Tobi"></state>
+    </country>
+    <country id="177" name="Panama">
+	 <state name="Bocas del Toro"></state>
+	 <state name="Chiriqui"></state>
+	 <state name="Cocle"></state>
+	 <state name="Colon"></state>
+	 <state name="Darien"></state>
+	 <state name="Herrera"></state>
+	 <state name="Los Santos"></state>
+	 <state name="Panama"></state>
+	 <state name="San Blas"></state>
+	 <state name="Veraguas"></state>
+    </country>
+    <country id="178" name="Papua New Guinea">
+	 <state name="Bougainville"></state>
+	 <state name="Central"></state>
+	 <state name="Chimbu"></state>
+	 <state name="East New Britain"></state>
+	 <state name="East Sepik"></state>
+	 <state name="Eastern Highlands"></state>
+	 <state name="Enga"></state>
+	 <state name="Gulf"></state>
+	 <state name="Madang"></state>
+	 <state name="Manus"></state>
+	 <state name="Milne Bay"></state>
+	 <state name="Morobe"></state>
+	 <state name="National Capital"></state>
+	 <state name="New Ireland"></state>
+	 <state name="Northern"></state>
+	 <state name="Sandaun"></state>
+	 <state name="Southern Highlands"></state>
+	 <state name="West New Britain"></state>
+	 <state name="Western"></state>
+	 <state name="Western Highlands"></state>
+    </country>
+    <country id="179" name="Paraguay">
+	 <state name="Alto Paraguay"></state>
+	 <state name="Alto Parana"></state>
+	 <state name="Amambay"></state>
+	 <state name="Asuncion (city)"></state>
+	 <state name="Boqueron"></state>
+	 <state name="Caaguazu"></state>
+	 <state name="Caazapa"></state>
+	 <state name="Canindeyu"></state>
+	 <state name="Central"></state>
+	 <state name="Concepcion"></state>
+	 <state name="Cordillera"></state>
+	 <state name="Guaira"></state>
+	 <state name="Itapua"></state>
+	 <state name="Misiones"></state>
+	 <state name="Neembucu"></state>
+	 <state name="Paraguari"></state>
+	 <state name="Presidente Hayes"></state>
+	 <state name="San Pedro"></state>
+    </country>
+    <country id="180" name="Peru">
+	 <state name="Amazonas"></state>
+	 <state name="Ancash"></state>
+	 <state name="Apurimac"></state>
+	 <state name="Arequipa"></state>
+	 <state name="Ayacucho"></state>
+	 <state name="Cajamarca"></state>
+	 <state name="Callao"></state>
+	 <state name="Cusco"></state>
+	 <state name="Huancavelica"></state>
+	 <state name="Huanuco"></state>
+	 <state name="Ica"></state>
+	 <state name="Junin"></state>
+	 <state name="La Libertad"></state>
+	 <state name="Lambayeque"></state>
+	 <state name="Lima"></state>
+	 <state name="Loreto"></state>
+	 <state name="Madre de Dios"></state>
+	 <state name="Moquegua"></state>
+	 <state name="Pasco"></state>
+	 <state name="Piura"></state>
+	 <state name="Puno"></state>
+	 <state name="San Martin"></state>
+	 <state name="Tacna"></state>
+	 <state name="Tumbes"></state>
+	 <state name="Ucayali"></state>
+    </country>
+    <country id="181" name="Philippines">
+	 <state name="Abra"></state>
+	 <state name="Agusan del Norte"></state>
+	 <state name="Agusan del Sur"></state>
+	 <state name="Aklan"></state>
+	 <state name="Albay"></state>
+	 <state name="Angeles"></state>
+	 <state name="Antique"></state>
+	 <state name="Aurora"></state>
+	 <state name="Bacolod"></state>
+	 <state name="Bago"></state>
+	 <state name="Baguio"></state>
+	 <state name="Bais"></state>
+	 <state name="Basilan"></state>
+	 <state name="Basilan City"></state>
+	 <state name="Bataan"></state>
+	 <state name="Batanes"></state>
+	 <state name="Batangas"></state>
+	 <state name="Batangas City"></state>
+	 <state name="Benguet"></state>
+	 <state name="Bohol"></state>
+	 <state name="Bukidnon"></state>
+	 <state name="Bulacan"></state>
+	 <state name="Butuan"></state>
+	 <state name="Cabanatuan"></state>
+	 <state name="Cadiz"></state>
+	 <state name="Cagayan"></state>
+	 <state name="Cagayan de Oro"></state>
+	 <state name="Calbayog"></state>
+	 <state name="Caloocan"></state>
+	 <state name="Camarines Norte"></state>
+	 <state name="Camarines Sur"></state>
+	 <state name="Camiguin"></state>
+	 <state name="Canlaon"></state>
+	 <state name="Capiz"></state>
+	 <state name="Catanduanes"></state>
+	 <state name="Cavite"></state>
+	 <state name="Cavite City"></state>
+	 <state name="Cebu"></state>
+	 <state name="Cebu City"></state>
+	 <state name="Cotabato"></state>
+	 <state name="Dagupan"></state>
+	 <state name="Danao"></state>
+	 <state name="Dapitan"></state>
+	 <state name="Davao City Davao"></state>
+	 <state name="Davao del Sur"></state>
+	 <state name="Davao Oriental"></state>
+	 <state name="Dipolog"></state>
+	 <state name="Dumaguete"></state>
+	 <state name="Eastern Samar"></state>
+	 <state name="General Santos"></state>
+	 <state name="Gingoog"></state>
+	 <state name="Ifugao"></state>
+	 <state name="Iligan"></state>
+	 <state name="Ilocos Norte"></state>
+	 <state name="Ilocos Sur"></state>
+	 <state name="Iloilo"></state>
+	 <state name="Iloilo City"></state>
+	 <state name="Iriga"></state>
+	 <state name="Isabela"></state>
+	 <state name="Kalinga-Apayao"></state>
+	 <state name="La Carlota"></state>
+	 <state name="La Union"></state>
+	 <state name="Laguna"></state>
+	 <state name="Lanao del Norte"></state>
+	 <state name="Lanao del Sur"></state>
+	 <state name="Laoag"></state>
+	 <state name="Lapu-Lapu"></state>
+	 <state name="Legaspi"></state>
+	 <state name="Leyte"></state>
+	 <state name="Lipa"></state>
+	 <state name="Lucena"></state>
+	 <state name="Maguindanao"></state>
+	 <state name="Mandaue"></state>
+	 <state name="Manila"></state>
+	 <state name="Marawi"></state>
+	 <state name="Marinduque"></state>
+	 <state name="Masbate"></state>
+	 <state name="Mindoro Occidental"></state>
+	 <state name="Mindoro Oriental"></state>
+	 <state name="Misamis Occidental"></state>
+	 <state name="Misamis Oriental"></state>
+	 <state name="Mountain"></state>
+	 <state name="Naga"></state>
+	 <state name="Negros Occidental"></state>
+	 <state name="Negros Oriental"></state>
+	 <state name="North Cotabato"></state>
+	 <state name="Northern Samar"></state>
+	 <state name="Nueva Ecija"></state>
+	 <state name="Nueva Vizcaya"></state>
+	 <state name="Olongapo"></state>
+	 <state name="Ormoc"></state>
+	 <state name="Oroquieta"></state>
+	 <state name="Ozamis"></state>
+	 <state name="Pagadian"></state>
+	 <state name="Palawan"></state>
+	 <state name="Palayan"></state>
+	 <state name="Pampanga"></state>
+	 <state name="Pangasinan"></state>
+	 <state name="Pasay"></state>
+	 <state name="Puerto Princesa"></state>
+	 <state name="Quezon"></state>
+	 <state name="Quezon City"></state>
+	 <state name="Quirino"></state>
+	 <state name="Rizal"></state>
+	 <state name="Romblon"></state>
+	 <state name="Roxas"></state>
+	 <state name="Samar"></state>
+	 <state name="San Carlos (in Negros Occidental)"></state>
+	 <state name="San Carlos (in Pangasinan)"></state>
+	 <state name="San Jose"></state>
+	 <state name="San Pablo"></state>
+	 <state name="Silay"></state>
+	 <state name="Siquijor"></state>
+	 <state name="Sorsogon"></state>
+	 <state name="South Cotabato"></state>
+	 <state name="Southern Leyte"></state>
+	 <state name="Sultan Kudarat"></state>
+	 <state name="Sulu"></state>
+	 <state name="Surigao"></state>
+	 <state name="Surigao del Norte"></state>
+	 <state name="Surigao del Sur"></state>
+	 <state name="Tacloban"></state>
+	 <state name="Tagaytay"></state>
+	 <state name="Tagbilaran"></state>
+	 <state name="Tangub"></state>
+	 <state name="Tarlac"></state>
+	 <state name="Tawitawi"></state>
+	 <state name="Toledo"></state>
+	 <state name="Trece Martires"></state>
+	 <state name="Zambales"></state>
+	 <state name="Zamboanga"></state>
+	 <state name="Zamboanga del Norte"></state>
+	 <state name="Zamboanga del Sur"></state>
+    </country>
+    <country id="182" name="Pitcaim Islands">
+	 <state name="Pitcaim Islands"></state>
+    </country>
+    <country id="183" name="Poland">
+	 <state name="Dolnoslaskie"></state>
+	 <state name="Kujawsko-Pomorskie"></state>
+	 <state name="Lodzkie"></state>
+	 <state name="Lubelskie"></state>
+	 <state name="Lubuskie"></state>
+	 <state name="Malopolskie"></state>
+	 <state name="Mazowieckie"></state>
+	 <state name="Opolskie"></state>
+	 <state name="Podkarpackie"></state>
+	 <state name="Podlaskie"></state>
+	 <state name="Pomorskie"></state>
+	 <state name="Slaskie"></state>
+	 <state name="Swietokrzyskie"></state>
+	 <state name="Warminsko-Mazurskie"></state>
+	 <state name="Wielkopolskie"></state>
+	 <state name="Zachodniopomorskie"></state>
+    </country>
+    <country id="184" name="Portugal">
+	 <state name="Acores (Azores)"></state>
+	 <state name="Aveiro"></state>
+	 <state name="Beja"></state>
+	 <state name="Braga"></state>
+	 <state name="Braganca"></state>
+	 <state name="Castelo Branco"></state>
+	 <state name="Coimbra"></state>
+	 <state name="Evora"></state>
+	 <state name="Faro"></state>
+	 <state name="Guarda"></state>
+	 <state name="Leiria"></state>
+	 <state name="Lisboa"></state>
+	 <state name="Madeira"></state>
+	 <state name="Portalegre"></state>
+	 <state name="Porto"></state>
+	 <state name="Santarem"></state>
+	 <state name="Setubal"></state>
+	 <state name="Viana do Castelo"></state>
+	 <state name="Vila Real"></state>
+	 <state name="Viseu"></state>
+    </country>
+    <country id="185" name="Puerto Rico">
+	 <state name="Adjuntas"></state>
+	 <state name="Aguada"></state>
+	 <state name="Aguadilla"></state>
+	 <state name="Aguas Buenas"></state>
+	 <state name="Aibonito"></state>
+	 <state name="Anasco"></state>
+	 <state name="Arecibo"></state>
+	 <state name="Arroyo"></state>
+	 <state name="Barceloneta"></state>
+	 <state name="Barranquitas"></state>
+	 <state name="Bayamon"></state>
+	 <state name="Cabo Rojo"></state>
+	 <state name="Caguas"></state>
+	 <state name="Camuy"></state>
+	 <state name="Canovanas"></state>
+	 <state name="Carolina"></state>
+	 <state name="Catano"></state>
+	 <state name="Cayey"></state>
+	 <state name="Ceiba"></state>
+	 <state name="Ciales"></state>
+	 <state name="Cidra"></state>
+	 <state name="Coamo"></state>
+	 <state name="Comerio"></state>
+	 <state name="Corozal"></state>
+	 <state name="Culebra"></state>
+	 <state name="Dorado"></state>
+	 <state name="Fajardo"></state>
+	 <state name="Florida"></state>
+	 <state name="Guanica"></state>
+	 <state name="Guayama"></state>
+	 <state name="Guayanilla"></state>
+	 <state name="Guaynabo"></state>
+	 <state name="Gurabo"></state>
+	 <state name="Hatillo"></state>
+	 <state name="Hormigueros"></state>
+	 <state name="Humacao"></state>
+	 <state name="Isabela"></state>
+	 <state name="Jayuya"></state>
+	 <state name="Juana Diaz"></state>
+	 <state name="Juncos"></state>
+	 <state name="Lajas"></state>
+	 <state name="Lares"></state>
+	 <state name="Las Marias"></state>
+	 <state name="Las Piedras"></state>
+	 <state name="Loiza"></state>
+	 <state name="Luquillo"></state>
+	 <state name="Manati"></state>
+	 <state name="Maricao"></state>
+	 <state name="Maunabo"></state>
+	 <state name="Mayaguez"></state>
+	 <state name="Moca"></state>
+	 <state name="Morovis"></state>
+	 <state name="Naguabo"></state>
+	 <state name="Naranjito"></state>
+	 <state name="Orocovis"></state>
+	 <state name="Patillas"></state>
+	 <state name="Penuelas"></state>
+	 <state name="Ponce"></state>
+	 <state name="Quebradillas"></state>
+	 <state name="Rincon"></state>
+	 <state name="Rio Grande"></state>
+	 <state name="Sabana Grande"></state>
+	 <state name="Salinas"></state>
+	 <state name="San German"></state>
+	 <state name="San Juan"></state>
+	 <state name="San Lorenzo"></state>
+	 <state name="San Sebastian"></state>
+	 <state name="Santa Isabel"></state>
+	 <state name="Toa Alta"></state>
+	 <state name="Toa Baja"></state>
+	 <state name="Trujillo Alto"></state>
+	 <state name="Utuado"></state>
+	 <state name="Vega Alta"></state>
+	 <state name="Vega Baja"></state>
+	 <state name="Vieques"></state>
+	 <state name="Villalba"></state>
+	 <state name="Yabucoa"></state>
+	 <state name="Yauco"></state>
+    </country>
+    <country id="186" name="Qatar">
+	 <state name="Ad Dawhah"></state>
+	 <state name="Al Ghuwayriyah"></state>
+	 <state name="Al Jumayliyah"></state>
+	 <state name="Al Khawr"></state>
+	 <state name="Al Wakrah"></state>
+	 <state name="Ar Rayyan"></state>
+	 <state name="Jarayan al Batinah"></state>
+	 <state name="Madinat ash Shamal"></state>
+	 <state name="Umm Salal"></state>
+    </country>
+    <country id="187" name="Reunion">
+	 <state name="Reunion"></state>
+    </country>
+    <country id="188" name="Romainia">
+	 <state name="Alba"></state>
+	 <state name="Arad"></state>
+	 <state name="Arges"></state>
+	 <state name="Bacau"></state>
+	 <state name="Bihor"></state>
+	 <state name="Bistrita-Nasaud"></state>
+	 <state name="Botosani"></state>
+	 <state name="Braila"></state>
+	 <state name="Brasov"></state>
+	 <state name="Bucuresti"></state>
+	 <state name="Buzau"></state>
+	 <state name="Calarasi"></state>
+	 <state name="Caras-Severin"></state>
+	 <state name="Cluj"></state>
+	 <state name="Constanta"></state>
+	 <state name="Covasna"></state>
+	 <state name="Dimbovita"></state>
+	 <state name="Dolj"></state>
+	 <state name="Galati"></state>
+	 <state name="Giurgiu"></state>
+	 <state name="Gorj"></state>
+	 <state name="Harghita"></state>
+	 <state name="Hunedoara"></state>
+	 <state name="Ialomita"></state>
+	 <state name="Iasi"></state>
+	 <state name="Maramures"></state>
+	 <state name="Mehedinti"></state>
+	 <state name="Mures"></state>
+	 <state name="Neamt"></state>
+	 <state name="Olt"></state>
+	 <state name="Prahova"></state>
+	 <state name="Salaj"></state>
+	 <state name="Satu Mare"></state>
+	 <state name="Sibiu"></state>
+	 <state name="Suceava"></state>
+	 <state name="Teleorman"></state>
+	 <state name="Timis"></state>
+	 <state name="Tulcea"></state>
+	 <state name="Vaslui"></state>
+	 <state name="Vilcea"></state>
+	 <state name="Vrancea"></state>
+    </country>
+    <country id="189" name="Russia">
+	 <state name="Adygeya (Maykop)"></state>
+	 <state name="Aginskiy Buryatskiy (Aginskoye)"></state>
+	 <state name="Altay (Gorno-Altaysk)"></state>
+	 <state name="Altayskiy (Barnaul)"></state>
+	 <state name="Amurskaya (Blagoveshchensk)"></state>
+	 <state name="Arkhangel'skaya"></state>
+	 <state name="Astrakhanskaya"></state>
+	 <state name="Bashkortostan (Ufa)"></state>
+	 <state name="Belgorodskaya"></state>
+	 <state name="Bryanskaya"></state>
+	 <state name="Buryatiya (Ulan-Ude)"></state>
+	 <state name="Chechnya (Groznyy)"></state>
+	 <state name="Chelyabinskaya"></state>
+	 <state name="Chitinskaya"></state>
+	 <state name="Chukotskiy (Anadyr')"></state>
+	 <state name="Chuvashiya (Cheboksary)"></state>
+	 <state name="Dagestan (Makhachkala)"></state>
+	 <state name="Evenkiyskiy (Tura)"></state>
+	 <state name="Ingushetiya (Nazran')"></state>
+	 <state name="Irkutskaya"></state>
+	 <state name="Ivanovskaya"></state>
+	 <state name="Kabardino-Balkariya (Nal'chik)"></state>
+	 <state name="Kaliningradskaya"></state>
+	 <state name="Kalmykiya (Elista)"></state>
+	 <state name="Kaluzhskaya"></state>
+	 <state name="Kamchatskaya (Petropavlovsk-Kamchatskiy)"></state>
+	 <state name="Karachayevo-Cherkesiya (Cherkessk)"></state>
+	 <state name="Kareliya (Petrozavodsk)"></state>
+	 <state name="Kemerovskaya"></state>
+	 <state name="Khabarovskiy"></state>
+	 <state name="Khakasiya (Abakan)"></state>
+	 <state name="Khanty-Mansiyskiy (Khanty-Mansiysk)"></state>
+	 <state name="Kirovskaya"></state>
+	 <state name="Komi (Syktyvkar)"></state>
+	 <state name="Komi-Permyatskiy (Kudymkar)"></state>
+	 <state name="Koryakskiy (Palana)"></state>
+	 <state name="Kostromskaya"></state>
+	 <state name="Krasnodarskiy"></state>
+	 <state name="Krasnoyarskiy"></state>
+	 <state name="Kurganskaya"></state>
+	 <state name="Kurskaya"></state>
+	 <state name="Leningradskaya"></state>
+	 <state name="Lipetskaya"></state>
+	 <state name="Magadanskaya"></state>
+	 <state name="Mariy-El (Yoshkar-Ola)"></state>
+	 <state name="Mordoviya (Saransk)"></state>
+	 <state name="Moskovskaya"></state>
+	 <state name="Moskva (Moscow)"></state>
+	 <state name="Murmanskaya"></state>
+	 <state name="Nenetskiy (Nar'yan-Mar)"></state>
+	 <state name="Nizhegorodskaya"></state>
+	 <state name="Novgorodskaya"></state>
+	 <state name="Novosibirskaya"></state>
+	 <state name="Omskaya"></state>
+	 <state name="Orenburgskaya"></state>
+	 <state name="Orlovskaya (Orel)"></state>
+	 <state name="Penzenskaya"></state>
+	 <state name="Permskaya"></state>
+	 <state name="Primorskiy (Vladivostok)"></state>
+	 <state name="Pskovskaya"></state>
+	 <state name="Rostovskaya"></state>
+	 <state name="Ryazanskaya"></state>
+	 <state name="Sakha (Yakutsk)"></state>
+	 <state name="Sakhalinskaya (Yuzhno-Sakhalinsk)"></state>
+	 <state name="Samarskaya"></state>
+	 <state name="Sankt-Peterburg (Saint Petersburg)"></state>
+	 <state name="Saratovskaya"></state>
+	 <state name="Severnaya Osetiya-Alaniya [North Ossetia] (Vladikavkaz)"></state>
+	 <state name="Smolenskaya"></state>
+	 <state name="Stavropol'skiy"></state>
+	 <state name="Sverdlovskaya (Yekaterinburg)"></state>
+	 <state name="Tambovskaya"></state>
+	 <state name="Tatarstan (Kazan')"></state>
+	 <state name="Taymyrskiy (Dudinka)"></state>
+	 <state name="Tomskaya"></state>
+	 <state name="Tul'skaya"></state>
+	 <state name="Tverskaya"></state>
+	 <state name="Tyumenskaya"></state>
+	 <state name="Tyva (Kyzyl)"></state>
+	 <state name="Udmurtiya (Izhevsk)"></state>
+	 <state name="Ul'yanovskaya"></state>
+	 <state name="Ust'-Ordynskiy Buryatskiy (Ust'-Ordynskiy)"></state>
+	 <state name="Vladimirskaya"></state>
+	 <state name="Volgogradskaya"></state>
+	 <state name="Vologodskaya"></state>
+	 <state name="Voronezhskaya"></state>
+	 <state name="Yamalo-Nenetskiy (Salekhard)"></state>
+	 <state name="Yaroslavskaya"></state>
+	 <state name="Yevreyskaya"></state>
+    </country>
+    <country id="190" name="Rwanda">
+	 <state name="Butare"></state>
+	 <state name="Byumba"></state>
+	 <state name="Cyangugu"></state>
+	 <state name="Gikongoro"></state>
+	 <state name="Gisenyi"></state>
+	 <state name="Gitarama"></state>
+	 <state name="Kibungo"></state>
+	 <state name="Kibuye"></state>
+	 <state name="Kigali Rurale"></state>
+	 <state name="Kigali-ville"></state>
+	 <state name="Ruhengeri"></state>
+	 <state name="Umutara"></state>
+    </country>
+    <country id="191" name="Saint Helena">
+	 <state name="Ascension"></state>
+	 <state name="Saint Helena"></state>
+	 <state name="Tristan da Cunha"></state>
+    </country>
+    <country id="192" name="Saint Kitts and Nevis">
+	 <state name="Christ Church Nichola Town"></state>
+	 <state name="Saint Anne Sandy Point"></state>
+	 <state name="Saint George Basseterre"></state>
+	 <state name="Saint George Gingerland"></state>
+	 <state name="Saint James Windward"></state>
+	 <state name="Saint John Capisterre"></state>
+	 <state name="Saint John Figtree"></state>
+	 <state name="Saint Mary Cayon"></state>
+	 <state name="Saint Paul Capisterre"></state>
+	 <state name="Saint Paul Charlestown"></state>
+	 <state name="Saint Peter Basseterre"></state>
+	 <state name="Saint Thomas Lowland"></state>
+	 <state name="Saint Thomas Middle Island"></state>
+	 <state name="Trinity Palmetto Point"></state>
+    </country>
+    <country id="193" name="Saint Lucia">
+	 <state name="Anse-la-Raye"></state>
+	 <state name="Castries"></state>
+	 <state name="Choiseul"></state>
+	 <state name="Dauphin"></state>
+	 <state name="Dennery"></state>
+	 <state name="Gros Islet"></state>
+	 <state name="Laborie"></state>
+	 <state name="Micoud"></state>
+	 <state name="Praslin"></state>
+	 <state name="Soufriere"></state>
+	 <state name="Vieux Fort"></state>
+    </country>
+    <country id="194" name="Saint Pierre and Miquelon">
+	 <state name="Miquelon"></state>
+	 <state name="Saint Pierre"></state>
+    </country>
+    <country id="195" name="Saint Vincent and the Grenadines">
+	 <state name="Charlotte"></state>
+	 <state name="Grenadines"></state>
+	 <state name="Saint Andrew"></state>
+	 <state name="Saint David"></state>
+	 <state name="Saint George"></state>
+	 <state name="Saint Patrick"></state>
+    </country>
+    <country id="196" name="Samoa">
+	 <state name="A'ana"></state>
+	 <state name="Aiga-i-le-Tai"></state>
+	 <state name="Atua"></state>
+	 <state name="Fa'asaleleaga"></state>
+	 <state name="Gaga'emauga"></state>
+	 <state name="Gagaifomauga"></state>
+	 <state name="Palauli"></state>
+	 <state name="Satupa'itea"></state>
+	 <state name="Tuamasaga"></state>
+	 <state name="Va'a-o-Fonoti"></state>
+	 <state name="Vaisigano"></state>
+    </country>
+    <country id="197" name="San Marino">
+	 <state name="Acquaviva"></state>
+	 <state name="Borgo Maggiore"></state>
+	 <state name="Chiesanuova"></state>
+	 <state name="Domagnano"></state>
+	 <state name="Faetano"></state>
+	 <state name="Fiorentino"></state>
+	 <state name="Monte Giardino"></state>
+	 <state name="San Marino"></state>
+	 <state name="Serravalle"></state>
+    </country>
+    <country id="198" name="Sao Tome and Principe">
+	 <state name="Principe"></state>
+	 <state name="Sao Tome"></state>
+    </country>
+    <country id="199" name="Saudi Arabia">
+	 <state name="'Asir"></state>
+	 <state name="Al Bahah"></state>
+	 <state name="Al Hudud ash Shamaliyah"></state>
+	 <state name="Al Jawf"></state>
+	 <state name="Al Madinah"></state>
+	 <state name="Al Qasim"></state>
+	 <state name="Ar Riyad"></state>
+	 <state name="Ash Sharqiyah (Eastern Province)"></state>
+	 <state name="Ha'il"></state>
+	 <state name="Jizan"></state>
+	 <state name="Makkah"></state>
+	 <state name="Najran"></state>
+	 <state name="Tabuk"></state>
+    </country>
+    <country id="200" name="Scotland">
+	 <state name="Aberdeen City"></state>
+	 <state name="Aberdeenshire"></state>
+	 <state name="Angus"></state>
+	 <state name="Argyll and Bute"></state>
+	 <state name="City of Edinburgh"></state>
+	 <state name="Clackmannanshire"></state>
+	 <state name="Dumfries and Galloway"></state>
+	 <state name="Dundee City"></state>
+	 <state name="East Ayrshire"></state>
+	 <state name="East Dunbartonshire"></state>
+	 <state name="East Lothian"></state>
+	 <state name="East Renfrewshire"></state>
+	 <state name="Eilean Siar (Western Isles)"></state>
+	 <state name="Falkirk"></state>
+	 <state name="Fife"></state>
+	 <state name="Glasgow City"></state>
+	 <state name="Highland"></state>
+	 <state name="Inverclyde"></state>
+	 <state name="Midlothian"></state>
+	 <state name="Moray"></state>
+	 <state name="North Ayrshire"></state>
+	 <state name="North Lanarkshire"></state>
+	 <state name="Orkney Islands"></state>
+	 <state name="Perth and Kinross"></state>
+	 <state name="Renfrewshire"></state>
+	 <state name="Shetland Islands"></state>
+	 <state name="South Ayrshire"></state>
+	 <state name="South Lanarkshire"></state>
+	 <state name="Stirling"></state>
+	 <state name="The Scottish Borders"></state>
+	 <state name="West Dunbartonshire"></state>
+	 <state name="West Lothian"></state>
+    </country>
+    <country id="201" name="Senegal">
+	 <state name="Dakar"></state>
+	 <state name="Diourbel"></state>
+	 <state name="Fatick"></state>
+	 <state name="Kaolack"></state>
+	 <state name="Kolda"></state>
+	 <state name="Louga"></state>
+	 <state name="Saint-Louis"></state>
+	 <state name="Tambacounda"></state>
+	 <state name="Thies"></state>
+	 <state name="Ziguinchor"></state>
+    </country>
+    <country id="202" name="Seychelles">
+	 <state name="Anse aux Pins"></state>
+	 <state name="Anse Boileau"></state>
+	 <state name="Anse Etoile"></state>
+	 <state name="Anse Louis"></state>
+	 <state name="Anse Royale"></state>
+	 <state name="Baie Lazare"></state>
+	 <state name="Baie Sainte Anne"></state>
+	 <state name="Beau Vallon"></state>
+	 <state name="Bel Air"></state>
+	 <state name="Bel Ombre"></state>
+	 <state name="Cascade"></state>
+	 <state name="Glacis"></state>
+	 <state name="Grand' Anse (on Mahe)"></state>
+	 <state name="Grand' Anse (on Praslin)"></state>
+	 <state name="La Digue"></state>
+	 <state name="La Riviere Anglaise"></state>
+	 <state name="Mont Buxton"></state>
+	 <state name="Mont Fleuri"></state>
+	 <state name="Plaisance"></state>
+	 <state name="Pointe La Rue"></state>
+	 <state name="Port Glaud"></state>
+	 <state name="Saint Louis"></state>
+	 <state name="Takamaka"></state>
+    </country>
+    <country id="203" name="Sierra Leone">
+	 <state name="Eastern"></state>
+	 <state name="Northern"></state>
+	 <state name="Southern"></state>
+	 <state name="Western"></state>
+    </country>
+    <country id="204" name="Singapore">
+	 <state name="Singapore"></state>
+    </country>
+    <country id="205" name="Slovakia">
+	 <state name="Banskobystricky"></state>
+	 <state name="Bratislavsky"></state>
+	 <state name="Kosicky"></state>
+	 <state name="Nitriansky"></state>
+	 <state name="Presovsky"></state>
+	 <state name="Trenciansky"></state>
+	 <state name="Trnavsky"></state>
+	 <state name="Zilinsky"></state>
+    </country>
+    <country id="206" name="Slovenia">
+	 <state name="Ajdovscina"></state>
+	 <state name="Beltinci"></state>
+	 <state name="Bled"></state>
+	 <state name="Bohinj"></state>
+	 <state name="Borovnica"></state>
+	 <state name="Bovec"></state>
+	 <state name="Brda"></state>
+	 <state name="Brezice"></state>
+	 <state name="Brezovica"></state>
+	 <state name="Cankova-Tisina"></state>
+	 <state name="Celje"></state>
+	 <state name="Cerklje na Gorenjskem"></state>
+	 <state name="Cerknica"></state>
+	 <state name="Cerkno"></state>
+	 <state name="Crensovci"></state>
+	 <state name="Crna na Koroskem"></state>
+	 <state name="Crnomelj"></state>
+	 <state name="Destrnik-Trnovska Vas"></state>
+	 <state name="Divaca"></state>
+	 <state name="Dobrepolje"></state>
+	 <state name="Dobrova-Horjul-Polhov Gradec"></state>
+	 <state name="Dol pri Ljubljani"></state>
+	 <state name="Domzale"></state>
+	 <state name="Dornava"></state>
+	 <state name="Dravograd"></state>
+	 <state name="Duplek"></state>
+	 <state name="Gorenja Vas-Poljane"></state>
+	 <state name="Gorisnica"></state>
+	 <state name="Gornja Radgona"></state>
+	 <state name="Gornji Grad"></state>
+	 <state name="Gornji Petrovci"></state>
+	 <state name="Grosuplje"></state>
+	 <state name="Hodos Salovci"></state>
+	 <state name="Hrastnik"></state>
+	 <state name="Hrpelje-Kozina"></state>
+	 <state name="Idrija"></state>
+	 <state name="Ig"></state>
+	 <state name="Ilirska Bistrica"></state>
+	 <state name="Ivancna Gorica"></state>
+	 <state name="Izola"></state>
+	 <state name="Jesenice"></state>
+	 <state name="Jursinci"></state>
+	 <state name="Kamnik"></state>
+	 <state name="Kanal"></state>
+	 <state name="Kidricevo"></state>
+	 <state name="Kobarid"></state>
+	 <state name="Kobilje"></state>
+	 <state name="Kocevje"></state>
+	 <state name="Komen"></state>
+	 <state name="Koper"></state>
+	 <state name="Kozje"></state>
+	 <state name="Kranj"></state>
+	 <state name="Kranjska Gora"></state>
+	 <state name="Krsko"></state>
+	 <state name="Kungota"></state>
+	 <state name="Kuzma"></state>
+	 <state name="Lasko"></state>
+	 <state name="Lenart"></state>
+	 <state name="Lendava"></state>
+	 <state name="Litija"></state>
+	 <state name="Ljubljana"></state>
+	 <state name="Ljubno"></state>
+	 <state name="Ljutomer"></state>
+	 <state name="Logatec"></state>
+	 <state name="Loska Dolina"></state>
+	 <state name="Loski Potok"></state>
+	 <state name="Luce"></state>
+	 <state name="Lukovica"></state>
+	 <state name="Majsperk"></state>
+	 <state name="Maribor"></state>
+	 <state name="Medvode"></state>
+	 <state name="Menges"></state>
+	 <state name="Metlika"></state>
+	 <state name="Mezica"></state>
+	 <state name="Miren-Kostanjevica"></state>
+	 <state name="Mislinja"></state>
+	 <state name="Moravce"></state>
+	 <state name="Moravske Toplice"></state>
+	 <state name="Mozirje"></state>
+	 <state name="Murska Sobota"></state>
+	 <state name="Muta"></state>
+	 <state name="Naklo"></state>
+	 <state name="Nazarje"></state>
+	 <state name="Nova Gorica"></state>
+	 <state name="Novo Mesto"></state>
+	 <state name="Odranci"></state>
+	 <state name="Ormoz"></state>
+	 <state name="Osilnica"></state>
+	 <state name="Pesnica"></state>
+	 <state name="Piran"></state>
+	 <state name="Pivka"></state>
+	 <state name="Podcetrtek"></state>
+	 <state name="Podvelka-Ribnica"></state>
+	 <state name="Postojna"></state>
+	 <state name="Preddvor"></state>
+	 <state name="Ptuj"></state>
+	 <state name="Puconci"></state>
+	 <state name="Race-Fram"></state>
+	 <state name="Radece"></state>
+	 <state name="Radenci"></state>
+	 <state name="Radlje ob Dravi"></state>
+	 <state name="Radovljica"></state>
+	 <state name="Ravne-Prevalje"></state>
+	 <state name="Ribnica"></state>
+	 <state name="Rogasevci"></state>
+	 <state name="Rogaska Slatina"></state>
+	 <state name="Rogatec"></state>
+	 <state name="Ruse"></state>
+	 <state name="Semic"></state>
+	 <state name="Sencur"></state>
+	 <state name="Sentilj"></state>
+	 <state name="Sentjernej"></state>
+	 <state name="Sentjur pri Celju"></state>
+	 <state name="Sevnica"></state>
+	 <state name="Sezana"></state>
+	 <state name="Skocjan"></state>
+	 <state name="Skofja Loka"></state>
+	 <state name="Skofljica"></state>
+	 <state name="Slovenj Gradec"></state>
+	 <state name="Slovenska Bistrica"></state>
+	 <state name="Slovenske Konjice"></state>
+	 <state name="Smarje pri Jelsah"></state>
+	 <state name="Smartno ob Paki"></state>
+	 <state name="Sostanj"></state>
+	 <state name="Starse"></state>
+	 <state name="Store"></state>
+	 <state name="Sveti Jurij"></state>
+	 <state name="Tolmin"></state>
+	 <state name="Trbovlje"></state>
+	 <state name="Trebnje"></state>
+	 <state name="Trzic"></state>
+	 <state name="Turnisce"></state>
+	 <state name="Velenje"></state>
+	 <state name="Velike Lasce"></state>
+	 <state name="Videm"></state>
+	 <state name="Vipava"></state>
+	 <state name="Vitanje"></state>
+	 <state name="Vodice"></state>
+	 <state name="Vojnik"></state>
+	 <state name="Vrhnika"></state>
+	 <state name="Vuzenica"></state>
+	 <state name="Zagorje ob Savi"></state>
+	 <state name="Zalec"></state>
+	 <state name="Zavrc"></state>
+	 <state name="Zelezniki"></state>
+	 <state name="Ziri"></state>
+	 <state name="Zrece"></state>
+    </country>
+    <country id="207" name="Solomon Islands">
+	 <state name="Bellona"></state>
+	 <state name="Central"></state>
+	 <state name="Choiseul (Lauru)"></state>
+	 <state name="Guadalcanal"></state>
+	 <state name="Honiara"></state>
+	 <state name="Isabel"></state>
+	 <state name="Makira"></state>
+	 <state name="Malaita"></state>
+	 <state name="Rennell"></state>
+	 <state name="Temotu"></state>
+	 <state name="Western"></state>
+    </country>
+    <country id="208" name="Somalia">
+	 <state name="Awdal"></state>
+	 <state name="Bakool"></state>
+	 <state name="Banaadir"></state>
+	 <state name="Bari"></state>
+	 <state name="Bay"></state>
+	 <state name="Galguduud"></state>
+	 <state name="Gedo"></state>
+	 <state name="Hiiraan"></state>
+	 <state name="Jubbada Dhexe"></state>
+	 <state name="Jubbada Hoose"></state>
+	 <state name="Mudug"></state>
+	 <state name="Nugaal"></state>
+	 <state name="Sanaag"></state>
+	 <state name="Shabeellaha Dhexe"></state>
+	 <state name="Shabeellaha Hoose"></state>
+	 <state name="Sool"></state>
+	 <state name="Togdheer"></state>
+	 <state name="Woqooyi Galbeed"></state>
+    </country>
+    <country id="209" name="South Africa">
+	 <state name="Eastern Cape"></state>
+	 <state name="Free State"></state>
+	 <state name="Gauteng"></state>
+	 <state name="KwaZulu-Natal"></state>
+	 <state name="Mpumalanga"></state>
+	 <state name="North-West"></state>
+	 <state name="Northern Cape"></state>
+	 <state name="Northern Province"></state>
+	 <state name="Western Cape"></state>
+    </country>
+    <country id="210" name="South Georgia and South Sandwich Islands">
+	 <state name="Bird Island"></state>
+	 <state name="Bristol Island"></state>
+	 <state name="Clerke Rocks"></state>
+	 <state name="Montagu Island"></state>
+	 <state name="Saunders Island"></state>
+	 <state name="South Georgia"></state>
+	 <state name="Southern Thule"></state>
+	 <state name="Traversay Islands"></state>
+    </country>
+    <country id="211" name="Spain">
+	 <state name="Andalucia"></state>
+	 <state name="Aragon"></state>
+	 <state name="Asturias"></state>
+	 <state name="Baleares (Balearic Islands)"></state>
+	 <state name="Canarias (Canary Islands)"></state>
+	 <state name="Cantabria"></state>
+	 <state name="Castilla y Leon"></state>
+	 <state name="Castilla-La Mancha"></state>
+	 <state name="Cataluna"></state>
+	 <state name="Ceuta"></state>
+	 <state name="Communidad Valencian"></state>
+	 <state name="Extremadura"></state>
+	 <state name="Galicia"></state>
+	 <state name="Islas Chafarinas"></state>
+	 <state name="La Rioja"></state>
+	 <state name="Madrid"></state>
+	 <state name="Melilla"></state>
+	 <state name="Murcia"></state>
+	 <state name="Navarra"></state>
+	 <state name="Pais Vasco (Basque Country)"></state>
+	 <state name="Penon de Alhucemas"></state>
+	 <state name="Penon de Velez de la Gomera"></state>
+    </country>
+    <country id="212" name="Spratly Islands">
+	 <state name="Spratly Islands"></state>
+    </country>
+    <country id="213" name="Sri Lanka">
+	 <state name="Central"></state>
+	 <state name="Eastern"></state>
+	 <state name="North Central"></state>
+	 <state name="North Eastern"></state>
+	 <state name="North Western"></state>
+	 <state name="Northern"></state>
+	 <state name="Sabaragamuwa"></state>
+	 <state name="Southern"></state>
+	 <state name="Uva"></state>
+	 <state name="Western"></state>
+    </country>
+    <country id="214" name="Sudan">
+	 <state name="A'ali an Nil"></state>
+	 <state name="Al Bahr al Ahmar"></state>
+	 <state name="Al Buhayrat"></state>
+	 <state name="Al Jazirah"></state>
+	 <state name="Al Khartum"></state>
+	 <state name="Al Qadarif"></state>
+	 <state name="Al Wahdah"></state>
+	 <state name="An Nil al Abyad"></state>
+	 <state name="An Nil al Azraq"></state>
+	 <state name="Ash Shamaliyah"></state>
+	 <state name="Bahr al Jabal"></state>
+	 <state name="Gharb al Istiwa'iyah"></state>
+	 <state name="Gharb Bahr al Ghazal"></state>
+	 <state name="Gharb Darfur"></state>
+	 <state name="Gharb Kurdufan"></state>
+	 <state name="Janub Darfur"></state>
+	 <state name="Janub Kurdufan"></state>
+	 <state name="Junqali"></state>
+	 <state name="Kassala"></state>
+	 <state name="Nahr an Nil"></state>
+	 <state name="Shamal Bahr al Ghazal"></state>
+	 <state name="Shamal Darfur"></state>
+	 <state name="Shamal Kurdufan"></state>
+	 <state name="Sharq al Istiwa'iyah"></state>
+	 <state name="Sinnar"></state>
+	 <state name="Warab"></state>
+    </country>
+    <country id="215" name="Suriname">
+	 <state name="Brokopondo"></state>
+	 <state name="Commewijne"></state>
+	 <state name="Coronie"></state>
+	 <state name="Marowijne"></state>
+	 <state name="Nickerie"></state>
+	 <state name="Para"></state>
+	 <state name="Paramaribo"></state>
+	 <state name="Saramacca"></state>
+	 <state name="Sipaliwini"></state>
+	 <state name="Wanica"></state>
+    </country>
+    <country id="216" name="Svalbard">
+	 <state name="Barentsoya"></state>
+	 <state name="Bjornoya"></state>
+	 <state name="Edgeoya"></state>
+	 <state name="Hopen"></state>
+	 <state name="Kvitoya"></state>
+	 <state name="Nordaustandet"></state>
+	 <state name="Prins Karls Forland"></state>
+	 <state name="Spitsbergen"></state>
+    </country>
+    <country id="217" name="Swaziland">
+	 <state name="Hhohho"></state>
+	 <state name="Lubombo"></state>
+	 <state name="Manzini"></state>
+	 <state name="Shiselweni"></state>
+    </country>
+    <country id="218" name="Sweden">
+	 <state name="Blekinge"></state>
+	 <state name="Dalarnas"></state>
+	 <state name="Gavleborgs"></state>
+	 <state name="Gotlands"></state>
+	 <state name="Hallands"></state>
+	 <state name="Jamtlands"></state>
+	 <state name="Jonkopings"></state>
+	 <state name="Kalmar"></state>
+	 <state name="Kronobergs"></state>
+	 <state name="Norrbottens"></state>
+	 <state name="Orebro"></state>
+	 <state name="Ostergotlands"></state>
+	 <state name="Skane"></state>
+	 <state name="Sodermanlands"></state>
+	 <state name="Stockholms"></state>
+	 <state name="Uppsala"></state>
+	 <state name="Varmlands"></state>
+	 <state name="Vasterbottens"></state>
+	 <state name="Vasternorrlands"></state>
+	 <state name="Vastmanlands"></state>
+	 <state name="Vastra Gotalands"></state>
+    </country>
+    <country id="219" name="Switzerland">
+	 <state name="Aargau"></state>
+	 <state name="Ausser-Rhoden"></state>
+	 <state name="Basel-Landschaft"></state>
+	 <state name="Basel-Stadt"></state>
+	 <state name="Bern"></state>
+	 <state name="Fribourg"></state>
+	 <state name="Geneve"></state>
+	 <state name="Glarus"></state>
+	 <state name="Graubunden"></state>
+	 <state name="Inner-Rhoden"></state>
+	 <state name="Jura"></state>
+	 <state name="Luzern"></state>
+	 <state name="Neuchatel"></state>
+	 <state name="Nidwalden"></state>
+	 <state name="Obwalden"></state>
+	 <state name="Sankt Gallen"></state>
+	 <state name="Schaffhausen"></state>
+	 <state name="Schwyz"></state>
+	 <state name="Solothurn"></state>
+	 <state name="Thurgau"></state>
+	 <state name="Ticino"></state>
+	 <state name="Uri"></state>
+	 <state name="Valais"></state>
+	 <state name="Vaud"></state>
+	 <state name="Zug"></state>
+	 <state name="Zurich"></state>
+    </country>
+    <country id="220" name="Syria">
+	 <state name="Al Hasakah"></state>
+	 <state name="Al Ladhiqiyah"></state>
+	 <state name="Al Qunaytirah"></state>
+	 <state name="Ar Raqqah"></state>
+	 <state name="As Suwayda'"></state>
+	 <state name="Dar'a"></state>
+	 <state name="Dayr az Zawr"></state>
+	 <state name="Dimashq"></state>
+	 <state name="Halab"></state>
+	 <state name="Hamah"></state>
+	 <state name="Hims"></state>
+	 <state name="Idlib"></state>
+	 <state name="Rif Dimashq"></state>
+	 <state name="Tartus"></state>
+    </country>
+    <country id="221" name="Taiwan">
+	 <state name="Chang-hua"></state>
+	 <state name="Chi-lung"></state>
+	 <state name="Chia-i"></state>
+	 <state name="Chia-i"></state>
+	 <state name="Chung-hsing-hsin-ts'un"></state>
+	 <state name="Hsin-chu"></state>
+	 <state name="Hsin-chu"></state>
+	 <state name="Hua-lien"></state>
+	 <state name="I-lan"></state>
+	 <state name="Kao-hsiung"></state>
+	 <state name="Kao-hsiung"></state>
+	 <state name="Miao-li"></state>
+	 <state name="Nan-t'ou"></state>
+	 <state name="P'eng-hu"></state>
+	 <state name="P'ing-tung"></state>
+	 <state name="T'ai-chung"></state>
+	 <state name="T'ai-chung"></state>
+	 <state name="T'ai-nan"></state>
+	 <state name="T'ai-nan"></state>
+	 <state name="T'ai-pei"></state>
+	 <state name="T'ai-pei"></state>
+	 <state name="T'ai-tung"></state>
+	 <state name="T'ao-yuan"></state>
+	 <state name="Yun-lin"></state>
+    </country>
+    <country id="222" name="Tajikistan">
+	 <state name="Viloyati Khatlon"></state>
+	 <state name="Viloyati Leninobod"></state>
+	 <state name="Viloyati Mukhtori Kuhistoni Badakhshon"></state>
+    </country>
+    <country id="223" name="Tanzania">
+	 <state name="Arusha"></state>
+	 <state name="Dar es Salaam"></state>
+	 <state name="Dodoma"></state>
+	 <state name="Iringa"></state>
+	 <state name="Kagera"></state>
+	 <state name="Kigoma"></state>
+	 <state name="Kilimanjaro"></state>
+	 <state name="Lindi"></state>
+	 <state name="Mara"></state>
+	 <state name="Mbeya"></state>
+	 <state name="Morogoro"></state>
+	 <state name="Mtwara"></state>
+	 <state name="Mwanza"></state>
+	 <state name="Pemba North"></state>
+	 <state name="Pemba South"></state>
+	 <state name="Pwani"></state>
+	 <state name="Rukwa"></state>
+	 <state name="Ruvuma"></state>
+	 <state name="Shinyanga"></state>
+	 <state name="Singida"></state>
+	 <state name="Tabora"></state>
+	 <state name="Tanga"></state>
+	 <state name="Zanzibar Central/South"></state>
+	 <state name="Zanzibar North"></state>
+	 <state name="Zanzibar Urban/West"></state>
+    </country>
+    <country id="224" name="Thailand">
+	 <state name="Amnat Charoen"></state>
+	 <state name="Ang Thong"></state>
+	 <state name="Buriram"></state>
+	 <state name="Chachoengsao"></state>
+	 <state name="Chai Nat"></state>
+	 <state name="Chaiyaphum"></state>
+	 <state name="Chanthaburi"></state>
+	 <state name="Chiang Mai"></state>
+	 <state name="Chiang Rai"></state>
+	 <state name="Chon Buri"></state>
+	 <state name="Chumphon"></state>
+	 <state name="Kalasin"></state>
+	 <state name="Kamphaeng Phet"></state>
+	 <state name="Kanchanaburi"></state>
+	 <state name="Khon Kaen"></state>
+	 <state name="Krabi"></state>
+	 <state name="Krung Thep Mahanakhon (Bangkok)"></state>
+	 <state name="Lampang"></state>
+	 <state name="Lamphun"></state>
+	 <state name="Loei"></state>
+	 <state name="Lop Buri"></state>
+	 <state name="Mae Hong Son"></state>
+	 <state name="Maha Sarakham"></state>
+	 <state name="Mukdahan"></state>
+	 <state name="Nakhon Nayok"></state>
+	 <state name="Nakhon Pathom"></state>
+	 <state name="Nakhon Phanom"></state>
+	 <state name="Nakhon Ratchasima"></state>
+	 <state name="Nakhon Sawan"></state>
+	 <state name="Nakhon Si Thammarat"></state>
+	 <state name="Nan"></state>
+	 <state name="Narathiwat"></state>
+	 <state name="Nong Bua Lamphu"></state>
+	 <state name="Nong Khai"></state>
+	 <state name="Nonthaburi"></state>
+	 <state name="Pathum Thani"></state>
+	 <state name="Pattani"></state>
+	 <state name="Phangnga"></state>
+	 <state name="Phatthalung"></state>
+	 <state name="Phayao"></state>
+	 <state name="Phetchabun"></state>
+	 <state name="Phetchaburi"></state>
+	 <state name="Phichit"></state>
+	 <state name="Phitsanulok"></state>
+	 <state name="Phra Nakhon Si Ayutthaya"></state>
+	 <state name="Phrae"></state>
+	 <state name="Phuket"></state>
+	 <state name="Prachin Buri"></state>
+	 <state name="Prachuap Khiri Khan"></state>
+	 <state name="Ranong"></state>
+	 <state name="Ratchaburi"></state>
+	 <state name="Rayong"></state>
+	 <state name="Roi Et"></state>
+	 <state name="Sa Kaeo"></state>
+	 <state name="Sakon Nakhon"></state>
+	 <state name="Samut Prakan"></state>
+	 <state name="Samut Sakhon"></state>
+	 <state name="Samut Songkhram"></state>
+	 <state name="Sara Buri"></state>
+	 <state name="Satun"></state>
+	 <state name="Sing Buri"></state>
+	 <state name="Sisaket"></state>
+	 <state name="Songkhla"></state>
+	 <state name="Sukhothai"></state>
+	 <state name="Suphan Buri"></state>
+	 <state name="Surat Thani"></state>
+	 <state name="Surin"></state>
+	 <state name="Tak"></state>
+	 <state name="Trang"></state>
+	 <state name="Trat"></state>
+	 <state name="Ubon Ratchathani"></state>
+	 <state name="Udon Thani"></state>
+	 <state name="Uthai Thani"></state>
+	 <state name="Uttaradit"></state>
+	 <state name="Yala"></state>
+	 <state name="Yasothon"></state>
+    </country>
+    <country id="225" name="Tobago">
+	 <state name="Tobago"></state>
+    </country>
+    <country id="226" name="Toga">
+	 <state name="De La Kara"></state>
+	 <state name="Des Plateaux"></state>
+	 <state name="Des Savanes"></state>
+	 <state name="Du Centre"></state>
+	 <state name="Maritime"></state>
+    </country>
+    <country id="227" name="Tokelau">
+	 <state name="Atafu"></state>
+	 <state name="Fakaofo"></state>
+	 <state name="Nukunonu"></state>
+    </country>
+    <country id="228" name="Tonga">
+	 <state name="Ha'apai"></state>
+	 <state name="Tongatapu"></state>
+	 <state name="Vava'u"></state>
+    </country>
+    <country id="229" name="Trinidad">
+	 <state name="Arima"></state>
+	 <state name="Caroni"></state>
+	 <state name="Mayaro"></state>
+	 <state name="Nariva"></state>
+	 <state name="Port-of-Spain"></state>
+	 <state name="Saint Andrew"></state>
+	 <state name="Saint David"></state>
+	 <state name="Saint George"></state>
+	 <state name="Saint Patrick"></state>
+	 <state name="San Fernando"></state>
+	 <state name="Victoria"></state>
+    </country>
+    <country id="230" name="Tunisia">
+	 <state name="Ariana"></state>
+	 <state name="Beja"></state>
+	 <state name="Ben Arous"></state>
+	 <state name="Bizerte"></state>
+	 <state name="El Kef"></state>
+	 <state name="Gabes"></state>
+	 <state name="Gafsa"></state>
+	 <state name="Jendouba"></state>
+	 <state name="Kairouan"></state>
+	 <state name="Kasserine"></state>
+	 <state name="Kebili"></state>
+	 <state name="Mahdia"></state>
+	 <state name="Medenine"></state>
+	 <state name="Monastir"></state>
+	 <state name="Nabeul"></state>
+	 <state name="Sfax"></state>
+	 <state name="Sidi Bou Zid"></state>
+	 <state name="Siliana"></state>
+	 <state name="Sousse"></state>
+	 <state name="Tataouine"></state>
+	 <state name="Tozeur"></state>
+	 <state name="Tunis"></state>
+	 <state name="Zaghouan"></state>
+    </country>
+    <country id="231" name="Turkey">
+	 <state name="Adana"></state>
+	 <state name="Adiyaman"></state>
+	 <state name="Afyon"></state>
+	 <state name="Agri"></state>
+	 <state name="Aksaray"></state>
+	 <state name="Amasya"></state>
+	 <state name="Ankara"></state>
+	 <state name="Antalya"></state>
+	 <state name="Ardahan"></state>
+	 <state name="Artvin"></state>
+	 <state name="Aydin"></state>
+	 <state name="Balikesir"></state>
+	 <state name="Bartin"></state>
+	 <state name="Batman"></state>
+	 <state name="Bayburt"></state>
+	 <state name="Bilecik"></state>
+	 <state name="Bingol"></state>
+	 <state name="Bitlis"></state>
+	 <state name="Bolu"></state>
+	 <state name="Burdur"></state>
+	 <state name="Bursa"></state>
+	 <state name="Canakkale"></state>
+	 <state name="Cankiri"></state>
+	 <state name="Corum"></state>
+	 <state name="Denizli"></state>
+	 <state name="Diyarbakir"></state>
+	 <state name="Duzce"></state>
+	 <state name="Edirne"></state>
+	 <state name="Elazig"></state>
+	 <state name="Erzincan"></state>
+	 <state name="Erzurum"></state>
+	 <state name="Eskisehir"></state>
+	 <state name="Gaziantep"></state>
+	 <state name="Giresun"></state>
+	 <state name="Gumushane"></state>
+	 <state name="Hakkari"></state>
+	 <state name="Hatay"></state>
+	 <state name="Icel"></state>
+	 <state name="Igdir"></state>
+	 <state name="Isparta"></state>
+	 <state name="Istanbul"></state>
+	 <state name="Izmir"></state>
+	 <state name="Kahramanmaras"></state>
+	 <state name="Karabuk"></state>
+	 <state name="Karaman"></state>
+	 <state name="Kars"></state>
+	 <state name="Kastamonu"></state>
+	 <state name="Kayseri"></state>
+	 <state name="Kilis"></state>
+	 <state name="Kirikkale"></state>
+	 <state name="Kirklareli"></state>
+	 <state name="Kirsehir"></state>
+	 <state name="Kocaeli"></state>
+	 <state name="Konya"></state>
+	 <state name="Kutahya"></state>
+	 <state name="Malatya"></state>
+	 <state name="Manisa"></state>
+	 <state name="Mardin"></state>
+	 <state name="Mugla"></state>
+	 <state name="Mus"></state>
+	 <state name="Nevsehir"></state>
+	 <state name="Nigde"></state>
+	 <state name="Ordu"></state>
+	 <state name="Osmaniye"></state>
+	 <state name="Rize"></state>
+	 <state name="Sakarya"></state>
+	 <state name="Samsun"></state>
+	 <state name="Sanliurfa"></state>
+	 <state name="Siirt"></state>
+	 <state name="Sinop"></state>
+	 <state name="Sirnak"></state>
+	 <state name="Sivas"></state>
+	 <state name="Tekirdag"></state>
+	 <state name="Tokat"></state>
+	 <state name="Trabzon"></state>
+	 <state name="Tunceli"></state>
+	 <state name="Usak"></state>
+	 <state name="Van"></state>
+	 <state name="Yalova"></state>
+	 <state name="Yozgat"></state>
+	 <state name="Zonguldak"></state>
+    </country>
+    <country id="232" name="Turkmenistan">
+	 <state name="Ahal Welayaty"></state>
+	 <state name="Balkan Welayaty"></state>
+	 <state name="Dashhowuz Welayaty"></state>
+	 <state name="Lebap Welayaty"></state>
+	 <state name="Mary Welayaty"></state>
+    </country>
+    <country id="233" name="Tuvalu">
+	 <state name="Tuvalu"></state>
+    </country>
+    <country id="234" name="Uganda">
+	 <state name="Adjumani"></state>
+	 <state name="Apac"></state>
+	 <state name="Arua"></state>
+	 <state name="Bugiri"></state>
+	 <state name="Bundibugyo"></state>
+	 <state name="Bushenyi"></state>
+	 <state name="Busia"></state>
+	 <state name="Gulu"></state>
+	 <state name="Hoima"></state>
+	 <state name="Iganga"></state>
+	 <state name="Jinja"></state>
+	 <state name="Kabale"></state>
+	 <state name="Kabarole"></state>
+	 <state name="Kalangala"></state>
+	 <state name="Kampala"></state>
+	 <state name="Kamuli"></state>
+	 <state name="Kapchorwa"></state>
+	 <state name="Kasese"></state>
+	 <state name="Katakwi"></state>
+	 <state name="Kibale"></state>
+	 <state name="Kiboga"></state>
+	 <state name="Kisoro"></state>
+	 <state name="Kitgum"></state>
+	 <state name="Kotido"></state>
+	 <state name="Kumi"></state>
+	 <state name="Lira"></state>
+	 <state name="Luwero"></state>
+	 <state name="Masaka"></state>
+	 <state name="Masindi"></state>
+	 <state name="Mbale"></state>
+	 <state name="Mbarara"></state>
+	 <state name="Moroto"></state>
+	 <state name="Moyo"></state>
+	 <state name="Mpigi"></state>
+	 <state name="Mubende"></state>
+	 <state name="Mukono"></state>
+	 <state name="Nakasongola"></state>
+	 <state name="Nebbi"></state>
+	 <state name="Ntungamo"></state>
+	 <state name="Pallisa"></state>
+	 <state name="Rakai"></state>
+	 <state name="Rukungiri"></state>
+	 <state name="Sembabule"></state>
+	 <state name="Soroti"></state>
+	 <state name="Tororo"></state>
+    </country>
+    <country id="235" name="Ukraine">
+	 <state name="Avtonomna Respublika Krym (Simferopol')"></state>
+	 <state name="Cherkas'ka (Cherkasy)"></state>
+	 <state name="Chernihivs'ka (Chernihiv)"></state>
+	 <state name="Chernivets'ka (Chernivtsi)"></state>
+	 <state name="Dnipropetrovs'ka (Dnipropetrovs'k)"></state>
+	 <state name="Donets'ka (Donets'k)"></state>
+	 <state name="Ivano-Frankivs'ka (Ivano-Frankivs'k)"></state>
+	 <state name="Kharkivs'ka (Kharkiv)"></state>
+	 <state name="Khersons'ka (Kherson)"></state>
+	 <state name="Khmel'nyts'ka (Khmel'nyts'kyy)"></state>
+	 <state name="Kirovohrads'ka (Kirovohrad)"></state>
+	 <state name="Kyyiv"></state>
+	 <state name="Kyyivs'ka (Kiev)"></state>
+	 <state name="L'vivs'ka (L'viv)"></state>
+	 <state name="Luhans'ka (Luhans'k)"></state>
+	 <state name="Mykolayivs'ka (Mykolayiv)"></state>
+	 <state name="Odes'ka (Odesa)"></state>
+	 <state name="Poltavs'ka (Poltava)"></state>
+	 <state name="Rivnens'ka (Rivne)"></state>
+	 <state name="Sevastopol'"></state>
+	 <state name="Sums'ka (Sumy)"></state>
+	 <state name="Ternopil's'ka (Ternopil')"></state>
+	 <state name="Vinnyts'ka (Vinnytsya)"></state>
+	 <state name="Volyns'ka (Luts'k)"></state>
+	 <state name="Zakarpats'ka (Uzhhorod)"></state>
+	 <state name="Zaporiz'ka (Zaporizhzhya)"></state>
+	 <state name="Zhytomyrs'ka (Zhytomyr)"></state>
+    </country>
+    <country id="236" name="United Arab Emirates">
+	 <state name="'Ajman"></state>
+	 <state name="Abu Zaby (Abu Dhabi)"></state>
+	 <state name="Al Fujayrah"></state>
+	 <state name="Ash Shariqah (Sharjah)"></state>
+	 <state name="Dubayy (Dubai)"></state>
+	 <state name="Ra's al Khaymah"></state>
+	 <state name="Umm al Qaywayn"></state>
+    </country>
+    <country id="237" name="United Kingdom">
+	 <state name="Barking and Dagenham"></state>
+	 <state name="Barnet"></state>
+	 <state name="Barnsley"></state>
+	 <state name="Bath and North East Somerset"></state>
+	 <state name="Bedfordshire"></state>
+	 <state name="Bexley"></state>
+	 <state name="Birmingham"></state>
+	 <state name="Blackburn with Darwen"></state>
+	 <state name="Blackpool"></state>
+	 <state name="Bolton"></state>
+	 <state name="Bournemouth"></state>
+	 <state name="Bracknell Forest"></state>
+	 <state name="Bradford"></state>
+	 <state name="Brent"></state>
+	 <state name="Brighton and Hove"></state>
+	 <state name="Bromley"></state>
+	 <state name="Buckinghamshire"></state>
+	 <state name="Bury"></state>
+	 <state name="Calderdale"></state>
+	 <state name="Cambridgeshire"></state>
+	 <state name="Camden"></state>
+	 <state name="Cheshire"></state>
+	 <state name="City of Bristol"></state>
+	 <state name="City of Kingston upon Hull"></state>
+	 <state name="City of London"></state>
+	 <state name="Cornwall"></state>
+	 <state name="Coventry"></state>
+	 <state name="Croydon"></state>
+	 <state name="Cumbria"></state>
+	 <state name="Darlington"></state>
+	 <state name="Derby"></state>
+	 <state name="Derbyshire"></state>
+	 <state name="Devon"></state>
+	 <state name="Doncaster"></state>
+	 <state name="Dorset"></state>
+	 <state name="Dudley"></state>
+	 <state name="Durham"></state>
+	 <state name="Ealing"></state>
+	 <state name="East Riding of Yorkshire"></state>
+	 <state name="East Sussex"></state>
+	 <state name="Enfield"></state>
+	 <state name="Essex"></state>
+	 <state name="Gateshead"></state>
+	 <state name="Gloucestershire"></state>
+	 <state name="Greenwich"></state>
+	 <state name="Hackney"></state>
+	 <state name="Halton"></state>
+	 <state name="Hammersmith and Fulham"></state>
+	 <state name="Hampshire"></state>
+	 <state name="Haringey"></state>
+	 <state name="Harrow"></state>
+	 <state name="Hartlepool"></state>
+	 <state name="Havering"></state>
+	 <state name="Herefordshire"></state>
+	 <state name="Hertfordshire"></state>
+	 <state name="Hillingdon"></state>
+	 <state name="Hounslow"></state>
+	 <state name="Isle of Wight"></state>
+	 <state name="Islington"></state>
+	 <state name="Kensington and Chelsea"></state>
+	 <state name="Kent"></state>
+	 <state name="Kingston upon Thames"></state>
+	 <state name="Kirklees"></state>
+	 <state name="Knowsley"></state>
+	 <state name="Lambeth"></state>
+	 <state name="Lancashire"></state>
+	 <state name="Leeds"></state>
+	 <state name="Leicester"></state>
+	 <state name="Leicestershire"></state>
+	 <state name="Lewisham"></state>
+	 <state name="Lincolnshire"></state>
+	 <state name="Liverpool"></state>
+	 <state name="Luton"></state>
+	 <state name="Manchester"></state>
+	 <state name="Medway"></state>
+	 <state name="Merton"></state>
+	 <state name="Middlesbrough"></state>
+	 <state name="Milton Keynes"></state>
+	 <state name="Newcastle upon Tyne"></state>
+	 <state name="Newham"></state>
+	 <state name="Norfolk"></state>
+	 <state name="North East Lincolnshire"></state>
+	 <state name="North Lincolnshire"></state>
+	 <state name="North Somerset"></state>
+	 <state name="North Tyneside"></state>
+	 <state name="North Yorkshire"></state>
+	 <state name="Northamptonshire"></state>
+	 <state name="Northumberland"></state>
+	 <state name="Nottingham"></state>
+	 <state name="Nottinghamshire"></state>
+	 <state name="Oldham"></state>
+	 <state name="Oxfordshire"></state>
+	 <state name="Peterborough"></state>
+	 <state name="Plymouth"></state>
+	 <state name="Poole"></state>
+	 <state name="Portsmouth"></state>
+	 <state name="Reading"></state>
+	 <state name="Redbridge"></state>
+	 <state name="Redcar and Cleveland"></state>
+	 <state name="Richmond upon Thames"></state>
+	 <state name="Rochdale"></state>
+	 <state name="Rotherham"></state>
+	 <state name="Rutland"></state>
+	 <state name="Salford"></state>
+	 <state name="Sandwell"></state>
+	 <state name="Sefton"></state>
+	 <state name="Sheffield"></state>
+	 <state name="Shropshire"></state>
+	 <state name="Slough"></state>
+	 <state name="Solihull"></state>
+	 <state name="Somerset"></state>
+	 <state name="South Gloucestershire"></state>
+	 <state name="South Tyneside"></state>
+	 <state name="Southampton"></state>
+	 <state name="Southend-on-Sea"></state>
+	 <state name="Southwark"></state>
+	 <state name="St. Helens"></state>
+	 <state name="Staffordshire"></state>
+	 <state name="Stockport"></state>
+	 <state name="Stockton-on-Tees"></state>
+	 <state name="Stoke-on-Trent"></state>
+	 <state name="Suffolk"></state>
+	 <state name="Sunderland"></state>
+	 <state name="Surrey"></state>
+	 <state name="Sutton"></state>
+	 <state name="Swindon"></state>
+	 <state name="Tameside"></state>
+	 <state name="Telford and Wrekin"></state>
+	 <state name="Thurrock"></state>
+	 <state name="Torbay"></state>
+	 <state name="Tower Hamlets"></state>
+	 <state name="Trafford"></state>
+	 <state name="Wakefield"></state>
+	 <state name="Walsall"></state>
+	 <state name="Waltham Forest"></state>
+	 <state name="Wandsworth"></state>
+	 <state name="Warrington"></state>
+	 <state name="Warwickshire"></state>
+	 <state name="West Berkshire"></state>
+	 <state name="West Sussex"></state>
+	 <state name="Westminster"></state>
+	 <state name="Wigan"></state>
+	 <state name="Wiltshire"></state>
+	 <state name="Windsor and Maidenhead"></state>
+	 <state name="Wirral"></state>
+	 <state name="Wokingham"></state>
+	 <state name="Wolverhampton"></state>
+	 <state name="Worcestershire"></state>
+	 <state name="York"></state>
+    </country>
+    <country id="238" name="Uruguay">
+	 <state name="Artigas"></state>
+	 <state name="Canelones"></state>
+	 <state name="Cerro Largo"></state>
+	 <state name="Colonia"></state>
+	 <state name="Durazno"></state>
+	 <state name="Flores"></state>
+	 <state name="Florida"></state>
+	 <state name="Lavalleja"></state>
+	 <state name="Maldonado"></state>
+	 <state name="Montevideo"></state>
+	 <state name="Paysandu"></state>
+	 <state name="Rio Negro"></state>
+	 <state name="Rivera"></state>
+	 <state name="Rocha"></state>
+	 <state name="Salto"></state>
+	 <state name="San Jose"></state>
+	 <state name="Soriano"></state>
+	 <state name="Tacuarembo"></state>
+	 <state name="Treinta y Tres"></state>
+    </country>
+    <country id="239" name="USA">
+	 <state name="Alabama"></state>
+	 <state name="Alaska"></state>
+	 <state name="Arizona"></state>
+	 <state name="Arkansas"></state>
+	 <state name="California"></state>
+	 <state name="Colorado"></state>
+	 <state name="Connecticut"></state>
+	 <state name="Delaware"></state>
+	 <state name="District of Columbia"></state>
+	 <state name="Florida"></state>
+	 <state name="Georgia"></state>
+	 <state name="Hawaii"></state>
+	 <state name="Idaho"></state>
+	 <state name="Illinois"></state>
+	 <state name="Indiana"></state>
+	 <state name="Iowa"></state>
+	 <state name="Kansas"></state>
+	 <state name="Kentucky"></state>
+	 <state name="Louisiana"></state>
+	 <state name="Maine"></state>
+	 <state name="Maryland"></state>
+	 <state name="Massachusetts"></state>
+	 <state name="Michigan"></state>
+	 <state name="Minnesota"></state>
+	 <state name="Mississippi"></state>
+	 <state name="Missouri"></state>
+	 <state name="Montana"></state>
+	 <state name="Nebraska"></state>
+	 <state name="Nevada"></state>
+	 <state name="New Hampshire"></state>
+	 <state name="New Jersey"></state>
+	 <state name="New Mexico"></state>
+	 <state name="New York"></state>
+	 <state name="North Carolina"></state>
+	 <state name="North Dakota"></state>
+	 <state name="Ohio"></state>
+	 <state name="Oklahoma"></state>
+	 <state name="Oregon"></state>
+	 <state name="Pennsylvania"></state>
+	 <state name="Rhode Island"></state>
+	 <state name="South Carolina"></state>
+	 <state name="South Dakota"></state>
+	 <state name="Tennessee"></state>
+	 <state name="Texas"></state>
+	 <state name="Utah"></state>
+	 <state name="Vermont"></state>
+	 <state name="Virginia"></state>
+	 <state name="Washington"></state>
+	 <state name="West Virginia"></state>
+	 <state name="Wisconsin"></state>
+	 <state name="Wyoming"></state>
+    </country>
+    <country id="240" name="Uzbekistan">
+	 <state name="Andijon Wiloyati"></state>
+	 <state name="Bukhoro Wiloyati"></state>
+	 <state name="Farghona Wiloyati"></state>
+	 <state name="Jizzakh Wiloyati"></state>
+	 <state name="Khorazm Wiloyati (Urganch)"></state>
+	 <state name="Namangan Wiloyati"></state>
+	 <state name="Nawoiy Wiloyati"></state>
+	 <state name="Qashqadaryo Wiloyati (Qarshi)"></state>
+	 <state name="Qoraqalpoghiston (Nukus)"></state>
+	 <state name="Samarqand Wiloyati"></state>
+	 <state name="Sirdaryo Wiloyati (Guliston)"></state>
+	 <state name="Surkhondaryo Wiloyati (Termiz)"></state>
+	 <state name="Toshkent Shahri"></state>
+	 <state name="Toshkent Wiloyati"></state>
+    </country>
+    <country id="241" name="Vanuatu">
+	 <state name="Malampa"></state>
+	 <state name="Penama"></state>
+	 <state name="Sanma"></state>
+	 <state name="Shefa"></state>
+	 <state name="Tafea"></state>
+	 <state name="Torba"></state>
+    </country>
+    <country id="242" name="Venezuela">
+	 <state name="Amazonas"></state>
+	 <state name="Anzoategui"></state>
+	 <state name="Apure"></state>
+	 <state name="Aragua"></state>
+	 <state name="Barinas"></state>
+	 <state name="Bolivar"></state>
+	 <state name="Carabobo"></state>
+	 <state name="Cojedes"></state>
+	 <state name="Delta Amacuro"></state>
+	 <state name="Dependencias Federales"></state>
+	 <state name="Distrito Federal"></state>
+	 <state name="Falcon"></state>
+	 <state name="Guarico"></state>
+	 <state name="Lara"></state>
+	 <state name="Merida"></state>
+	 <state name="Miranda"></state>
+	 <state name="Monagas"></state>
+	 <state name="Nueva Esparta"></state>
+	 <state name="Portuguesa"></state>
+	 <state name="Sucre"></state>
+	 <state name="Tachira"></state>
+	 <state name="Trujillo"></state>
+	 <state name="Vargas"></state>
+	 <state name="Yaracuy"></state>
+	 <state name="Zulia"></state>
+    </country>
+    <country id="243" name="Vietnam">
+	 <state name="An Giang"></state>
+	 <state name="Ba Ria-Vung Tau"></state>
+	 <state name="Bac Giang"></state>
+	 <state name="Bac Kan"></state>
+	 <state name="Bac Lieu"></state>
+	 <state name="Bac Ninh"></state>
+	 <state name="Ben Tre"></state>
+	 <state name="Binh Dinh"></state>
+	 <state name="Binh Duong"></state>
+	 <state name="Binh Phuoc"></state>
+	 <state name="Binh Thuan"></state>
+	 <state name="Ca Mau"></state>
+	 <state name="Can Tho"></state>
+	 <state name="Cao Bang"></state>
+	 <state name="Da Nang"></state>
+	 <state name="Dac Lak"></state>
+	 <state name="Dong Nai"></state>
+	 <state name="Dong Thap"></state>
+	 <state name="Gia Lai"></state>
+	 <state name="Ha Giang"></state>
+	 <state name="Ha Nam"></state>
+	 <state name="Ha Noi"></state>
+	 <state name="Ha Tay"></state>
+	 <state name="Ha Tinh"></state>
+	 <state name="Hai Duong"></state>
+	 <state name="Hai Phong"></state>
+	 <state name="Ho Chi Minh"></state>
+	 <state name="Hoa Binh"></state>
+	 <state name="Hung Yen"></state>
+	 <state name="Khanh Hoa"></state>
+	 <state name="Kien Giang"></state>
+	 <state name="Kon Tum"></state>
+	 <state name="Lai Chau"></state>
+	 <state name="Lam Dong"></state>
+	 <state name="Lang Son"></state>
+	 <state name="Lao Cai"></state>
+	 <state name="Long An"></state>
+	 <state name="Nam Dinh"></state>
+	 <state name="Nghe An"></state>
+	 <state name="Ninh Binh"></state>
+	 <state name="Ninh Thuan"></state>
+	 <state name="Phu Tho"></state>
+	 <state name="Phu Yen"></state>
+	 <state name="Quang Binh"></state>
+	 <state name="Quang Nam"></state>
+	 <state name="Quang Ngai"></state>
+	 <state name="Quang Ninh"></state>
+	 <state name="Quang Tri"></state>
+	 <state name="Soc Trang"></state>
+	 <state name="Son La"></state>
+	 <state name="Tay Ninh"></state>
+	 <state name="Thai Binh"></state>
+	 <state name="Thai Nguyen"></state>
+	 <state name="Thanh Hoa"></state>
+	 <state name="Thua Thien-Hue"></state>
+	 <state name="Tien Giang"></state>
+	 <state name="Tra Vinh"></state>
+	 <state name="Tuyen Quang"></state>
+	 <state name="Vinh Long"></state>
+	 <state name="Vinh Phuc"></state>
+	 <state name="Yen Bai"></state>
+    </country>
+    <country id="244" name="Virgin Islands">
+	 <state name="Saint Croix"></state>
+	 <state name="Saint John"></state>
+	 <state name="Saint Thomas"></state>
+    </country>
+    <country id="245" name="Wales">
+	 <state name="Blaenau Gwent"></state>
+	 <state name="Bridgend"></state>
+	 <state name="Caerphilly"></state>
+	 <state name="Cardiff"></state>
+	 <state name="Carmarthenshire"></state>
+	 <state name="Ceredigion"></state>
+	 <state name="Conwy"></state>
+	 <state name="Denbighshire"></state>
+	 <state name="Flintshire"></state>
+	 <state name="Gwynedd"></state>
+	 <state name="Isle of Anglesey"></state>
+	 <state name="Merthyr Tydfil"></state>
+	 <state name="Monmouthshire"></state>
+	 <state name="Neath Port Talbot"></state>
+	 <state name="Newport"></state>
+	 <state name="Pembrokeshire"></state>
+	 <state name="Powys"></state>
+	 <state name="Rhondda Cynon Taff"></state>
+	 <state name="Swansea"></state>
+	 <state name="The Vale of Glamorgan"></state>
+	 <state name="Torfaen"></state>
+	 <state name="Wrexham"></state>
+    </country>
+    <country id="246" name="Wallis and Futuna">
+	 <state name="Alo"></state>
+	 <state name="Sigave"></state>
+	 <state name="Wallis"></state>
+    </country>
+    <country id="247" name="West Bank">
+	 <state name="West Bank"></state>
+    </country>
+    <country id="248" name="Western Sahara">
+	 <state name="Western Sahara"></state>
+    </country>
+    <country id="249" name="Yemen">
+	 <state name="'Adan"></state>
+	 <state name="'Ataq"></state>
+	 <state name="Abyan"></state>
+	 <state name="Al Bayda'"></state>
+	 <state name="Al Hudaydah"></state>
+	 <state name="Al Jawf"></state>
+	 <state name="Al Mahrah"></state>
+	 <state name="Al Mahwit"></state>
+	 <state name="Dhamar"></state>
+	 <state name="Hadhramawt"></state>
+	 <state name="Hajjah"></state>
+	 <state name="Ibb"></state>
+	 <state name="Lahij"></state>
+	 <state name="Ma'rib"></state>
+	 <state name="Sa'dah"></state>
+	 <state name="San'a'"></state>
+	 <state name="Ta'izz"></state>
+    </country>
+    <country id="250" name="Yugoslavia">
+	 <state name="Kosovo"></state>
+	 <state name="Montenegro"></state>
+	 <state name="Serbia"></state>
+	 <state name="Vojvodina"></state>
+    </country>
+    <country id="251" name="Zambia">
+	 <state name="Central"></state>
+	 <state name="Copperbelt"></state> 
+	 <state name="Eastern"></state>
+	 <state name="Luapula"></state>
+	 <state name="Lusaka"></state>
+	 <state name="North-Western"></state>
+	 <state name="Northern"></state>
+	 <state name="Southern"></state>
+	 <state name="Western"></state>
+    </country>
+    <country id="252" name="Zimbabwe">
+	 <state name="Bulawayo"></state>
+	 <state name="Harare"></state>
+	 <state name="ManicalandMashonaland Central"></state>
+	 <state name="Mashonaland East"></state>
+	 <state name="Mashonaland West"></state>
+	 <state name="Masvingo"></state>
+	 <state name="Matabeleland North"></state>
+	 <state name="Matabeleland South"></state>
+	 <state name="Midlands"></state>
+    </country>
+</location> 

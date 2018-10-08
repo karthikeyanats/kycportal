@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app id="WebApp_ID" version="2.4" xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
+	<display-name>
+	kycportal</display-name>
+	<welcome-file-list>
+	<!-- 	<welcome-file>indexv1.jsp</welcome-file> -->
+	<welcome-file>home.jsp</welcome-file> 
+	</welcome-file-list>
+
+ 	<listener><listener-class>com.igst.controller.common.StartupListener</listener-class></listener>
+<!--  	<listener><listener-class>com.iGrandee.Common.ServletContextAttribListener</listener-class></listener>
+ --> 	
+	
+	<servlet>
+    	<servlet-name>OpenDocument</servlet-name>
+    	<servlet-class>com.vd.OpenFile</servlet-class>
+    </servlet>
+    
+    <servlet>
+		<servlet-name>OnlineExamServlet</servlet-name>
+		<servlet-class>com.iGrandee.ExamManagement.Servlets.OnlineExamServlet</servlet-class>
+	</servlet>
+	
+	<servlet>
+    	<servlet-name>QuestionServlet</servlet-name>
+    	<servlet-class>com.iGrandee.ExamManagement.Servlets.QuestionServlet</servlet-class>
+    </servlet>
+    
+	<servlet>
+		<servlet-name>ResultServlet</servlet-name>
+		<servlet-class>com.iGrandee.ExamManagement.Servlets.ResultServlet</servlet-class>
+   	</servlet>
+       
+       
+   <servlet>
+		<servlet-name>Log4JInitServlet</servlet-name>
+		<servlet-class>com.iGrandee.Common.Log4JInitServlet</servlet-class>
+		<init-param>
+			<param-name>log4j-properties-location</param-name>
+			<param-value>/WEB-INF/log4j.properties</param-value>
+		</init-param>
+		<load-on-startup>1</load-on-startup>
+	</servlet>
+		
+		<servlet>
+		<servlet-name>SendGeneralMail</servlet-name>
+		<servlet-class>com.iGrandee.SendMail.SendGeneralMail</servlet-class>
+   	</servlet>
+		<servlet>
+			<description>
+			</description>
+			<display-name>MailCompose</display-name>
+			<servlet-name>MailCompose</servlet-name>
+			<servlet-class>
+			com.iGrandee.SendMail.MailCompose</servlet-class>
+		</servlet>
+    
+	 <servlet>
+<servlet-name>GLogger</servlet-name>
+<servlet-class>com.igst.common.GLogger</servlet-class>
+<init-param>
+	<param-name>log4j-properties-location</param-name>
+	<param-value>/WEB-INF/classes/resources/log4j.properties</param-value>
+</init-param>
+<load-on-startup>1</load-on-startup>
+</servlet>
+		 
+		
+    <servlet-mapping>
+     	<servlet-name>OpenDocument</servlet-name>
+     	<url-pattern>/OpenDocument</url-pattern>
+    </servlet-mapping>  
+    
+	<servlet-mapping>
+		<servlet-name>OnlineExamServlet</servlet-name>
+		<url-pattern>/OnlineExamServlet</url-pattern>
+	</servlet-mapping>
+	  	
+  	<servlet-mapping>
+    	<servlet-name>QuestionServlet</servlet-name>
+    	<url-pattern>/QuestionServlet</url-pattern>
+    </servlet-mapping>
+ 		
+ 	<servlet-mapping>
+ 		<servlet-name>ResultServlet</servlet-name>
+ 		<url-pattern>/ResultServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+ 		<servlet-name>SendGeneralMail</servlet-name>
+ 		<url-pattern>/General/SendGeneralMail</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+    	<servlet-name>MailCompose</servlet-name>
+    	<url-pattern>/MailCompose</url-pattern>
+    </servlet-mapping>
+    
+   <servlet-mapping>
+	<servlet-name>GLogger</servlet-name>
+	<url-pattern>/GLogger</url-pattern>
+</servlet-mapping> 
+    
+	 		<filter>
+		<filter-name>RequestFilter</filter-name>
+		<filter-class>com.igst.controller.common.RequestFilter</filter-class>
+		<init-param>
+				<param-name>pattern</param-name>
+				<param-value>.do;.jsp;</param-value>
+	    </init-param>
+</filter>
+
+	<filter>
+		<filter-name>AbsoluteSendRedirectFilter</filter-name>
+		<filter-class>com.iGrandee.core.filtter.AbsoluteSendRedirectFilter</filter-class>
+		<init-param>
+			<param-name>parm1</param-name>
+			<param-value>parm1value</param-value>
+		</init-param>
+	</filter>
+ 
+<filter-mapping>
+    <filter-name>RequestFilter</filter-name>
+    <url-pattern>/*</url-pattern>
+</filter-mapping>
+   
+		<filter-mapping>
+		<filter-name>AbsoluteSendRedirectFilter</filter-name>
+		<url-pattern>/*</url-pattern>
+	</filter-mapping>
+
+
+
+</web-app>

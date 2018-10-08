@@ -1,0 +1,279 @@
+<?xml version="1.0"?>
+<location>
+	<country id="100" name="India">
+		<state id="102" name="Andhra Pradesh">
+			<city id="100">Hyderabad</city>
+			<city id="101">Guntur</city>
+			<city id="102">Vishakapatnam</city>
+			<city id="103">Rajahmundry</city>
+			<city id="104">Vijayawada</city>
+		</state>
+
+		<state id="103" name="Andaman and Nicobar">
+
+		</state>
+
+
+		<state id="102" name="Arunachal Pradesh">
+
+		</state>
+
+		<state id="102" name="Assam">
+
+		</state>
+
+		<state id="102" name="Bihar">
+			<city id="101">Patna</city>
+		</state>
+		<state id="102" name="Chandigarh">
+
+			<city id="101">Chandigarh</city>
+			<city id="102">Mani Majra</city>
+			<city id="104">Mohali</city>
+			<city id="105">Nangal</city>
+			<city id="108">Rajpur</city>
+
+		</state>
+		<state id="102" name="Chhattisgarh">
+		<city id="100">Bhillai</city>
+
+		</state>
+
+		<state id="103" name="Dadra and NagarHaveli">
+
+		</state>
+		<state id="103" name="Daman and Diu">
+
+		</state>
+
+		<state id="102" name="Goa">
+
+		</state>
+		<state id="102" name="Gujarat">
+
+		</state>
+		<state id="102" name="Haryana">
+		<city id="100">Gurgaon</city>
+		<city id="100">Rohtak</city>
+		<city id="100">Yamuna Nagar</city>
+		<city id="100">Jind</city>
+		<city id="100">Panchkula</city>
+		<city id="100">Sirsa</city>
+
+		</state>
+		<state id="102" name="Himachal Pradesh">
+			<city id="100">Amb</city>
+			<city id="101">Chamba</city>
+			<city id="102">Dhaliara</city>
+			<city id="103">Dharmashala</city>
+			<city id="104">Kandori</city>
+			<city id="105">Mandi</city>
+			<city id="106">Nalagarh</city>
+			<city id="107">Nurpur</city>
+			<city id="108">Solan</city>
+			<city id="109">Una</city>
+		</state>
+		<state id="102" name="Jammu Kashmir">
+			<city id="101">Anantnag</city>
+			<city id="102">Gandhi Nagar</city>
+			<city id="103">Jammu</city>
+			<city id="103">Kargil</city>
+			<city id="104">Kathua</city>
+			<city id="105">Leh</city>
+			<city id="106">Rajouri</city>
+			<city id="107">Shrinagar</city>
+			<city id="108">Sopore</city>
+			<city id="109">Udhampur</city>
+		</state>
+		<state id="102" name="Jharkhand">
+			<city id="101">Jamshedpur</city>
+			<city id="102">Ranchi</city>
+		</state>
+
+		<state id="101" name="Karnataka">
+
+		 <city id="108">Bangalore</city>
+		 <city id="108">Mysore</city>
+		 <city id="108">Mangalore</city>
+
+
+		</state>
+
+		<state id="102" name="Kerala">
+
+		        <city id="108">Aluva</city>
+		        <city id="109">Chengannur</city>
+		        <city id="109">Chinnakada</city>
+		        <city id="108">Cochin</city>
+		        <city id="109">Thiruvalla</city>
+				<city id="109">Thiruvalla</city>
+		        <city id="109">Kollam</city>
+
+
+		</state>
+
+
+		<state id="103" name="Lakshadwep">
+
+		</state>
+		<state id="102" name="Madhya Pradesh">
+		 <city id="100">Bhopal</city>
+		 <city id="101">Jabalpur</city>
+		 <city id="102">Indore</city>
+		 <city id="102">Gwalior</city>
+		 <city id="102">Sagar</city>
+		 <city id="102">Nowgong Bkd</city>
+		 <city id="102">Ujjain</city>
+		 <city id="102">Kollam</city>
+		 <city id="102">Guna</city>
+		 <city id="102">Bhopal</city>
+		 <city id="102">Itarsi</city>
+		 <city id="102">Chhindwara</city>
+		 <city id="102">Dewas</city>
+		 <city id="102">Neemuch</city>
+		</state>
+		<state id="102" name="Maharastra">
+		</state>
+		<state id="102" name="Manipur">
+
+		</state>
+		<state id="102" name="Meghalaya">
+
+		</state>
+		<state id="102" name="Mizoram">
+
+		</state>
+
+		<state id="102" name="New Delhi">
+		<city id="100">Delhi</city>
+
+		</state>
+
+
+
+		<state id="102" name="Nagaland">
+
+		</state>
+		<state id="102" name="Orissa">
+		<city id="100">Bhuvaneswar</city>
+		</state>
+
+		<state id="103" name="Pondichery">
+
+		</state>
+
+		<state id="103" name="Punjab">
+			<city id="100">Abohar</city>
+			<city id="101">Adampur</city>
+			<city id="102">Anandpursahib</city>
+			<city id="102">Ahmedgarh</city>
+			<city id="103">Amritsar</city>
+			<city id="104">Bhagwanigarh</city>
+			<city id="105">Barnala</city>
+			<city id="106">Batala</city>
+			<city id="106">Bathinda</city>
+			<city id="107">Banga</city>
+			<city id="108">Bholath</city>
+			<city id="107">Budhlada</city>
+			<city id="109">Dasuya</city>
+			<city id="110">Dera Bassi</city>
+			<city id="111">Dhuri</city>
+			<city id="112">Doraha</city>
+			<city id="113">Fateh Garh Churian</city>
+			<city id="113">Faridkot</city>
+			<city id="113">Ferozepur</city>
+			<city id="113">Faizilka</city>
+			<city id="114">Garh Shankar</city>
+			<city id="115">Goniana Mandi</city>
+			<city id="115">Goraya</city>
+			<city id="116">Gurdaspur</city>
+			<city id="117">Hoshiarpur</city>
+			<city id="118">Jagron</city>
+			<city id="119">Jalandhar</city>
+			<city id="120">Jandiala Guru</city>
+			<city id="106">Kharar</city>
+			<city id="121">Khanna</city>
+			<city id="122">Kapurthala</city>
+			<city id="122">Kotkapura</city>
+			<city id="123">Kauli</city>
+			<city id="123">Kurali</city>
+
+			<city id="124">Ludhiana</city>
+			<city id="125">Mahilpur</city>
+			<city id="126">Malerkotla</city>
+			<city id="126">Malout</city>
+			<city id="127">Mandi Gobingarh</city>
+			<city id="127">Mandi Ahmedgarh</city>
+			<city id="127">Mansa</city>
+			<city id="128">Moga</city>
+			<city id="103">Morinda</city>
+			<city id="129">Mukerian</city>
+			<city id="129">Muktsar</city>
+			<city id="130">Mullanpur</city>
+			<city id="131">Nabha</city>
+			<city id="132">Nakodar</city>
+			<city id="133">Nawan Shaher</city>
+			<city id="134">Phagwara</city>
+			<city id="135">Patiala</city>
+			<city id="136">Patran</city>
+			<city id="137">Pathankot</city>
+			<city id="138">Qadian</city>
+			<city id="139">Rayya</city>
+			<city id="140">Rajpura</city>
+			<city id="141">Raikot</city>
+			<city id="102">Ropar</city>
+			<city id="142">Samana</city>
+			<city id="143">Samrala</city>
+			<city id="144">Sangrur</city>
+			<city id="145">Sirhind</city>
+			<city id="146">Sultanpur Lodhi</city>
+			<city id="147">Sunam</city>
+			<city id="148">Talwara</city>
+			<city id="148">Talwandi Sabo</city>
+			<city id="149">Tanda</city>
+			<city id="150">Taran Taran</city>
+			<city id="150">Zira</city>
+		</state>
+		<state id="104" name="Rajasthan">
+		 <city id="100">Bikaner</city>
+		 <city id="100">Hanumangarthtown</city>
+		 <city id="100">Udaipur</city>
+		 <city id="100">Alwar</city>
+		 <city id="100">Bharatpur</city>
+
+
+		</state>
+		<state id="105" name="Sikkim">
+
+		</state>
+		<state id="100" name="TamilNadu">
+		   <city id="100">Chennai</city>
+		   <city id="101">Thiruvannamalai</city>
+		   <city id="101">Nagapattinam</city>
+		   <city id="101">Karaikudi</city>
+		</state>
+		<state id="102" name="Tripura">
+
+		</state>
+
+		<state id="101" name="UttarPradesh">
+		<city id="101">Bareilly</city>
+		<city id="101">Lucknow</city>
+		<city id="101">Meerut</city>
+		<city id="101">Varanasi</city>
+		<city id="101">Moradabad</city>
+		<city id="101">Ghaziabad</city>
+		<city id="101">Saharanpur</city>
+		</state>
+		<state id="101" name="Uttaranchal">
+		<city id="101">Dehradun</city>
+		<city id="102">Rishikesh</city>
+
+		</state>
+
+		<state id="101" name="WestBengal">
+
+		</state>
+
+	</country>
+</location>

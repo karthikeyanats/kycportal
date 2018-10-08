@@ -1,0 +1,322 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<%@page language="java" import="java.util.ResourceBundle"%>
+<%
+ResourceBundle bundle  =ResourceBundle.getBundle("resources.ApplicationResources");
+%>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Know Your Child - <%=bundle.getString("label.standard.updatetitle") %> | Powered by i-Grandee</title>
+<link rel="stylesheet" type="text/css" href="<%=request.getContextPath()%>/jsp/kycpanel/style.css" />
+<script type="text/javascript" src="<%=request.getContextPath()%>/jsp/kycpanel/clockp.js"></script>
+<script type="text/javascript" src="<%=request.getContextPath()%>/jsp/kycpanel/clockh.js"></script>
+<script type="text/javascript" src="<%=request.getContextPath()%>/js/Validation.js"></script>
+
+<script type="text/javascript" src="jquery.min.js"></script>
+<script type="text/javascript" src="ddaccordion.js"></script>
+<script type="text/javascript">
+
+
+function updateFun()
+{
+if(document.standardform.standardname.value == "")
+	{
+	alert("Standard Name should not be empty");
+	document.standardform.standardname.focus();
+	return false;
+	}
+	if(check_ForParticularElements(document.standardform.standardboard,"select"))
+	{
+	document.standardform.reqboardid.value = document.standardform.standardboard.options[document.standardform.standardboard.options.selectedIndex].value;
+	document.standardform.reqboardname.value = document.standardform.standardboard.options[document.standardform.standardboard.options.selectedIndex].text;
+	document.standardform.action="./UpdateStandard.jsp";
+	document.standardform.submit();
+	}
+}
+function checkNames()
+{
+ var date = new Date();   
+	 var url = "checkDuplicate.jsp?flage=standardupdate&fieldname1="+document.standardform.standardname.value+"&reqstandardid="+document.standardform.reqstandardid.value+"&standardboard_temp="+document.standardform.standardboard_temp.value+"&date="+date;
+ 	  
+ 	   var req =initRequest(); 
+ 	   req.onreadystatechange = function()
+ 	   {
+ 		   if (req.readyState == 4)
+ 		   {   
+
+ 			   if (req.status == 200)
+ 			   {
+
+  				  parseMessages(req.responseXML,"LoadReply");
+
+ 			   }
+ 			   else if (req.status == 204)
+ 			   {
+
+ 			   }
+ 		   }
+ 	   };
+ 	   req.open("GET", url, true);
+ 	   req.send(null);
+ 	}
+ 	
+ 
+function parseMessages(parseXML,check_var)
+{
+	   var rootobj=parseXML.getElementsByTagName("complaintdetails");
+	  
+		var clength=rootobj[0].childNodes.length;
+		var ask=rootobj[0].childNodes.item(0).childNodes.item(0).firstChild.nodeValue;
+		if(ask=="true")
+		{
+		alert("Standard Name already Exist")
+		}
+		else
+		{
+		updateFun()
+		}
+	}
+	function boardchange()
+	{
+		document.standardform.standardboard_temp.value = document.standardform.standardboard.options[document.standardform.standardboard.options.selectedIndex].value;
+	
+	}
+</script>
+</head> 
+<body>
+<div id="main_container">
+	<div class="header">
+<%@ include file="../../include/userheader.jsp" %>
+   
+    </div>
+
+    <div class="main_content">
+
+<%@ include file="../../include/header.jsp" %>
+
+
+    <div class="center_content">
+
+
+
+    <div class="left_content">
+
+    </div>
+
+    <div class="right_content">
+
+    <h2><%=bundle.getString("label.standard.updaterootpath") %></h2>
+    <form name="standardform" action="" method="post">
+   
+<%@ page import="java.util.ArrayList,java.util.HashMap,com.iGrandee.MasterEntries.Standard.StandardQuery"%>
+
+     <%
+     
+     com.iGrandee.MasterEntries.Standard.StandardQuery  standardQuery = new com.iGrandee.MasterEntries.Standard.StandardQuery();
+     String instituteid = null;
+     ArrayList BoardList = null;
+     ArrayList standardList = null;
+     
+     String reqboardid = null;
+     String reqboardname = null;
+     String reqstandardname = null;
+     String reqstandardid = null;
+     ArrayList standardscheduleFlagList = null;
+     ArrayList subjectFlagList = null;
+     try
+     {
+    	 reqboardid= request.getParameter("reqboardid");
+    	instituteid = (String)session.getValue("instituteid");
+   		reqstandardid = request.getParameter("reqstandardid");
+   		standardList = standardQuery.loadStandardDetails(reqstandardid);
+   		BoardList = standardQuery.listBoard(instituteid);
+   		
+   		subjectFlagList = standardQuery.loadStandardStatusforUpdate(reqstandardid,"subject");
+   		standardscheduleFlagList = standardQuery.loadStandardStatusforUpdate(reqstandardid,"schedule");
+   		
+    }catch(Exception e){}
+    
+    %>
+    <%
+    
+	    String standardid   = "";
+		String standardname = "";
+		String description  = "";
+		
+		String groupstatus  = "";
+		String boardid     	= "";
+		String boardname   	= "";
+		String mediumname 	= "";
+		
+	    if(standardList!=null && standardList.size()>0)
+		{
+			HashMap StandardListMap=(HashMap)standardList.get(0);
+	
+			standardid       = (String)StandardListMap.get("standardid");
+			standardname      = (String)StandardListMap.get("standardname");
+			description     = (String)StandardListMap.get("description");
+			if(description == null)
+				description = "";
+			groupstatus      = (String)StandardListMap.get("groupstatus");
+			boardid      = (String)StandardListMap.get("boardid");
+			boardname      = (String)StandardListMap.get("boardname");
+			mediumname      = (String)StandardListMap.get("mediumname");
+		}
+   %>
+    <input type="hidden" name="standardboard_temp" value="<%=reqboardid %>">
+          <input type="hidden" name="reqboardid" value"<%=reqboardid %>"/>     
+     
+    <table id="rounded-corner" border=0 summary="Selected List" width="100%">
+    <thead>
+    	<tr>
+    	
+        	<th scope="col" class="rounded-company" width="90%"><%=bundle.getString("label.standard.updatetheading") %> </th>
+        	<th scope="col" class="rounded-q4" width="10%"></th>
+            
+        </tr>
+    </thead>
+    <tfoot>
+    	<tr>
+        	<td colspan=1 class="rounded-foot-left"><em></em></td>
+        	<td class="rounded-foot-right">&nbsp;</td>
+       </tr>
+    </tfoot>
+     <tbody>
+   
+  <tr>
+  <td colspan=2>
+    <table id="" border="0" cellpadding=5 width="100%">
+	<tr>
+	<td class=tablebold><%=bundle.getString("label.standard.Board-Medium") %> </td><td class=tablebold>:</td><td><%= boardname+"-"+mediumname %></td>
+	<td class=tablebold> <%=bundle.getString("label.standard.StandardName") %> </td><td class=tablebold>:</td><td><%= standardname %></td></tr>
+	<tr><td class=tablebold><%=bundle.getString("label.standard.GroupDescription") %>  </td><td class=tablebold>:</td><td colspan=3><%= description %></td></tr>
+	<tr><td class=tablebold><%=bundle.getString("label.standard.GroupStatus") %>  </td><td class=tablebold>:</td><td><%= groupstatus %></td></tr>
+	</table>
+	</td>
+	
+	</tr>
+	</tbody>
+	</table>
+	
+    
+    <br>
+    
+ <table id="rounded-corner" border=0 summary="Selected List" width="100%">
+    <thead>
+    	<tr>
+    	
+        	<th scope="col" class="rounded-company" width="90%"><%=bundle.getString("label.standard.updatetheading_1") %></th>
+        	<th scope="col" class="rounded-q4" width="10%" colspan=3></th>
+            
+        </tr>
+    </thead>
+    <tfoot>
+    	<tr>
+        	<td class="rounded-foot-left"><em></em></td>
+        	<td class="rounded-foot-right">&nbsp;</td>
+       </tr>
+    </tfoot>
+     <tbody>
+   
+  <tr>
+  <td colspan=2>
+<table border="0" width="100%">
+	<tr><td class=tablebold><%=bundle.getString("label.standard.Standard") %> <font color="red">*</font> </td><td class=tablebold>:</td><td><input type=text name="standardname" value="<%=standardname %>" size="27" maxlength="43"/></td></tr>
+<tr><td class=tablebold><%=bundle.getString("label.standard.StandardDescription") %></td><td class=tablebold>:</td><td>
+
+
+				<textarea validate="standarddescription" cols=50 rows=2 name="standarddescription" onkeydown="textCounter_label(document.standardform.standarddescription,document.getElementById('labelid'),2000)" onkeyup="textCounter(document.standardform.standarddescription,document.getElementById('labelid'),2000)"><%=description%></textarea>&nbsp; <br><br><i><font color="red"><label id="labelid" ><%=bundle.getString("label.standard.charactercount") %></label>&nbsp;&nbsp;<%=bundle.getString("label.standard.charactersleft") %></font></i>
+
+
+</td></tr>
+<tr><td class=tablebold><%=bundle.getString("label.standard.Board-Medium") %> <font color="red">*</font></td><td class=tablebold>:</td><td>
+
+<select name="standardboard" class=tablelight onchange="boardchange()"> <option>-Select Board-Medium- </option>
+        <%
+   			
+        	if(BoardList!=null && BoardList.size()>0)
+			{
+   		 	for (int i = 0, j = 1; i < BoardList.size(); i++) {
+			
+				HashMap boardListMap=(HashMap)BoardList.get(i);
+				String sboardid     = (String)boardListMap.get("boardid");
+				String sboardname      = (String)boardListMap.get("boardname");
+				String smediumid      = (String)boardListMap.get("mediumid");
+				String smediumname      = (String)boardListMap.get("mediumname");
+				if(boardid.equals(sboardid))
+				{
+       		 		out.println("<option value='"+sboardid+"' class=tablelight selected>"+sboardname+"-"+smediumname+"</option>");
+				}
+				else
+				{
+				out.println("<option value='"+sboardid+"' class=tablelight >"+sboardname+"-"+smediumname+"</option>");
+				}
+   		 	}
+			}
+   		 %>
+        </select>
+</td>
+</tr>
+        <tr><td class=tablebold><%=bundle.getString("label.standard.GroupStatus") %> <font color="red">*</font></td>
+      <td class=tablebold>:</td>  <td>
+        
+        
+        <%
+        
+        
+        	if(groupstatus.equals("Yes"))
+        	{
+        %>
+        	<input type=radio class=tablelight value="Yes" checked name="groupstatus"><a class=tablebold>Yes </a>
+        	        	<input type=radio class=tablelight value="No" name="groupstatus"> <a class=tablebold>No</a>
+        	
+        	<% }
+        	else if(groupstatus.equals("No"))
+        	{%>
+        	<input type=radio class=tablelight value="Yes" checked name="groupstatus"/><a class=tablebold><%=bundle.getString("label.standard.Yes") %> </a>
+        	
+        	<input type=radio class=tablelight value="No" checked name="groupstatus"/> <a class=tablebold><%=bundle.getString("label.standard.No") %></a>
+        	<% }%>
+</td>
+</tr>
+
+
+</table>
+  
+  </td>
+
+ </tr>
+</tbody>
+</table>
+
+          <a href="./StandardList.jsp" class="bt_blue"><span class="bt_blue_lft"></span><strong><%=bundle.getString("button.standard.BacktoStandardList") %></strong><span class="bt_blue_r"></span></a>
+
+	<a href="#" onclick="checkNames()" class="bt_green"><span class="bt_green_lft"></span><strong><%=bundle.getString("button.standard.UpdateStandard") %></strong><span class="bt_green_r"></span></a>
+     
+     
+     <input type="hidden" name="reqboardname"/>
+     <input type="hidden" name="reqstandardid" value="<%=reqstandardid %>"/>
+     <input type="hidden" name="reqstandardname"/>
+     <input type="hidden" name="reqgroupstatus"/>
+      <input type="hidden" name="standardoperation" value="UpdateStandard"/>
+     
+     
+</form>
+     </div><!-- end of right content-->
+
+
+  </div>   <!--end of center content -->
+
+
+
+
+    <div class="clear"></div>
+    </div> <!--end of main content-->
+
+<%@ include file="../../include/footer.jsp" %>
+    
+
+</div>
+</body>
+</html>
+

@@ -1,0 +1,170 @@
+<?xml version="1.0"?>
+<location>
+	<country id="1" name="India">
+		<state id="101" name="Tamil Nadu">
+			<city id="200" name="Others"></city>
+			<city id="201" name="Chennai"></city>
+			<city id="202" name="Madurai"></city>
+			<city id="203" name="Coimbatore"></city>
+			<city id="204" name="Salem"></city>
+			<city id="205" name="Tirupur"></city>
+			<city id="206" name="Tirunelveli"></city>
+			<city id="207" name="Erode"></city>
+			<city id="208" name="Dindugal"></city>
+			<city id="209" name="Rajapalayam"></city>
+			<city id="210" name="Ramanathapuram"></city>
+			<city id="211" name="Sivgangai"></city>
+			<city id="212" name="Theni"></city>
+			<city id="213" name="Thiruvannamalai"></city>
+			<city id="214" name="Kanniyakumari"></city>
+			<city id="215" name="Nagarkoil"></city>
+			<city id="216" name="Viluppuaram"></city>
+			<city id="217" name="Chengalpet"></city>
+			<city id="218" name="Vellore"></city>
+			<city id="219" name="Tanjore"></city>
+
+		</state>
+		<state id="102" name="Andhrapradesh">
+			<city id="220" name="Others"></city>
+			<city id="221" name="Hyderabhad"></city>
+			<city id="222" name="Secondrabhad"></city>
+			<city id="223" name="Visakapattinam"></city>
+			<city id="224" name="Vijayavada"></city>
+			<city id="225" name="kundoor"></city>
+			<city id="226" name="Thirupathi"></city>
+		</state>
+		<state id="103" name="Karnataka">
+			<city id="227" name="Others"></city>
+			<city id="228" name="Bangalore"></city>
+			<city id="229" name="Mysore"></city>
+			<city id="230" name="Kolar"></city>
+		</state>
+		<state id="104" name="Goa">
+		<city id="231" name="Others"></city>
+			<city id="232" name="Ghandhi Nagar"></city>
+		</state>
+		<state id="105" name="Kerala">
+		<city id="233" name="Others"></city>
+			<city id="234" name="Ernakulam"></city>
+			<city id="235" name="callicut"></city>
+			<city id="236" name="Palakad"></city>
+			<city id="237" name="Thiruvanandhapuram"></city>
+			<city id="238" name="Kollam"></city>
+			<city id="239" name="Edukancheri"></city>
+			<city id="240" name="Kaliyakkavu"></city>
+		</state>
+		<state id="106" name="Negri Sembilan">
+		<city id="241" name="Others"></city>
+			<city id="242" name="Balakong"></city>
+			<city id="243" name="Nilai"></city>
+			<city id="244" name="Seremban"></city>
+			<city id="245" name="Tampin"></city>
+		</state>
+		<state id="107" name="Pandicheri">
+		<city id="246" name="Others"></city>
+			<city id="247" name="Karaikkal"></city>
+			<city id="248" name="Nellikuppam"></city>
+			<city id="249" name="Mahi"></city>
+			<city id="250" name="Enam"></city>
+			<city id="251" name="Aerowillow"></city>
+			<city id="252" name="Temerloh"></city>
+		</state>
+		<state id="108" name="Gujarat">
+			<city id="253" name="Others"></city>
+			<city id="254" name="Ahamedhabhad"></city>
+			<city id="255" name="Ghandhi Nagar"></city>
+			<city id="256" name="Surat"></city>
+			<city id="257" name="Valazhabhad"></city>
+			<city id="258" name="Borebandhar"></city>
+			<city id="259" name="East Gujarat"></city>
+			<city id="260" name="Lumbini"></city>
+			<city id="260" name="Pattivala"></city>
+			<city id="261" name="Godhra"></city>
+			<city id="262" name="Gudur"></city>
+			<city id="263" name="Gulbarga"></city>
+			<city id="264" name="Gadhada"></city>
+		</state>
+		<state id="109" name="Bihar">
+		<city id="220" name="Others"></city>
+			<city id="265" name="Patna"></city>
+		</state>
+		<state id="110" name="Maharashtra">
+		<city id="266" name="Others"></city>
+			<city id="267" name="Mumbai"></city>
+			<city id="268" name="Ahamednagar"></city>
+			<city id="269" name="Baramati"></city>
+			<city id="270" name="Bardoli"></city>
+			<city id="271" name="Chotila"></city>
+			<city id="272" name="Dhoraji"></city>
+			<city id="273" name="Edalabad"></city>
+			<city id="274" name="Fortsongadh"></city>
+			<city id="275" name="Himatnagar"></city>
+			<city id="276" name="Patan"></city>
+		</state>
+		<state id="111" name="West Bengal">
+		<city id="277" name="Others"></city>
+			<city id="278" name="Kolkata"></city>
+			<city id="279" name="Bankura"></city>
+			<city id="280" name="Belonia"></city>
+			<city id="281" name="Chowkhem"></city>
+			<city id="282" name="Dhubri"></city>
+
+			<city id="282" name="Gangtok"></city>
+			<city id="283" name="Lungleh"></city>
+			<city id="284" name="Shilong"></city>
+			<city id="285" name="Dhibrugarh"></city>
+		</state>
+		<state id="112" name="Madhya Pradhesh">
+		<city id="286" name="Others"></city>
+
+			<city id="287" name="Duwaraha"></city>
+			<city id="288" name="Gadchiroli"></city>
+			<city id="289" name="Ladpura"></city>
+			<city id="290" name="Mandsaur"></city>
+			<city id="291" name="Bhopal"></city>
+			<city id="292" name="Burhanpur"></city>
+		</state>
+		<state id="113" name="Uthra Pradhesh">
+		<city id="293" name="Others"></city>
+
+			<city id="294" name="Rupbas"></city>
+			<city id="295" name="Saidpur"></city>
+			<city id="296" name="Shahabad"></city>
+			<city id="297" name="Shikohabad"></city>
+			<city id="298" name="Agra"></city>
+			<city id="299" name="Kaziabad"></city>
+			<city id="300" name="Ujhani"></city>
+			<city id="301" name="Varanasi"></city>
+			<city id="302" name="Basti"></city>
+			<city id="303" name="Bhadohi"></city>
+			<city id="304" name="Bharatpur"></city>
+			<city id="305" name="Chunur"></city>
+			<city id="306" name="Dholpur"></city>
+			<city id="307" name="Etah"></city>
+			<city id="308" name="Zamania"></city>
+			<city id="309" name="Lucknow"></city>
+						<city id="310" name="Phulpur"></city>
+			<city id="311" name="Powayan"></city>
+		</state>
+		<state id="114" name="Punjab">
+		<city id="312" name="Others"></city>
+			<city id="313" name="Chandigar"></city>
+			<city id="314" name="Jalandhar"></city>
+			<city id="315" name="Amristar"></city>
+		</state>
+		<state id="115" name="AndhamanNicobar Islands">
+		<city id="316" name="Others"></city>
+			<city id="317" name="Port Blayer"></city>
+		</state>
+
+		<state id="117" name="Assam">
+		<city id="318" name="Others"></city>
+			<city id="319" name="Guwahati"></city>
+		</state>
+
+	</country>
+
+
+
+
+</location>

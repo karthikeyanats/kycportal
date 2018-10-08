@@ -1,0 +1,11 @@
+<style type="css/text">
+ body {font-size:12pt;font-weight:bold;text-align:justify}
+.ordinarystyle{color:navy;font-family:Arial;}
+.sundaystyle{color:red;font-family:Arial;}
+.leavestyle{color:green;font-family:Arial;}
+.todaystyle{background-color:navy;color:white;font-family:Arial;}
+.todayleavestyle{background-color:white;color:green;font-family:Arial;}
+.todaysundaystyle{background-color:white;color:red;font-family:Arial;}
+
+.tabledivison{font-family:arial;font-size:10;font-weight:bold;}
+</style>
